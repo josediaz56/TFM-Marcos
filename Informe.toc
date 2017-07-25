@@ -19,7 +19,6 @@
 \contentsline {paragraph}{}{6}
 \contentsline {paragraph}{}{6}
 \contentsline {paragraph}{}{6}
-\contentsline {paragraph}{}{6}
 \contentsline {section}{\numberline {2}Calibraci\IeC {\'o}n de los fotomultiplicadores de silicio (SiPM)}{8}
 \contentsline {paragraph}{}{8}
 \contentsline {paragraph}{}{8}

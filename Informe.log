@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  21 JUL 2017 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  24 JUL 2017 17:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -941,16 +941,16 @@ Package pdftex.def Info: Logo2.jpg used on input line 57.
 ] (./Informe.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    Try loading font information for U+msa on input line 31.
+LaTeX Font Info:    Try loading font information for U+msa on input line 30.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 31.
+LaTeX Font Info:    Try loading font information for U+msb on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 31.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -969,19 +969,19 @@ pt>
 File: pedestal.png Graphic file (type png)
 
 <use pedestal.png>
-Package pdftex.def Info: pedestal.png used on input line 214.
+Package pdftex.def Info: pedestal.png used on input line 213.
 (pdftex.def)             Requested size: 224.83601pt x 95.15381pt.
  [8 <./pedestal.png>]
 <PED.png, id=53, 714.67pt x 548.0475pt>
 File: PED.png Graphic file (type png)
  <use PED.png>
-Package pdftex.def Info: PED.png used on input line 232.
+Package pdftex.def Info: PED.png used on input line 231.
 (pdftex.def)             Requested size: 142.93146pt x 109.60754pt.
 
 <EmisionBCF12.png, id=54, 644.4075pt x 389.455pt>
 File: EmisionBCF12.png Graphic file (type png)
  <use EmisionBCF12.png>
-Package pdftex.def Info: EmisionBCF12.png used on input line 236.
+Package pdftex.def Info: EmisionBCF12.png used on input line 235.
 (pdftex.def)             Requested size: 161.10147pt x 97.36351pt.
 
 [9 <./PED.png> <./EmisionBCF12.png>]
@@ -989,30 +989,30 @@ Package pdftex.def Info: EmisionBCF12.png used on input line 236.
 File: SistemaTemperatura.png Graphic file (type png)
 
 <use SistemaTemperatura.png>
-Package pdftex.def Info: SistemaTemperatura.png used on input line 272.
+Package pdftex.def Info: SistemaTemperatura.png used on input line 271.
 (pdftex.def)             Requested size: 67.90076pt x 90.93582pt.
 
 <PanelTemperatura.png, id=59, 452.69125pt x 611.28375pt>
 File: PanelTemperatura.png Graphic file (type png)
 
 <use PanelTemperatura.png>
-Package pdftex.def Info: PanelTemperatura.png used on input line 276.
+Package pdftex.def Info: PanelTemperatura.png used on input line 275.
 (pdftex.def)             Requested size: 67.90076pt x 91.6886pt.
 
 <FichaTecnica.png, id=60, 639.38875pt x 470.75874pt>
 File: FichaTecnica.png Graphic file (type png)
  <use FichaTecnica.png>
-Package pdftex.def Info: FichaTecnica.png used on input line 287.
+Package pdftex.def Info: FichaTecnica.png used on input line 286.
 (pdftex.def)             Requested size: 95.90416pt x 70.61076pt.
 
 <InteriorTemperatura.png, id=61, 596.2275pt x 446.66875pt>
 File: InteriorTemperatura.png Graphic file (type png)
 
 <use InteriorTemperatura.png>
-Package pdftex.def Info: InteriorTemperatura.png used on input line 291.
+Package pdftex.def Info: InteriorTemperatura.png used on input line 290.
 (pdftex.def)             Requested size: 89.43027pt x 66.9974pt.
 
-Overfull \hbox (6.28772pt too wide) in paragraph at lines 301--302
+Overfull \hbox (6.28772pt too wide) in paragraph at lines 300--301
 \T1/cmr/m/n/10.95 co-mo la tar-je-ta de con-ver-sión intensidad-voltaje. Se uti
 -li-zo un \T1/cmr/bx/n/10.95 elec-tro-me-tro \T1/cmr/m/n/10.95 (mar-ca KEITH-
  []
@@ -1022,120 +1022,120 @@ Overfull \hbox (6.28772pt too wide) in paragraph at lines 301--302
 File: KEITHLEY.png Graphic file (type png)
 
 <use KEITHLEY.png>
-Package pdftex.def Info: KEITHLEY.png used on input line 307.
+Package pdftex.def Info: KEITHLEY.png used on input line 306.
 (pdftex.def)             Requested size: 113.221pt x 84.91574pt.
  <ISO-TECH.png, id=66, 560.0925pt x 391.4625pt>
 File: ISO-TECH.png Graphic file (type png)
 
 <use ISO-TECH.png>
-Package pdftex.def Info: ISO-TECH.png used on input line 311.
+Package pdftex.def Info: ISO-TECH.png used on input line 310.
 (pdftex.def)             Requested size: 112.01651pt x 78.2911pt.
  <LED.png, id=67, 447.6725pt x 337.26pt>
 File: LED.png Graphic file (type png)
  <use LED.png>
-Package pdftex.def Info: LED.png used on input line 324.
+Package pdftex.def Info: LED.png used on input line 323.
 (pdftex.def)             Requested size: 111.91785pt x 84.31479pt.
 
 <GeneradorOnda.png, id=68, 502.87875pt x 375.4025pt>
 File: GeneradorOnda.png Graphic file (type png)
  <use GeneradorOnda.png>
-Package pdftex.def Info: GeneradorOnda.png used on input line 333.
+Package pdftex.def Info: GeneradorOnda.png used on input line 332.
 (pdftex.def)             Requested size: 100.57396pt x 75.07916pt.
 
 [11 <./KEITHLEY.png> <./ISO-TECH.png> <./LED.png> <./GeneradorOnda.png>]
 <SiPM.png, id=72, 244.915pt x 246.9225pt>
 File: SiPM.png Graphic file (type png)
  <use SiPM.png>
-Package pdftex.def Info: SiPM.png used on input line 352.
+Package pdftex.def Info: SiPM.png used on input line 351.
 (pdftex.def)             Requested size: 61.22859pt x 61.73047pt.
 
 <tarjeta.png, id=73, 496.85625pt x 367.3725pt>
 File: tarjeta.png Graphic file (type png)
  <use tarjeta.png>
-Package pdftex.def Info: tarjeta.png used on input line 360.
+Package pdftex.def Info: tarjeta.png used on input line 359.
 (pdftex.def)             Requested size: 99.36948pt x 73.47319pt.
  [12 <./SiPM.png> <./tarjeta.png>] <ruido.png, id=78, 488.82625pt x 321.2pt>
 File: ruido.png Graphic file (type png)
  <use ruido.png>
-Package pdftex.def Info: ruido.png used on input line 369.
+Package pdftex.def Info: ruido.png used on input line 368.
 (pdftex.def)             Requested size: 97.7635pt x 64.23886pt.
 
 <Filtro1.png, id=79, 420.57124pt x 397.485pt>
 File: Filtro1.png Graphic file (type png)
  <use Filtro1.png>
-Package pdftex.def Info: Filtro1.png used on input line 382.
+Package pdftex.def Info: Filtro1.png used on input line 381.
 (pdftex.def)             Requested size: 84.11275pt x 79.49559pt.
 
 <Filtro2.png, id=80, 305.14pt x 381.425pt>
 File: Filtro2.png Graphic file (type png)
  <use Filtro2.png>
-Package pdftex.def Info: Filtro2.png used on input line 386.
+Package pdftex.def Info: Filtro2.png used on input line 385.
 (pdftex.def)             Requested size: 61.0269pt x 76.28365pt.
  [13 <./ruido.png> <./Filtro1.png> <./Filtro2.png>]
 <PulsoSalida.png, id=84, 982.67125pt x 226.8475pt>
 File: PulsoSalida.png Graphic file (type png)
  <use PulsoSalida.png>
-Package pdftex.def Info: PulsoSalida.png used on input line 427.
+Package pdftex.def Info: PulsoSalida.png used on input line 426.
 (pdftex.def)             Requested size: 196.53076pt x 45.36868pt.
 
 [14 <./PulsoSalida.png>] <Analisis.png, id=88, 974.64125pt x 446.66875pt>
 File: Analisis.png Graphic file (type png)
 
 <use Analisis.png>
-Package pdftex.def Info: Analisis.png used on input line 448.
+Package pdftex.def Info: Analisis.png used on input line 447.
 (pdftex.def)             Requested size: 194.92479pt x 89.33215pt.
  <fondogaussiano.png, id=89, 970.62625pt x 410.53375pt>
 File: fondogaussiano.png Graphic file (type png)
 
 <use fondogaussiano.png>
-Package pdftex.def Info: fondogaussiano.png used on input line 465.
+Package pdftex.def Info: fondogaussiano.png used on input line 464.
 (pdftex.def)             Requested size: 194.12181pt x 82.10529pt.
  [15 <./Analisis.png>]
 <Espectroo.png, id=93, 712.6625pt x 479.7925pt>
 File: Espectroo.png Graphic file (type png)
  <use Espectroo.png>
-Package pdftex.def Info: Espectroo.png used on input line 476.
+Package pdftex.def Info: Espectroo.png used on input line 475.
 (pdftex.def)             Requested size: 142.52997pt x 95.95679pt.
 
 <AjusteEspectro.png, id=94, 775.89874pt x 517.935pt>
 File: AjusteEspectro.png Graphic file (type png)
  <use AjusteEspectro.png>
-Package pdftex.def Info: AjusteEspectro.png used on input line 480.
+Package pdftex.def Info: AjusteEspectro.png used on input line 479.
 (pdftex.def)             Requested size: 155.177pt x 103.58516pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 490.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 489.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 490.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 489.
  [16 <./fondogaussiano.png> <./Espectroo.png> <./AjusteEspectro.png>]
 <FitPosicionPixels.png, id=99, 825.0825pt x 544.0325pt>
 File: FitPosicionPixels.png Graphic file (type png)
 
 <use FitPosicionPixels.png>
-Package pdftex.def Info: FitPosicionPixels.png used on input line 500.
+Package pdftex.def Info: FitPosicionPixels.png used on input line 499.
 (pdftex.def)             Requested size: 165.01357pt x 108.80457pt.
  [17 <./FitPosicionPixels.png>]
 <Dependenciatemperatura.png, id=103, 826.08624pt x 553.06625pt>
 File: Dependenciatemperatura.png Graphic file (type png)
 
 <use Dependenciatemperatura.png>
-Package pdftex.def Info: Dependenciatemperatura.png used on input line 543.
+Package pdftex.def Info: Dependenciatemperatura.png used on input line 542.
 (pdftex.def)             Requested size: 165.21431pt x 110.61128pt.
  [18 <./Dependenciatemperatura.png>]
 <Dependenciavoltaje.png, id=108, 809.0225pt x 548.0475pt>
 File: Dependenciavoltaje.png Graphic file (type png)
 
 <use Dependenciavoltaje.png>
-Package pdftex.def Info: Dependenciavoltaje.png used on input line 585.
+Package pdftex.def Info: Dependenciavoltaje.png used on input line 584.
 (pdftex.def)             Requested size: 161.80164pt x 109.60754pt.
  [19] [20 <./Dependenciavoltaje.png>] [21]
 <compensacion.png, id=119, 828.09375pt x 560.0925pt>
 File: compensacion.png Graphic file (type png)
  <use compensacion.png>
-Package pdftex.def Info: compensacion.png used on input line 655.
+Package pdftex.def Info: compensacion.png used on input line 654.
 (pdftex.def)             Requested size: 165.61581pt x 112.01651pt.
 
 [22 <./compensacion.png>] [23] [24] (./Informe.aux
@@ -1167,7 +1167,7 @@ ts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/font
 s/type1/public/cm-super/sfti1095.pfb>
-Output written on Informe.pdf (25 pages, 5923854 bytes).
+Output written on Informe.pdf (25 pages, 5923808 bytes).
 PDF statistics:
  193 PDF objects out of 1000 (max. 8388607)
  116 compressed objects within 2 object streams
