@@ -389,8 +389,11 @@ Con la presencia de este ruido no podíamos realizar medidas ya que introducía 
 
 \item {} Como se ha mencionado anteriormente, necesitamos, entre otras cosas, uso de una \textbf{manta negra} especial que apantallase la entrada de fotones del exterior, ya que el sistema de control de temperatura no actuaba  como caja negra. Esta manta negra puede verse en la imagen trece.
 
-\paragraph {}
-IMAGEEEEEEEEEEEN
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.2]{MantaNegra.png}
+\caption{\textbf{Imagen 13}.- Manta negra especial}
+\end{figure}
 
 
 Una alternativa podría haber sido introducir una caja negra en el interior del sistema de control de temperatura y introducir el diodo Led, el SiPM y la tarjeta en su interior. Sin embargo de esta forma no conseguimos un control de la temperatura y humedad en su interior.
@@ -419,12 +422,12 @@ En resumen, en nuestra prueba de calibración de los SiPM tenemos una caja que a
 En su interior tendremos un diodo LED que emite fotones a $\lambda=435$, un SiPM, el cual emitirá un pulso de intensidad cada vez que detecte uno o más de estos fotones con cada uno de sus pixels y una tarjeta que convertirá este pulso de intensidad en un pulso de voltaje. Finalmente llevamos este pulso de voltaje a un osciloscopio (marca TELEDYNE LECROY, modelo WwaveRunner 625Zi) para poder ser analizado. 
 
 \paragraph {}
-Una vez en el osciloscopio, la señal que recibíamos cuando se encendía el diodo led era similar a la de la imagen trece
+Una vez en el osciloscopio, la señal que recibíamos cuando se encendía el diodo led era similar a la de la imagen catorce.
 
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.2]{PulsoSalida.png}
-\caption{\textbf{Imagen 13}.- Pulso de salida}
+\caption{\textbf{Imagen 14}.- Pulso de salida}
 \end{figure}
 
 Donde se a activado el modo persistencia del osciloscopio con el objetivo de comparar señales de distintas alturas. Estas señales corresponden a distinto número de pixels activados en cada instante de tiempo ya que, como hemos dicho anteriormente, la señal de salida del sistema es la suma de las señales de cada pixel que se ha activado. La señal de color verde corresponde a la señal de sincronización que actua como trigger.
@@ -440,12 +443,12 @@ Para medir la ganancia total simplemente realizamos una integral del area de cad
 Dado que idealmente el pulso de cada pixel es igual, el histograma que estamos obteniendo deberían ser deltas de dirac equiespaciadas. Sin embargo hay que tener en cuenta que la cascada que produce cada uno de estos fotones detectados en cada pixel esta sometido a fluctuaciones estadísticas. Además los propios instrumentos de medidas empleados tienen una incertidumbre inherente. Hay que tener en cuenta que tambień tenemos distintas fuentes de background, como dark counts (ruido térmico), fotones de luz del exterior, etc. 
 
 \paragraph {}
-Como resultado de todo esto, lo que obtendremos seran un conjunto de gaussianas equiespaciadas. En la imagen 13 puede verse el resultado de una toma de datos de 25000 eventos a 25 grados, 60\% de humedad y $V_{ov}=3V$
+Como resultado de todo esto, lo que obtendremos seran un conjunto de gaussianas equiespaciadas. En la imagen quince puede verse el resultado de una toma de datos de 25000 eventos a 25 grados, 60\% de humedad y $V_{ov}=3V$
 
 \begin{figure}[hbtp]
  \centering
  \includegraphics[scale=0.2]{Analisis.png}
- \caption{\textbf{Imagen 13}.- Análisis}
+ \caption{\textbf{Imagen 15}.- Análisis}
  \end{figure}
 
 Donde cada uno de estos picos corresponde a la carga de sucesivos número de pixels activados (uno, dos, etc.). El primer pico no debe tenerse en cuenta en el análisis ya que este corresponde al pedestal (cero pixels activados). Su origen es debido a la existencia de las cuentas ocuras.
@@ -457,16 +460,16 @@ Ahora únicamente desarrollamos una macro en ROOT (programa de análisis de dato
 
 \item {} A continuación, a partir de una función de la librería TSpectrum, busca en este histograma y devuelve el número de gaussianas que ha encontrado y su posición.
 
-\item {} Ahora ajusta todos los datos del histograma a una recta y solo se queda con las gaussianas, cuya norma sobrepasa en altura a esta recta. El objetivo de este paso es que, en casos muy concretos (temperatura alta o luz del laboratorio encendida) tenemos mucho ruido y, aparece un fondo el cual, el programa ajusta a una gaussiana y, por extensión, calcula la ganancia de manera incorrecta. Un ejemplo de esto se muestra en la imagen catorce.
+\item {} Ahora ajusta todos los datos del histograma a una recta y solo se queda con las gaussianas, cuya norma sobrepasa en altura a esta recta. El objetivo de este paso es que, en casos muy concretos (temperatura alta o luz del laboratorio encendida) tenemos mucho ruido y, aparece un fondo el cual, el programa ajusta a una gaussiana y, por extensión, calcula la ganancia de manera incorrecta. Un ejemplo de esto se muestra en la imagen dieciseis.
 
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.2]{fondogaussiano.png}
-\caption{\textbf{Imagen 14}.- Espectro con mucho fondo}
+\caption{\textbf{Imagen 16}.- Espectro con mucho fondo}
 \end{figure}
 
 \newpage
-\item {} Seguidamente, ajustamos el espectro a una recta mas una suma de n gaussianas, donde n es el número de gaussianas que superan la recta (calculado en el paso anterior). La necesidad de utilizar una recta es debido a que siempre vamos a tener dark counts y otro tipo de bakcground que se verán reflejados en una linea base en el histograma como puede verse en la imagen trece. Podemos apreciar en la imagen quince que el ajuste es relativamente bueno.
+\item {} Seguidamente, ajustamos el espectro a una recta mas una suma de n gaussianas, donde n es el número de gaussianas que superan la recta (calculado en el paso anterior). La necesidad de utilizar una recta es debido a que siempre vamos a tener dark counts y otro tipo de bakcground que se verán reflejados en una linea base en el histograma como puede verse en la imagen quince. Podemos apreciar en la imagen diecisiete que el ajuste es relativamente bueno.
 
 \begin{figure}[htb]
 \centering
@@ -478,7 +481,7 @@ Ahora únicamente desarrollamos una macro en ROOT (programa de análisis de dato
 %\subfloat[Espectro de emisión]
 \includegraphics[scale=0.2]{AjusteEspectro.png} 
 }
-\caption{\textbf{Imagen 15}.-Espectro y ajuste}
+\caption{\textbf{Imagen 17}.-Espectro y ajuste}
 \end{figure} 
 
 \item {} Dado que se ha observado que, aun con el tercer paso, existen situaciones límites en que el background sigue superando esta recta, se ha incluido un paso en la macro en la cual se acepta por teclado uno a uno los picos que serán utilizados en el análisis. Además la macro calcula la resolución de cada gaussiana y la resolución total, obtenida a partir de la suma cuadrática de la resolución de cada gaussiana. Los valores habitualmente encontrados en los análisis se encuentran sobre 1.5\% y 5\% respectivamente, valores más que aceptables.
@@ -492,12 +495,12 @@ Ahora únicamente desarrollamos una macro en ROOT (programa de análisis de dato
 	
 	\item {} Por otro lado se ha ajustado a una recta las posiciones horizontales de estas gaussianas en el 	espectro frente a el número de pixels. Esto nos da la siguiente ecuación:
 	$$Centro\_pico(V) = GeRN_\gamma + k_0$$	
-	Donde R y e significan lo mismo. Vemos por tanto que apartir del valor de la pendiente podemos obtener 		el valor de la ganancia. La imagen dieciseis muestra un ejemplo de ajuste entre posiciones de 				gaussianas y número de pixels para el caso de 25 grados, humedad de 45\% y $V_{ov}=3V$. Podemos 			observar que existe	un acuerdo excelente, algo que ocurria prácticamente en la totalidad de los casos. 		Este gráfico presenta barras de error pero no son apreciables a esta escala.
+	Donde R y e significan lo mismo. Vemos por tanto que apartir del valor de la pendiente podemos obtener 		el valor de la ganancia. La imagen dieciocho muestra un ejemplo de ajuste entre posiciones de 				gaussianas y número de pixels para el caso de 25 grados, humedad de 45\% y $V_{ov}=3V$. Podemos 			observar que existe	un acuerdo excelente, algo que ocurria prácticamente en la totalidad de los casos. 		Este gráfico presenta barras de error pero no son apreciables a esta escala.
 		
 	\begin{figure}[hbtp]
 		\centering
 		\includegraphics[scale=0.2]{FitPosicionPixels.png}
-		\caption{\textbf{Imagen 16}.- Ajuste posicón frente a pixels}
+		\caption{\textbf{Imagen 18}.- Ajuste posicón frente a pixels}
 		\end{figure}
 			
 	
@@ -535,12 +538,12 @@ Hay que tener en cuenta que, como se dijo anteriormente, el sistema de control d
 \paragraph {}
 La incertidumbre en la temperatura viene dada por la oscilación en el valor de la temperatura observada directamente en el panel de control del sistema. La oscilación observada fue en todo momento de 0.1 grados, una incertidumbre totalmente inapreciable tanto a nivel visual en la gráfica como a nivel de variación de la ganancia.
 
-\item {} Por otro lado, partiendo de estos 4 vectores de dimensión 14 en nuestro caso (igual al número de ficheros que ha leido) que contienen ganancia, temperatura y sus errores de forma ordenada la macro realiza un ajuste lineal. El ajuste obtenido se presenta en la imagen diecisiete
+\item {} Por otro lado, partiendo de estos 4 vectores de dimensión 14 en nuestro caso (igual al número de ficheros que ha leido) que contienen ganancia, temperatura y sus errores de forma ordenada la macro realiza un ajuste lineal. El ajuste obtenido se presenta en la imagen diecinueve.
 
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.2]{Dependenciatemperatura.png}
-\caption{\textbf{Imagen 17}.- Ganancia frente a temperatura}
+\caption{\textbf{Imagen 19}.- Ganancia frente a temperatura}
 \end{figure}
 
 Podemos observar la existencia de un comportamiento lineal casi perfecto en un rango de temperatura de 26 grados. Esta es una propiedad que caracteriza al SiPM, una muy buena linealidad en su comportamiento frente a modificaciones en varias magnitudes.
@@ -577,12 +580,12 @@ En este estudio, a diferencia del estudio de la temperatura, la incertidumbre en
 \paragraph {}
 Hay que tener en cuenta que el voltaje operacional posee un error relativo, definido como $\frac{\sigma_x}{x}$ muy inferior al de la temperatura, siendo estos aproximadamente $1 \cdot 10^{-5}$ y $8 \cdot 10^{-3}$ respectivamente. Es decir, las medidas que tomemos en este estudio serán más preceisas.
 
-\item {} Por otro lado, partiendo de estos 4 vectores de dimensión 25 en nuestro caso (igual al número de ficheros que ha leido) que contienen ganancia, temperatura y sus errores de forma ordenada realiza un ajuste lineal. El ajuste obtenido se presenta en la imagen dieciocho
+\item {} Por otro lado, partiendo de estos 4 vectores de dimensión 25 en nuestro caso (igual al número de ficheros que ha leido) que contienen ganancia, temperatura y sus errores de forma ordenada realiza un ajuste lineal. El ajuste obtenido se presenta en la imagen viente.
 
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.2]{Dependenciavoltaje.png}
-\caption{\textbf{Imagen 18}.- Ganancia frente a voltaje operacional}
+\caption{\textbf{Imagen 20}.- Ganancia frente a voltaje operacional}
 \end{figure}
 
 Podemos observar de nuevo la existencia de un comportamiento lineal casi perfecto en un rango de voltaje de 5 voltios. Vemos de nuevo reflejada la propiedad de buena linealidad que caracteriza a los SiPM. En la gráfica podemos notar la existencia de un mayor error en las medidas de voltajes mas bajos (en valor absoluto). Esto es debido a que nos estamos acercando al voltaje break down donde el silicio entra en modo Geiger y el valor de la ganancia empieza a ser distinto de cero. Podemos hachacar este mayor error a que a estos voltajes cercanos a la frontera de cambio de comportamiento, el SiPM todavía no funciona de forma adecuada debido a efectos más sutiles. Este necesita estar totalmente dento del modo Geiger para funcionar perfectamente. Hay que tener en cuenta además que solo se llego hasta el voltaje $V_{op}=51,57$ V debido a que, cuando estamos a valores muy cercanos al voltaje de break down la ganancia sufre un decaimiento exponencial, siendo imposible realizar su medida.
@@ -628,7 +631,7 @@ $$\partial G_{tot} = 0 =  \partial G(V_{op}) + \partial G(T) \longrightarrow \pa
 En otras palabras, lo que tenemos que conseguir es producir la misma variación a la ganancia con la modificación del voltaje que la que se ha producido al variar la temperatura. Para determinar esta variarión únicamente sustituimos las expresiones anteriormente obtenidas para cada diferencial de la ganancia:
 $$\partial G(V_{op}) = - \partial G(T)  \longrightarrow c \partial V_{op}= - a \partial T \longrightarrow  \partial V_{op}= - \frac{a}{c} \partial T$$
 
-Finalmente consideramos que a y c las consideramos constantes en voltaje y temperatura, ya que, estas varian muy poco por lo que, en primera aproximación, es aceptable hacer esta consideración. Con ello integramos a cada lado y obtenemos:
+Finalmente consideramos que a y c las consideramos constantes en voltaje y temperatura, ya que, estas varian muy poco por lo que, en primera aproximación, es aceptable. Con ello integramos a cada lado y obtenemos:
 $$\int_{V_i}^{V_f} \partial V_{op}= - \frac{a}{c} \int_{T_i}^{T_f}\partial T = - \frac{a}{c} \Delta T \longrightarrow \Delta V_{op}= e \Delta T$$
 
 Donde se ha introducido un nuevo parámetro: $e=-\frac{a}{c}$ cuyo valor es:
@@ -647,12 +650,12 @@ En resumen la ecuación que nos dicta cual es la variación que debemos aplicar 
 $$\Delta V_{op}=0.059929 \cdot \Delta T$$
 
 \paragraph {}
-Finalmente tomamos como referencia el caso anteriormente mostrado en la sección de análisis de datos correspondiente a temperatura 25 grados, Humedad del 45\% y voltaje operacional de 53.97 V = $V_{BD}+ 3$ V, cuya ganancia habíamos visto que era $7.18235 \cdot 10^8$ y procedemos a realizar una verificación midiendo los casos de 21, 23, 25, 27 y 29 grados. En cada uno de ellos se corregirá el voltaje de alimentación de forma adecuada para mantener el mismo valor de la ganancia. El valor de la ganancia para cada caso se ve reflejado en la imagen diecinueve. 
+Finalmente tomamos como referencia el caso anteriormente mostrado en la sección de análisis de datos correspondiente a temperatura 25 grados, Humedad del 45\% y voltaje operacional de 53.97 V = $V_{BD}+ 3$ V, cuya ganancia habíamos visto que era $7.18235 \cdot 10^8$ y procedemos a realizar una verificación midiendo los casos de 21, 23, 25, 27 y 29 grados. En cada uno de ellos se corregirá el voltaje de alimentación de forma adecuada para mantener el mismo valor de la ganancia. El valor de la ganancia para cada caso se ve reflejado en la imagen veintiuno. 
 
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.2]{compensacion.png}
-\caption{\textbf{Imagen 19}.- Verificación del método de compensación}
+\caption{\textbf{Imagen 21}.- Verificación del método de compensación}
 \end{figure}
 
 Donde la raya roja corresponde al ajuste a una constante. Su valor, correspondiente al valor de la ganancia es $G=7.14203 \cdot 10^8 \pm 4.97472 \cdot 10^6$
@@ -668,7 +671,143 @@ La máxima variación se observo a 23 grados. Esta es debido a que fue una medid
 
 \section {Protocolo de manipulación de fibras centelleadoras}
 \paragraph {}
-%Utilizar la tesis buena de los SiPM
+Para detectar y medir los electrones que se emiten en la desintegración $\beta^-$ del tritio (referencia a la formula de la desintegración del tritio) se utilizarán fibras centelleadoras, en concreto las fibras BCF-12. 
+
+\paragraph {}
+Un elemento centelleador esta formado por materiales luminiscentes cuyos átomos o moléculas que los componen presentan unos niveles energéticos similares a los de la imagen veintidos:
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.5]{EsquemaNivelesFIbras.png}
+\caption{\textbf{Imagen 22}.- Esquema de niveles energéticos}
+\end{figure}
+
+Donde los estados S representan singletes y los estados T tripletes. Cuando la radiación ionizante, en nuestro caso los electrones procedentes del tritio, atraviesa el centelleador sus átomos y/o moléculas absorben su energía produciendose una excitación de los mismos. 
+
+\paragraph {}
+Posteriormente estos se desexcitan, en primer lugar desde niveles superiores hasta el nivel S* o $T_0$ por degradación interna (en un tiempo del orden del ps) y seguidamente del S* hasta $S_0$ (en un tiempo del orden del ns). En esta segunda desexcitación emitien fotones cuyo rango de longitud de onda puede ir desde el ultravioleta hasta el infrarrojo [100-800]nm dependiendo de la distancia existente entre estos niveles energéticos. 
+
+\paragraph {}
+Estos fotones son los que se conocen como fluorescencia y es lo que se utiliza habitualmente como señal de respuesta de un material centelleador. En concreto, en nuestro experimento, esta será la señal que utilizaremos cuyo espectro es el mostrado en la imagen 3.
+
+\paragraph {}
+Hay que tener en cuenta que las fibras centelleadoras son transparentes a los fotones que se encuentran en la longitud de onda de su emisión ya que, de lo contrario, tendríamos una nueva reabsorción de los fotones emitidos antes de ser detectados por el contador de fotones, situación indeseada.
+
+\paragraph {}
+Los materiales centelleadoras presentan una muy buena linealidad con la energía de la radiación incidente a partir de una energía mínima que determina la sensibilidad del material centelleador utilizado, en nuestro caso... Teniendo en cuenta que el SiPM también presenta una muy buena linealidad con la señal recibida esperamos obtener una señal de nuestro detector que presente una buena linealidad con la energía que pretendamos medir.
+
+\paragraph {}
+Por lo general estos materiales centelleadores producen señales bastante rápidas en comparación con otros tipos de detectores tales como.... Utilizamos fibras centelleadoras orgánicas ya que estas son 2 o 3 órdenes de magnitud más rápidas que las inorgánicas,  en concreto las fibras que utilizaremos presentan un tiempo de decaimiento de 3,2 ns. 
+
+\paragraph {}
+Además debe de ser capaz de producir el mayor número de fotones por unidad de energía para poder tener un mayor detalle de la señal medida. Las fibras BCF-12 son capaces de producir 8000 fotones por MeV de la radiación incidente. Las fibras BCF-12 presentan una eficiencia de fotodetección teórica de...
+
+\paragraph {}
+Para manipular las fibras se vio necesario la utilización de guantes de latex ya que el propio tacto  del personal encargado del tratamiento de las fibras las ensuciaban y, por extensión, la propagación de la luz se veía afectada.
+
+\paragraph {}
+Para poder cortar las fibras centelleadoras de forma opticamente aceptable se diseño y construyo una guillotina adecuada la cual puede verse reflejada en la imagen veintitres:
+
+\begin{figure}[htb]
+\centering
+{
+%\subfloat[Espectro de emisión]
+\includegraphics[scale=0.2]{Guillotina1.png} 
+}
+{
+%\subfloat[Espectro de emisión]
+\includegraphics[scale=0.2]{Guillotina2.png} 
+}
+{
+%\subfloat[Espectro de emisión]
+\includegraphics[scale=0.2]{Guillotina3.png} 
+}
+\caption{\textbf{Imagen 23}.-Guillotina}
+\end{figure} 
+
+En la imagen central se puede apreciar que la guillotina disponía de dos piezas independientes (marcadas con los número 2 y 3) las cuales estaban suspendidas por muelles. Para sujetar y cortar cada una de las fibra había que pulsar las piezas 3 y 2 respectivamente según puede apreciarse en la imagen de la derecha. 
+
+\paragraph {} 
+También puede apreciarse que la guillotina dispone de 14 rieles cuadrados los cuales servían para sujetar cada una de las fibras y, así, obtener un corte limpio y perpendicular. Aunque la guillotina tenía la posibilidad de realizar cortes simultaneos sobre varias fibras centelleadoras siempre se realizaron cortes sobre una única fibra. De esta forma asegurábamos un mejor acabado.
+
+
+\paragraph {}
+Finalmente se estuvo probando con varios tipos de cuchilla (de distinto grosor y tamaño) y se acabo viendo que una cuchilla típica utilizada en las máquinas de afeitar era suficiente. Esta puede apreciarse en la imagen veinticuatro.
+
+\begin{figure}[htb]
+\centering
+{
+%\subfloat[Espectro de emisión]
+\includegraphics[scale=0.3]{cuchilla.png} 
+}
+{
+%\subfloat[Espectro de emisión]
+\includegraphics[scale=0.3]{Guillotina5.png} 
+}
+\caption{\textbf{Imagen 24}.-Cuchilla}
+\end{figure} 
+
+\newpage
+Hay que tener en cuenta que, para un corte más efectivo se introdujo en la disposición de la cuchilla una lijera inclinación la cual puede apreciarse en la foto de la derecha de la imagen veinticuatro (parte superior del interior del agujero). 
+
+\paragraph {}
+En la imagen veinticinco izquierda se puede ver (con ayuda de un microscopio) la cara de una fibra recien cortada. En esta podemos apreciar que, aunque presenta una cabado realmente bueno (sin roturas ni deformaciones) si encontramos que la cara de la fibra se encuentra lijeramente dañada y esto afectaba a la propagación de la luz. La forma de subsanar esto fue pulir cada una de las caras de las fibras. En la parte derecha de la misma imagen podemos observar una foto con la misma fibra trás el proceso de pulido. Podemos comprobar que el simple hecho de pulir las caras de las fibras nos permite obtener fibras con acabado ópticamente aceptable.
+
+\begin{figure}[htb]
+\centering
+{
+%\subfloat[Espectro de emisión]
+\includegraphics[scale=0.3]{SinPulir.png} 
+}
+{
+%\subfloat[Espectro de emisión]
+\includegraphics[scale=0.3]{Pulida.png} 
+}
+\caption{\textbf{Imagen 25}.-Cara fibras}
+\end{figure} 
+
+\paragraph {}
+Hay que notar en la imagen que el clad aparece roto. Se vío que esto era una característica inevitable del proceso de cortado. Sin embargo pudo observarse que este únicamente se encontraba en el extremo final de la fibra por lo que, la utilización de grasa óptica (marca Saint-Global) para acomplar esta al contador de fotones solucionaba el problema.
+
+\paragraph {}
+Seguidamente, con las fibras ya cortadas, simplemente se utilizo un pegamento óptico (marca Saint-Global), especialmente diseñado para materiales centelleadores, para pegarlas entre ellas y obtener, de esta forma, un bunch de fibras. Para que su acabado fuese suficientemente rígido se utilizó un aro metálico en cada uno de los extremos segn la imagúen veintiseis.
+
+\begin{figure}[htb]
+\centering
+{
+%\subfloat[Espectro de emisión]
+\includegraphics[scale=0.2]{arometalico.png} 
+}
+{
+%\subfloat[Espectro de emisión]
+\includegraphics[scale=0.2]{arometalicoconrosca.png} 
+}
+\caption{\textbf{Imagen 26}.-Aro metálico}
+\end{figure} 
+
+En la imagen veintiseis derecha puede apreciarse que este mismo aro disponía de una arandela la cual se utilizaba para una completa sujeción al prototipo.
+
+
+
+\paragraph {}
+Finalmente, cuando se había secado el pegamento, volvíamos a pulir cada una de las caras del bunch de fibras con el objetivo de obtener una cara total plana (todas las fibras al mismo nivel) para obtener el mejor acomplamiento con el contador de fotones (ya sea SiPM o PMT). En la imagen veintisiete podemos observar un buch de fibras totalmente acabado.
+
+\begin{figure}[htb]
+\centering
+{
+%\subfloat[Espectro de emisión]
+\includegraphics[scale=0.2]{bunchfibras.png} 
+}
+{
+%\subfloat[Espectro de emisión]
+\includegraphics[scale=0.2]{bunchfibras1.png} 
+}
+\caption{\textbf{Imagen 27}.-Bunch fibras}
+\end{figure} 
+
+Este bunch construido disponía de 35 fibras ya que era el mayor número de fibras que cabían en el interior del aro metálico y tenía una extensión máxima de aproximadamente 25 cm, extensión acorde con el prototipo. En la imagen veintiseis derecha podemos apreciar la cara final pulida perfectamente plana. Hay que tener en cuenta que cualquier irregularidad inferior al milímetro en la cara final de bunch era subsanada por el hecho de utilizar grasa óptica para acoplar el bunch de fibra al contador de fotones.
+
+
 
 \section {Prototipos} 
 	\subsection {Configuración} 

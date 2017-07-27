@@ -33,7 +33,6 @@
 \contentsline {paragraph}{}{12}
 \contentsline {paragraph}{}{12}
 \contentsline {paragraph}{}{13}
-\contentsline {paragraph}{}{13}
 \contentsline {subsection}{\numberline {2.2}Calibraci\IeC {\'o}n tarjeta}{14}
 \contentsline {paragraph}{}{14}
 \contentsline {paragraph}{}{14}
@@ -75,12 +74,27 @@
 \contentsline {paragraph}{}{23}
 \contentsline {section}{\numberline {3}Protocolo de manipulaci\IeC {\'o}n de fibras centelleadoras}{23}
 \contentsline {paragraph}{}{23}
-\contentsline {section}{\numberline {4}Prototipos}{23}
-\contentsline {subsection}{\numberline {4.1}Configuraci\IeC {\'o}n}{23}
-\contentsline {subsection}{\numberline {4.2}resultados}{23}
 \contentsline {paragraph}{}{23}
-\contentsline {section}{\numberline {5}Simulaciones}{23}
 \contentsline {paragraph}{}{23}
-\contentsline {section}{\numberline {6}Conclusiones}{23}
 \contentsline {paragraph}{}{23}
-\contentsline {section}{\numberline {7}Agradecimientos}{23}
+\contentsline {paragraph}{}{23}
+\contentsline {paragraph}{}{23}
+\contentsline {paragraph}{}{24}
+\contentsline {paragraph}{}{24}
+\contentsline {paragraph}{}{24}
+\contentsline {paragraph}{}{24}
+\contentsline {paragraph}{}{24}
+\contentsline {paragraph}{}{24}
+\contentsline {paragraph}{}{25}
+\contentsline {paragraph}{}{25}
+\contentsline {paragraph}{}{25}
+\contentsline {paragraph}{}{26}
+\contentsline {section}{\numberline {4}Prototipos}{26}
+\contentsline {subsection}{\numberline {4.1}Configuraci\IeC {\'o}n}{26}
+\contentsline {subsection}{\numberline {4.2}resultados}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {section}{\numberline {5}Simulaciones}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {section}{\numberline {6}Conclusiones}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {section}{\numberline {7}Agradecimientos}{26}

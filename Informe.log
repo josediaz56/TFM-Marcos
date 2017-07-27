@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  24 JUL 2017 17:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  26 JUL 2017 18:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1071,82 +1071,165 @@ File: Filtro2.png Graphic file (type png)
  <use Filtro2.png>
 Package pdftex.def Info: Filtro2.png used on input line 385.
 (pdftex.def)             Requested size: 61.0269pt x 76.28365pt.
- [13 <./ruido.png> <./Filtro1.png> <./Filtro2.png>]
-<PulsoSalida.png, id=84, 982.67125pt x 226.8475pt>
+
+<MantaNegra.png, id=81, 726.715pt x 522.95375pt>
+File: MantaNegra.png Graphic file (type png)
+ <use MantaNegra.png>
+Package pdftex.def Info: MantaNegra.png used on input line 394.
+(pdftex.def)             Requested size: 145.34042pt x 104.5889pt.
+ [13 <./ruido.png> <./Filtro1.png> <./Filtro2.png> <./MantaNegra.png>]
+<PulsoSalida.png, id=85, 982.67125pt x 226.8475pt>
 File: PulsoSalida.png Graphic file (type png)
  <use PulsoSalida.png>
-Package pdftex.def Info: PulsoSalida.png used on input line 426.
+Package pdftex.def Info: PulsoSalida.png used on input line 429.
 (pdftex.def)             Requested size: 196.53076pt x 45.36868pt.
 
-[14 <./PulsoSalida.png>] <Analisis.png, id=88, 974.64125pt x 446.66875pt>
+[14 <./PulsoSalida.png>] <Analisis.png, id=89, 974.64125pt x 446.66875pt>
 File: Analisis.png Graphic file (type png)
 
 <use Analisis.png>
-Package pdftex.def Info: Analisis.png used on input line 447.
+Package pdftex.def Info: Analisis.png used on input line 450.
 (pdftex.def)             Requested size: 194.92479pt x 89.33215pt.
- <fondogaussiano.png, id=89, 970.62625pt x 410.53375pt>
+ <fondogaussiano.png, id=90, 970.62625pt x 410.53375pt>
 File: fondogaussiano.png Graphic file (type png)
 
 <use fondogaussiano.png>
-Package pdftex.def Info: fondogaussiano.png used on input line 464.
+Package pdftex.def Info: fondogaussiano.png used on input line 467.
 (pdftex.def)             Requested size: 194.12181pt x 82.10529pt.
  [15 <./Analisis.png>]
-<Espectroo.png, id=93, 712.6625pt x 479.7925pt>
+<Espectroo.png, id=94, 712.6625pt x 479.7925pt>
 File: Espectroo.png Graphic file (type png)
  <use Espectroo.png>
-Package pdftex.def Info: Espectroo.png used on input line 475.
+Package pdftex.def Info: Espectroo.png used on input line 478.
 (pdftex.def)             Requested size: 142.52997pt x 95.95679pt.
 
-<AjusteEspectro.png, id=94, 775.89874pt x 517.935pt>
+<AjusteEspectro.png, id=95, 775.89874pt x 517.935pt>
 File: AjusteEspectro.png Graphic file (type png)
  <use AjusteEspectro.png>
-Package pdftex.def Info: AjusteEspectro.png used on input line 479.
+Package pdftex.def Info: AjusteEspectro.png used on input line 482.
 (pdftex.def)             Requested size: 155.177pt x 103.58516pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 489.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 492.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 489.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 492.
  [16 <./fondogaussiano.png> <./Espectroo.png> <./AjusteEspectro.png>]
-<FitPosicionPixels.png, id=99, 825.0825pt x 544.0325pt>
+<FitPosicionPixels.png, id=100, 825.0825pt x 544.0325pt>
 File: FitPosicionPixels.png Graphic file (type png)
 
 <use FitPosicionPixels.png>
-Package pdftex.def Info: FitPosicionPixels.png used on input line 499.
+Package pdftex.def Info: FitPosicionPixels.png used on input line 502.
 (pdftex.def)             Requested size: 165.01357pt x 108.80457pt.
  [17 <./FitPosicionPixels.png>]
-<Dependenciatemperatura.png, id=103, 826.08624pt x 553.06625pt>
+<Dependenciatemperatura.png, id=104, 826.08624pt x 553.06625pt>
 File: Dependenciatemperatura.png Graphic file (type png)
 
 <use Dependenciatemperatura.png>
-Package pdftex.def Info: Dependenciatemperatura.png used on input line 542.
+Package pdftex.def Info: Dependenciatemperatura.png used on input line 545.
 (pdftex.def)             Requested size: 165.21431pt x 110.61128pt.
  [18 <./Dependenciatemperatura.png>]
-<Dependenciavoltaje.png, id=108, 809.0225pt x 548.0475pt>
+<Dependenciavoltaje.png, id=109, 809.0225pt x 548.0475pt>
 File: Dependenciavoltaje.png Graphic file (type png)
 
 <use Dependenciavoltaje.png>
-Package pdftex.def Info: Dependenciavoltaje.png used on input line 584.
+Package pdftex.def Info: Dependenciavoltaje.png used on input line 587.
 (pdftex.def)             Requested size: 161.80164pt x 109.60754pt.
  [19] [20 <./Dependenciavoltaje.png>] [21]
-<compensacion.png, id=119, 828.09375pt x 560.0925pt>
+<compensacion.png, id=120, 828.09375pt x 560.0925pt>
 File: compensacion.png Graphic file (type png)
  <use compensacion.png>
-Package pdftex.def Info: compensacion.png used on input line 654.
+Package pdftex.def Info: compensacion.png used on input line 657.
 (pdftex.def)             Requested size: 165.61581pt x 112.01651pt.
 
-[22 <./compensacion.png>] [23] [24] (./Informe.aux
+[22 <./compensacion.png>]
+<EsquemaNivelesFIbras.png, id=124, 392.46625pt x 210.7875pt>
+File: EsquemaNivelesFIbras.png Graphic file (type png)
+
+<use EsquemaNivelesFIbras.png>
+Package pdftex.def Info: EsquemaNivelesFIbras.png used on input line 681.
+(pdftex.def)             Requested size: 196.23264pt x 105.3935pt.
+ [23 <./EsquemaNivelesFIbras.png>]
+<Guillotina1.png, id=128, 722.7pt x 426.59375pt>
+File: Guillotina1.png Graphic file (type png)
+ <use Guillotina1.png>
+Package pdftex.def Info: Guillotina1.png used on input line 715.
+(pdftex.def)             Requested size: 144.53743pt x 85.31723pt.
+
+<Guillotina2.png, id=129, 724.7075pt x 315.1775pt>
+File: Guillotina2.png Graphic file (type png)
+ <use Guillotina2.png>
+Package pdftex.def Info: Guillotina2.png used on input line 719.
+(pdftex.def)             Requested size: 144.93893pt x 63.03438pt.
+
+<Guillotina3.png, id=130, 699.61375pt x 297.11pt>
+File: Guillotina3.png Graphic file (type png)
+ <use Guillotina3.png>
+Package pdftex.def Info: Guillotina3.png used on input line 723.
+(pdftex.def)             Requested size: 139.92027pt x 59.42094pt.
+
+<cuchilla.png, id=131, 398.48875pt x 245.91875pt>
+File: cuchilla.png Graphic file (type png)
+ <use cuchilla.png>
+Package pdftex.def Info: cuchilla.png used on input line 741.
+(pdftex.def)             Requested size: 119.54755pt x 73.77618pt.
+
+<Guillotina5.png, id=132, 555.07375pt x 153.57375pt>
+File: Guillotina5.png Graphic file (type png)
+ <use Guillotina5.png>
+Package pdftex.def Info: Guillotina5.png used on input line 745.
+(pdftex.def)             Requested size: 166.52339pt x 46.07246pt.
+
+[24 <./Guillotina1.png> <./Guillotina2.png> <./Guillotina3.png>]
+<SinPulir.png, id=137, 230.8625pt x 208.78pt>
+File: SinPulir.png Graphic file (type png)
+ <use SinPulir.png>
+Package pdftex.def Info: SinPulir.png used on input line 760.
+(pdftex.def)             Requested size: 69.25928pt x 62.63448pt.
+
+<Pulida.png, id=138, 256.96pt x 202.7575pt>
+File: Pulida.png Graphic file (type png)
+ <use Pulida.png>
+Package pdftex.def Info: Pulida.png used on input line 764.
+(pdftex.def)             Requested size: 77.0886pt x 60.82771pt.
+
+<arometalico.png, id=139, 572.1375pt x 212.795pt>
+File: arometalico.png Graphic file (type png)
+ <use arometalico.png>
+Package pdftex.def Info: arometalico.png used on input line 779.
+(pdftex.def)             Requested size: 114.42546pt x 42.55824pt.
+
+<arometalicoconrosca.png, id=140, 528.97626pt x 189.70876pt>
+File: arometalicoconrosca.png Graphic file (type png)
+
+<use arometalicoconrosca.png>
+Package pdftex.def Info: arometalicoconrosca.png used on input line 783.
+(pdftex.def)             Requested size: 105.79337pt x 37.94107pt.
+ [25 <./cuchilla.png> <./Guillotina5.png> <./SinPulir.png> <./Pulida.png> <./ar
+ometalico.png> <./arometalicoconrosca.png>]
+<bunchfibras.png, id=144, 799.98875pt x 139.52126pt>
+File: bunchfibras.png Graphic file (type png)
+ <use bunchfibras.png>
+Package pdftex.def Info: bunchfibras.png used on input line 799.
+(pdftex.def)             Requested size: 159.99492pt x 27.90375pt.
+
+<bunchfibras1.png, id=145, 487.8225pt x 259.97125pt>
+File: bunchfibras1.png Graphic file (type png)
+ <use bunchfibras1.png>
+Package pdftex.def Info: bunchfibras1.png used on input line 803.
+(pdftex.def)             Requested size: 97.56276pt x 51.99332pt.
+
+[26 <./bunchfibras.png> <./bunchfibras1.png>] [27] (./Informe.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 14380 strings out of 493029
- 261735 string characters out of 6136234
+ 14445 strings out of 493029
+ 262987 string characters out of 6136234
  326733 words of memory out of 5000000
- 17725 multiletter control sequences out of 15000+600000
+ 17777 multiletter control sequences out of 15000+600000
  18623 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,13n,44p,10417b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1167,10 +1250,10 @@ ts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/font
 s/type1/public/cm-super/sfti1095.pfb>
-Output written on Informe.pdf (25 pages, 5923808 bytes).
+Output written on Informe.pdf (28 pages, 9136247 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
+ 215 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
