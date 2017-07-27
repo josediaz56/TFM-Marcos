@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  27 JUL 2017 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  27 JUL 2017 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -244,13 +244,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21  \usepackage{
-                  hyperref} %hipervinculos del índice
+l.21 \usepackage{
+                 hyperref} %hipervinculos del índice
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 7--22
+Overfull \hbox (20.0pt too wide) in paragraph at lines 7--24
 []
  []
 
@@ -261,7 +261,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \renewcommand{\thefigure}
+l.26 \renewcommand{\thefigure}
                               {}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -273,7 +273,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 \usepackage{
+l.29 \usepackage{
                  setspace}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -292,5 +292,5 @@ Here is how much of TeX's memory you used:
  3642 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 7i,0n,5p,110b,18s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 7i,0n,5p,112b,18s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
