@@ -1,0 +1,104 @@
+\paragraph {}
+En resumen, en nuestra prueba de calibración de los SiPM tenemos una caja que actuará como jaula de faraday, con temperatura y humedad controlada y apantallada en lo posible de la luz del exterior. 
+
+\paragraph {}
+En su interior tendremos un diodo LED que emite fotones a $\lambda=435$, un SiPM, el cual emitirá un pulso de intensidad cada vez que detecte uno o más de estos fotones con cada uno de sus pixels y una tarjeta que convertirá este pulso de intensidad en un pulso de voltaje. Finalmente llevamos este pulso de voltaje a un osciloscopio (marca TELEDYNE LECROY, modelo WwaveRunner 625Zi) para poder ser analizado. 
+
+\paragraph {}
+Una vez en el osciloscopio, la señal que recibíamos cuando se encendía el diodo led era similar a la de la imagen catorce.
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.2]{/home/marcos/Escritorio/Trabajo/Trabajo/PulsoSalida.png}
+\caption{\textbf{Imagen 14}.- Pulso de salida}
+\end{figure}
+
+Donde se a activado el modo persistencia del osciloscopio con el objetivo de comparar señales de distintas alturas. Estas señales corresponden a distinto número de pixels activados en cada instante de tiempo ya que, como hemos dicho anteriormente, la señal de salida del sistema es la suma de las señales de cada pixel que se ha activado. La señal de color verde corresponde a la señal de sincronización que actua como trigger.
+
+\paragraph {}
+El objetivo ahora es calcular la ganancia del sistema. Dado que únicamente existen dos ganancias en el sistema (SiPM y tarjeta) y hemos medido la ganancia de la tarjeta en la sección anterior, determinando la ganancia total podremos determinar la ganancia del SiPM. 
+
+$$G_{tot}=G_{SiPM} \cdotp G_{card} \longrightarrow G_{SiPM} = \frac{G_{tot}}{G_{card}}$$
+
+Para medir la ganancia total simplemente realizamos una integral del area de cada uno de los pulsos de salida del sistema y conservamos el resultado en un histograma. De esta forma lo que estamos consiguiendo es un histograma de las cargas de los pulsos. La ventana temporal sobre la que se integra es aproximadamente una división, que equivale a 500 ns. Esta se ajusta con bastante precisión al pulso, algo muy importante para evitar la introducción de background.
+
+\paragraph {}
+Dado que idealmente el pulso de cada pixel es igual, el histograma que estamos obteniendo deberían ser deltas de dirac equiespaciadas. Sin embargo hay que tener en cuenta que la cascada que produce cada uno de estos fotones detectados en cada pixel esta sometido a fluctuaciones estadísticas. Además los propios instrumentos de medidas empleados tienen una incertidumbre inherente. Hay que tener en cuenta que tambień tenemos distintas fuentes de background, como dark counts (ruido térmico), fotones de luz del exterior, etc. 
+
+\paragraph {}
+Como resultado de todo esto, lo que obtendremos seran un conjunto de gaussianas equiespaciadas. En la imagen quince puede verse el resultado de una toma de datos de 25000 eventos a 25 grados, 60\% de humedad y $V_{ov}=3V$
+
+\begin{figure}[hbtp]
+ \centering
+ \includegraphics[scale=0.2]{/home/marcos/Escritorio/Trabajo/Trabajo/Analisis.png}
+ \caption{\textbf{Imagen 15}.- Análisis}
+ \end{figure}
+
+Donde cada uno de estos picos corresponde a la carga de sucesivos número de pixels activados (uno, dos, etc.). El primer pico no debe tenerse en cuenta en el análisis ya que este corresponde al pedestal (cero pixels activados). Su origen es debido a la existencia de las cuentas ocuras.
+ 
+\paragraph {}  
+Ahora únicamente desarrollamos una macro en ROOT (programa de análisis de datos desarrollado por el CERN) que, utilizando la librería TSpectrum (librería especialmente diseñada para el análisis de histograma) nos permita obtener la ganancia del sistema. Su forma de proceder es la siguiente:
+\begin{itemize}
+\item {} Primero la macro lee el fichero de datos y lo guarda en una variable de tipo histograma. La macro se detiene cuando no encuentra más valores para leer.
+
+\item {} A continuación, a partir de una función de la librería TSpectrum, busca en este histograma y devuelve el número de gaussianas que ha encontrado y su posición.
+
+\item {} Ahora ajusta todos los datos del histograma a una recta y solo se queda con las gaussianas, cuya norma sobrepasa en altura a esta recta. El objetivo de este paso es que, en casos muy concretos (temperatura alta o luz del laboratorio encendida) tenemos mucho ruido y, aparece un fondo el cual, el programa ajusta a una gaussiana y, por extensión, calcula la ganancia de manera incorrecta. Un ejemplo de esto se muestra en la imagen dieciseis.
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.2]{/home/marcos/Escritorio/Trabajo/Trabajo/fondogaussiano.png}
+\caption{\textbf{Imagen 16}.- Espectro con mucho fondo}
+\end{figure}
+
+\newpage
+\item {} Seguidamente, ajustamos el espectro a una recta mas una suma de n gaussianas, donde n es el número de gaussianas que superan la recta (calculado en el paso anterior). La necesidad de utilizar una recta es debido a que siempre vamos a tener dark counts y otro tipo de bakcground que se verán reflejados en una linea base en el histograma como puede verse en la imagen quince. Podemos apreciar en la imagen diecisiete que el ajuste es relativamente bueno.
+
+\begin{figure}[htb]
+\centering
+{
+%\subfloat[Espectro de emisión]
+\includegraphics[scale=0.2]{/home/marcos/Escritorio/Trabajo/Trabajo/Espectroo.png} 
+}
+{
+%\subfloat[Espectro de emisión]
+\includegraphics[scale=0.2]{/home/marcos/Escritorio/Trabajo/Trabajo/AjusteEspectro.png} 
+}
+\caption{\textbf{Imagen 17}.-Espectro y ajuste}
+\end{figure} 
+
+\item {} Dado que se ha observado que, aun con el tercer paso, existen situaciones límites en que el background sigue superando esta recta, se ha incluido un paso en la macro en la cual se acepta por teclado uno a uno los picos que serán utilizados en el análisis. Además la macro calcula la resolución de cada gaussiana y la resolución total, obtenida a partir de la suma cuadrática de la resolución de cada gaussiana. Los valores habitualmente encontrados en los análisis se encuentran sobre 1.5\% y 5\% respectivamente, valores más que aceptables.
+
+\item {} Finalmente la macro los ordena según su posición en el espectro y calcula la ganancia por dos caminos:
+	\begin{itemize}
+
+	\item {} Por un lado se ha calculado la distancia promedio entre sucesivas gaussianas del espectro. 
+	$$Q = G N_\gamma + Q_0 \longrightarrow \Delta Q= Q_{N_\gamma} - Q_{N_\gamma -1}=G N_\gamma+ Q_0 - G(N_		\gamma -1) - Q_0 = G$$
+	Podemos observar que este cálculo corresponde a la ganancia. Hay que tener en cuenta que se han 			empleados factores de conversión para convertir la posición del pico (inicialmente en unidades de			tensión, V) en unidades de carga (coulomb). En concreto se ha utilizado el factor $\frac{1}{eR}$, 			donde R es la resistencia del osciloscopio, 50 $\Omega$ y e es la carga del electrón.
+	
+	\item {} Por otro lado se ha ajustado a una recta las posiciones horizontales de estas gaussianas en el 	espectro frente a el número de pixels. Esto nos da la siguiente ecuación:
+	$$Centro\_pico(V) = GeRN_\gamma + k_0$$	
+	Donde R y e significan lo mismo. Vemos por tanto que apartir del valor de la pendiente podemos obtener 		el valor de la ganancia. La imagen dieciocho muestra un ejemplo de ajuste entre posiciones de 				gaussianas y número de pixels para el caso de 25 grados, humedad de 45\% y $V_{ov}=3V$. Podemos 			observar que existe	un acuerdo excelente, algo que ocurria prácticamente en la totalidad de los casos. 		Este gráfico presenta barras de error pero no son apreciables a esta escala.
+		
+	\begin{figure}[hbtp]
+		\centering
+		\includegraphics[scale=0.2]{/home/marcos/Escritorio/Trabajo/Trabajo/FitPosicionPixels.png}
+		\caption{\textbf{Imagen 18}.- Ajuste posicón frente a pixels}
+		\end{figure}
+			
+	
+	\end{itemize}
+	
+Para este caso concreto las ganancias obtenidas por los dos caminos anteriores son respectivamentente:
+$$G_1= 6.38938 \cdot 10^8 \pm  6.38938 \cdot 10^8 $$  
+$$G_2=7.18235 \cdot 10^8 \pm 6.88392 \cdot 10^6$$
+Por extensión, las ganancias del SiPM calculadas por cada camino son (aproximadamente) 
+$$G_1= 4.25958 \cdot 10^5 \pm 4.259 \cdot 10^4$$  
+$$G_2= 4.78823 \cdot 10^5 \pm 4.5893 \cdot 10^4$$
+donde los errores se han obtenido por propagación. Hay que tener en cuenta que el primer método siempre posee errores mayores. Estas se encuentran un orden de magnitud por debajo de la ganancia teórica, con un error relativo de... Esto es debido a...
+
+\paragraph {}
+Dado que, en la practica, las gaussianas no estan perfectamente equiespaciadas debido a errores e incertidumbres consideraremos como más fiable el segundo método ya que se trata de un método más formal. 
+
+
+\end{itemize}

@@ -1,0 +1,35 @@
+\begin{titlepage}
+
+\begin{center}
+\vspace*{-1in}
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[width=8cm]{/afs/ific.uv.es/user/p/pamarag/public/RedaccionTFM/Figuras/logo1}
+\end{center}
+\end{figure}
+
+MASTER'S DEGREE: ADVANCED PHYSICS\\
+\vspace*{0.15in}
+Nuclear and Particle Physics speciality\\
+\vspace*{0.6in}
+\begin{large}
+PHD THESIS:\\
+\end{large}
+\vspace*{0.2in}
+\begin{Large}
+\textbf{Study of the $Wtb$ vertex} \\
+\end{Large}
+\vspace*{0.3in}
+\begin{large}
+A Thesis submitted by Amy Wong for the degree of Doctor of Philosophy in the Mars University\\
+\end{large}
+\vspace*{0.3in}
+\rule{80mm}{0.1mm}\\
+\vspace*{0.1in}
+\begin{large}
+Supervised by: \\
+Hubert J. Farnsworth \\
+\end{large}
+\end{center}
+
+\end{titlepage}
