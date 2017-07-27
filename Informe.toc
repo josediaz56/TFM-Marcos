@@ -1,5 +1,5 @@
 \select@language {spanish}
-\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n.}{2}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{2}
 \contentsline {paragraph}{}{2}
 \contentsline {paragraph}{}{2}
 \contentsline {paragraph}{}{2}
@@ -88,7 +88,7 @@
 \contentsline {paragraph}{}{25}
 \contentsline {paragraph}{}{25}
 \contentsline {paragraph}{}{25}
-\contentsline {paragraph}{}{25}
+\contentsline {paragraph}{}{26}
 \contentsline {section}{\numberline {4}Prototipos}{26}
 \contentsline {subsection}{\numberline {4.1}Configuraci\IeC {\'o}n}{26}
 \contentsline {subsection}{\numberline {4.2}resultados}{26}
