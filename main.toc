@@ -6,14 +6,6 @@
 \contentsline {subsection}{\numberline {2.3}An\IeC {\'a}lisis de datos}{14}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Calibraci\IeC {\'o}n en temperatura}{17}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Calibraci\IeC {\'o}n en voltaje de operaci\IeC {\'o}n}{19}{subsection.2.5}
-\contentsline {paragraph}{}{19}{section*.23}
-\contentsline {paragraph}{}{19}{section*.24}
-\contentsline {paragraph}{}{19}{section*.25}
-\contentsline {paragraph}{}{19}{section*.26}
-\contentsline {paragraph}{}{19}{section*.27}
-\contentsline {paragraph}{}{20}{section*.29}
-\contentsline {paragraph}{}{20}{section*.30}
-\contentsline {paragraph}{}{20}{section*.31}
 \contentsline {subsection}{\numberline {2.6}Compensaci\IeC {\'o}n de la ganancia}{21}{subsection.2.6}
 \contentsline {section}{\numberline {3}Protocolo de manipulaci\IeC {\'o}n de fibras centelleadoras}{24}{section.3}
 \contentsline {section}{\numberline {4}Prototipos}{28}{section.4}
