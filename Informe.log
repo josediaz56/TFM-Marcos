@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  26 JUL 2017 18:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  27 JUL 2017 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1145,13 +1145,27 @@ Package pdftex.def Info: compensacion.png used on input line 657.
 (pdftex.def)             Requested size: 165.61581pt x 112.01651pt.
 
 [22 <./compensacion.png>]
-<EsquemaNivelesFIbras.png, id=124, 392.46625pt x 210.7875pt>
-File: EsquemaNivelesFIbras.png Graphic file (type png)
 
-<use EsquemaNivelesFIbras.png>
-Package pdftex.def Info: EsquemaNivelesFIbras.png used on input line 681.
-(pdftex.def)             Requested size: 196.23264pt x 105.3935pt.
- [23 <./EsquemaNivelesFIbras.png>]
+LaTeX Warning: File `EsquemaNivelesFIbras.png' not found on input line 681.
+
+
+! Package pdftex.def Error: File `EsquemaNivelesFIbras.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.681 ...hics[scale=0.5]{EsquemaNivelesFIbras.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 681.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [23]
 <Guillotina1.png, id=128, 722.7pt x 426.59375pt>
 File: Guillotina1.png Graphic file (type png)
  <use Guillotina1.png>
@@ -1182,22 +1196,23 @@ File: Guillotina5.png Graphic file (type png)
 Package pdftex.def Info: Guillotina5.png used on input line 745.
 (pdftex.def)             Requested size: 166.52339pt x 46.07246pt.
 
-[24 <./Guillotina1.png> <./Guillotina2.png> <./Guillotina3.png>]
-<SinPulir.png, id=137, 230.8625pt x 208.78pt>
+[24 <./Guillotina1.png> <./Guillotina2.png> <./Guillotina3.png> <./cuchilla.png
+> <./Guillotina5.png>] <SinPulir.png, id=137, 230.8625pt x 208.78pt>
 File: SinPulir.png Graphic file (type png)
- <use SinPulir.png>
+
+<use SinPulir.png>
 Package pdftex.def Info: SinPulir.png used on input line 760.
 (pdftex.def)             Requested size: 69.25928pt x 62.63448pt.
-
-<Pulida.png, id=138, 256.96pt x 202.7575pt>
+ <Pulida.png, id=138, 256.96pt x 202.7575pt>
 File: Pulida.png Graphic file (type png)
- <use Pulida.png>
+
+<use Pulida.png>
 Package pdftex.def Info: Pulida.png used on input line 764.
 (pdftex.def)             Requested size: 77.0886pt x 60.82771pt.
-
-<arometalico.png, id=139, 572.1375pt x 212.795pt>
+ <arometalico.png, id=139, 572.1375pt x 212.795pt>
 File: arometalico.png Graphic file (type png)
- <use arometalico.png>
+
+<use arometalico.png>
 Package pdftex.def Info: arometalico.png used on input line 779.
 (pdftex.def)             Requested size: 114.42546pt x 42.55824pt.
 
@@ -1207,30 +1222,30 @@ File: arometalicoconrosca.png Graphic file (type png)
 <use arometalicoconrosca.png>
 Package pdftex.def Info: arometalicoconrosca.png used on input line 783.
 (pdftex.def)             Requested size: 105.79337pt x 37.94107pt.
- [25 <./cuchilla.png> <./Guillotina5.png> <./SinPulir.png> <./Pulida.png> <./ar
-ometalico.png> <./arometalicoconrosca.png>]
-<bunchfibras.png, id=144, 799.98875pt x 139.52126pt>
+
+<bunchfibras.png, id=141, 799.98875pt x 139.52126pt>
 File: bunchfibras.png Graphic file (type png)
  <use bunchfibras.png>
 Package pdftex.def Info: bunchfibras.png used on input line 799.
 (pdftex.def)             Requested size: 159.99492pt x 27.90375pt.
 
-<bunchfibras1.png, id=145, 487.8225pt x 259.97125pt>
+<bunchfibras1.png, id=142, 487.8225pt x 259.97125pt>
 File: bunchfibras1.png Graphic file (type png)
  <use bunchfibras1.png>
 Package pdftex.def Info: bunchfibras1.png used on input line 803.
 (pdftex.def)             Requested size: 97.56276pt x 51.99332pt.
 
-[26 <./bunchfibras.png> <./bunchfibras1.png>] [27] (./Informe.aux
+[25 <./SinPulir.png> <./Pulida.png> <./arometalico.png> <./arometalicoconrosca.
+png>] [26 <./bunchfibras.png> <./bunchfibras1.png>] [27] (./Informe.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 14445 strings out of 493029
- 262987 string characters out of 6136234
+ 14460 strings out of 493029
+ 263472 string characters out of 6136234
  326733 words of memory out of 5000000
- 17777 multiletter control sequences out of 15000+600000
- 18623 words of font info for 48 fonts, out of 8000000 for 9000
+ 17788 multiletter control sequences out of 15000+600000
+ 18937 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,13n,44p,10417b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texli
@@ -1249,11 +1264,12 @@ super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb><
 ts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfti1095.pfb>
-Output written on Informe.pdf (28 pages, 9136247 bytes).
+s/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sftt1095.pfb>
+Output written on Informe.pdf (28 pages, 9145185 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
+ 218 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
 
