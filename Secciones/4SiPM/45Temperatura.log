@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  27 JUL 2017 18:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  28 JUL 2017 18:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2247,21 +2247,15 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no f in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no a in font nullfont!
 Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
 Missing character: There is no u in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no v in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
@@ -2285,7 +2279,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.17 \includegraphics
-                     [scale=0.2]{Dependenciatemperatura.png}
+                     [scale=0.4]{Dependenciatemperatura.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2301,7 +2295,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no 4 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -2337,7 +2331,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.18 \caption
-             {\textbf{Imagen 19}.- Ganancia frente a temperatura}
+             {\textbf{Figura 11}.- Ganancia frente a temperatura}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -2383,23 +2377,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (17.77768pt too wide) in paragraph at lines 15--20
-\OT1/cmr/bx/n/10 Im-
- []
-
-
-Overfull \hbox (9.42354pt too wide) in paragraph at lines 15--20
-\OT1/cmr/bx/n/10 a-
- []
-
-
-Overfull \hbox (17.40964pt too wide) in paragraph at lines 15--20
-\OT1/cmr/bx/n/10 gen
+Overfull \hbox (32.89565pt too wide) in paragraph at lines 15--20
+\OT1/cmr/bx/n/10 Figura
  []
 
 
 Overfull \hbox (11.49994pt too wide) in paragraph at lines 15--20
-\OT1/cmr/bx/n/10 19
+\OT1/cmr/bx/n/10 11
  []
 
 Missing character: There is no P in font nullfont!
