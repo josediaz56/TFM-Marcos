@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  27 JUL 2017 16:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  28 JUL 2017 18:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1796,19 +1796,23 @@ OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10 2
 [] \OML/cmm/m/it/10 V[]
  []
 
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ∫ in font cmr10!
 
-Overfull \hbox (152.22716pt too wide) detected at line 25
+Overfull \hbox (144.52084pt too wide) detected at line 25
 \OML/cmm/m/it/10 a \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/
 cmm/m/it/10 :\OT1/cmr/m/n/10 40308 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \O
 MS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 71545 \OM
-S/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \OML/cmm/m/it/10 T[]
+S/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] []
  []
 
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ∫ in font cmr10!
 
-Overfull \hbox (131.7866pt too wide) detected at line 26
+Overfull \hbox (142.24216pt too wide) detected at line 26
 \OML/cmm/m/it/10 e \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@[] \OT1/cmr/m/n/10 = 0
 \OML/cmm/m/it/10 :\OT1/cmr/m/n/10 059929 \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10 0
-\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 001331
+\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 001331 []
  []
 
 Missing character: There is no D in font nullfont!
@@ -3360,21 +3364,17 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no f in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no a in font nullfont!
 Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
 Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 36--37
@@ -3434,7 +3434,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.40 \includegraphics
-                     [scale=0.2]{compensacion.png}
+                     [scale=0.4]{compensacion.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3450,7 +3450,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no 4 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -3476,7 +3476,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.41 \caption
-             {\textbf{Imagen 21}.- Verificaci√≥n del m√©todo de compensaci√≥n}
+             {\textbf{Figura 13}.- Verificaci√≥n del m√©todo de compensaci√≥n}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -3539,23 +3539,13 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 38--43
  []
 
 
-Overfull \hbox (17.77768pt too wide) in paragraph at lines 38--43
-\OT1/cmr/bx/n/10 Im-
- []
-
-
-Overfull \hbox (9.42354pt too wide) in paragraph at lines 38--43
-\OT1/cmr/bx/n/10 a-
- []
-
-
-Overfull \hbox (17.40964pt too wide) in paragraph at lines 38--43
-\OT1/cmr/bx/n/10 gen
+Overfull \hbox (32.89565pt too wide) in paragraph at lines 38--43
+\OT1/cmr/bx/n/10 Figura
  []
 
 
 Overfull \hbox (11.49994pt too wide) in paragraph at lines 38--43
-\OT1/cmr/bx/n/10 21
+\OT1/cmr/bx/n/10 13
  []
 
 
@@ -4348,5 +4338,5 @@ Here is how much of TeX's memory you used:
  3647 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 17i,5n,12p,588b,113s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 17i,5n,12p,584b,113s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

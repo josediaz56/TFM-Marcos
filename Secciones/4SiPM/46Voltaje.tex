@@ -10,17 +10,17 @@ En este estudio, a diferencia del estudio de la temperatura, la incertidumbre en
 
 Hay que tener en cuenta que el voltaje operacional posee un error relativo, definido como $\frac{\sigma_x}{x}$ muy inferior al de la temperatura, siendo estos aproximadamente $1 \cdot 10^{-5}$ y $8 \cdot 10^{-3}$ respectivamente. Es decir, las medidas que tomemos en este estudio serán más preceisas.
 
-\item {} Por otro lado, partiendo de estos 4 vectores de dimensión 25 en nuestro caso (igual al número de ficheros que ha leido) que contienen ganancia, temperatura y sus errores de forma ordenada realiza un ajuste lineal. El ajuste obtenido se presenta en la imagen viente.
+\item {} Por otro lado, partiendo de estos 4 vectores de dimensión 25 en nuestro caso (igual al número de ficheros que ha leido) que contienen ganancia, temperatura y sus errores de forma ordenada realiza un ajuste lineal. El ajuste obtenido se presenta en la figura doce.
 
 \begin{figure}[hbtp]
 \centering
-\includegraphics[scale=0.2]{Dependenciavoltaje.png}
-\caption{\textbf{Imagen 20}.- Ganancia frente a voltaje operacional}
+\includegraphics[scale=0.4]{Dependenciavoltaje.png}
+\caption{\textbf{Figura 12}.- Ganancia frente a voltaje operacional}
 \end{figure}
 
 Podemos apreciar de nuevo la existencia de un comportamiento lineal casi perfecto en un rango de voltaje de 5 voltios. Vemos de nuevo reflejada la propiedad de buena linealidad que caracteriza a los SiPM. En la gráfica podemos notar la existencia de un mayor error en las medidas de voltajes mas bajos (en valor absoluto). Esto es debido a que nos estamos acercando al voltaje break down donde el silicio entra en modo Geiger y el valor de la ganancia empieza a ser distinto de cero. Podemos hachacar este mayor error a que a estos voltajes cercanos a la frontera de cambio de comportamiento, el SiPM todavía no funciona de forma adecuada debido a efectos más sutiles. Este necesita estar totalmente dento del modo Geiger para funcionar perfectamente. Hay que tener en cuenta además que solo se llego hasta el voltaje $V_{op}=51,57$ V debido a que, cuando estamos a valores muy cercanos al voltaje de break down la ganancia sufre un decaimiento exponencial, siendo imposible realizar su medida.
 
-Podemos observar que, al contrario de lo que ocurría con la temperatura, el valor de la ganancia del SiPM aumenta a medida que aumenta el voltaje operacional. Esto es debido a que a medida que aumentamos el voltaje operacional aumenta la diferencía de potencial en la zona de desertización. De esta forma, por un lado, aumentando la zona de desertización, por lo que los pares electrón--hueco dispondrán de mayor espacio para generar una mayor replicación y, por otro lado, estamos aplicando una mayor tensión sobre los pares electrón-hueco generados al detectar radiación y, por extensión, estos se verán acelerádos más rápidamente. Debido a ello dispondrán de una mayor energía para producir un mayor número de pares electrón-hueco. En resumen ambos procesos contribuyen a generar una mayor ganancia del SiPM.
+Podemos observar que, al contrario de lo que ocurría con la temperatura, el valor de la ganancia del SiPM aumenta a medida que aumenta el voltaje operacional. Esto es debido a que a medida que aumentamos el voltaje operacional aumenta la diferencía de potencial en la zona de desertización. De esta forma, por un lado, aumentando la zona de desertización, por lo que los pares electrón--hueco dispondrán de mayor espacio para generar una mayor replicación y, por otro lado, estamos aplicando una mayor tensión sobre los pares electrón-hueco generados al detectar radiación y, por extensión, estos se verán acelerádos más rápidamente. Debido a ello dispondrán de una mayor energía para producir un mayor número de pares electrón-hueco. En resumen ambos procesos contribuyen a aumentar la ganancia del SiPM.
 
 La ecuación obtenida en este ajuste $G=cV_{op}+d$ toma los siguientes valores: 
 \begin{itemize}
