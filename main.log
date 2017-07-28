@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.1)  28 JUL 2017 00:13
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  28 JUL 2017 19:00
->>>>>>> 2360cebc4beb59fb33e1a9a95128d663b6350053
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.1)  28 JUL 2017 23:45
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -478,7 +474,104 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hepunits/hepunits.sty
+Package: hepunits 2007/09/27 High-energy physics units by Andy Buckley (v1.1.1)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/SIunits/SIunits.sty
+Package: SIunits 2007/12/02 v1.36 Support for the International System of units
+ (MH)
+
+
+\@qskwidth=\skip46
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+)
+\symgreek=\mathgroup7
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/SIunits/SIunits.cfg)
+LaTeX Info: Redefining \usk on input line 576.
+
+Option `mediumspace' provided!
+LaTeX Info: Redefining \@qsk on input line 576.
+Option `thickqspace' provided!
+Option `textstyle' provided!
+Option `squaren' provided!
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2016/08/07 v4.05 for typesetting chemical formulae
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -519,12 +612,12 @@ L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
 \l_tmpb_dim=\dimen118
 \g_tmpa_dim=\dimen119
 \g_tmpb_dim=\dimen120
-\c_zero_skip=\skip46
-\c_max_skip=\skip47
-\l_tmpa_skip=\skip48
-\l_tmpb_skip=\skip49
-\g_tmpa_skip=\skip50
-\g_tmpb_skip=\skip51
+\c_zero_skip=\skip47
+\c_max_skip=\skip48
+\l_tmpa_skip=\skip49
+\l_tmpb_skip=\skip50
+\g_tmpa_skip=\skip51
+\g_tmpb_skip=\skip52
 \c_zero_muskip=\muskip11
 \c_max_muskip=\muskip12
 \l_tmpa_muskip=\muskip13
@@ -668,12 +761,12 @@ Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count170
 \calc@Adimen=\dimen146
 \calc@Bdimen=\dimen147
-\calc@Askip=\skip52
-\calc@Bskip=\skip53
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count171
-\calc@Cskip=\skip54
+\calc@Cskip=\skip55
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
@@ -740,16 +833,16 @@ stry (CN)
 .................................................
 )
 \l__mhchem_ce_distanceFromLastComma_int=\count179
-\__mhchem_arrow_extPgfLength_skip=\skip55
-\mhchem@minispace@tmp=\skip56
-\mhchem@minibackspace@tmp=\skip57
-\mhchem@bondwidth=\skip58
-\mhchem@bondheight=\skip59
-\mhchem@smallbondwidth@tmpA=\skip60
-\mhchem@smallbondwidth@tmpB=\skip61
-\mhchem@smallbondwidth=\skip62
-\mhchem@bondtmp@minussidebearingleft=\skip63
-\mhchem@bondtmp@minussidebearingright=\skip64
+\__mhchem_arrow_extPgfLength_skip=\skip56
+\mhchem@minispace@tmp=\skip57
+\mhchem@minibackspace@tmp=\skip58
+\mhchem@bondwidth=\skip59
+\mhchem@bondheight=\skip60
+\mhchem@smallbondwidth@tmpA=\skip61
+\mhchem@smallbondwidth@tmpB=\skip62
+\mhchem@smallbondwidth=\skip63
+\mhchem@bondtmp@minussidebearingleft=\skip64
+\mhchem@bondtmp@minussidebearingright=\skip65
 \l__mhchem_option_version_int=\count180
 \mhchem@option@minusmathsidebearingleft=\dimen148
 \mhchem@option@minusmathsidebearingright=\dimen149
@@ -801,18 +894,18 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@KVtest=\count185
-\sf@farskip=\skip65
+\sf@farskip=\skip66
 \sf@captopadj=\dimen167
-\sf@capskip=\skip66
-\sf@nearskip=\skip67
+\sf@capskip=\skip67
+\sf@nearskip=\skip68
 \c@subfigure=\count186
 \c@subfigure@save=\count187
 \c@lofdepth=\count188
 \c@subtable=\count189
 \c@subtable@save=\count190
 \c@lotdepth=\count191
-\sf@top=\skip68
-\sf@bottom=\skip69
+\sf@top=\skip69
+\sf@bottom=\skip70
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
@@ -924,22 +1017,12 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip70
+\Hy@SectionHShift=\skip71
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ))
-(./main.aux
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
-
-
-LaTeX Warning: Label `sec:ch04' multiply defined.
-
-
-LaTeX Warning: Label `sec:conclusions' multiply defined.
-
-)
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -954,11 +1037,18 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Info: Redefining \. on input line 5.
 LaTeX Info: Redefining \% on input line 5.
- (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count268
 \scratchdimen=\dimen172
@@ -988,12 +1078,15 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Option `squaren' provided! 
+ Command \squaren defined by SIunits package!
+
+LaTeX Info: Redefining \micro on input line 5.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
 . Activating mapping `default' on line 5.
 .................................................
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1051,13 +1144,13 @@ LaTeX Info: Redefining \nameref on input line 5.
 \openout3 = `main.out'.
 
  (./Secciones/2Portada.tex
-<Figuras/Logo1.png, id=64, 290.394pt x 36.792pt>
+<Figuras/Logo1.png, id=4, 290.394pt x 36.792pt>
 File: Figuras/Logo1.png Graphic file (type png)
  <use Figuras/Logo1.png>
 Package pdftex.def Info: Figuras/Logo1.png used on input line 8.
 (pdftex.def)             Requested size: 290.39328pt x 36.7919pt.
 
-<Figuras/Logo2.jpg, id=66, 1768.6075pt x 2334.7225pt>
+<Figuras/Logo2.jpg, id=6, 1768.6075pt x 2334.7225pt>
 File: Figuras/Logo2.jpg Graphic file (type jpg)
  <use Figuras/Logo2.jpg>
 Package pdftex.def Info: Figuras/Logo2.jpg used on input line 25.
@@ -1090,24 +1183,10 @@ Package babel Info: Redefining spanish shorthand "?
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figur
-as/Logo1.png> <./Figuras/Logo2.jpg>]) (./main.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+as/Logo1.png> <./Figuras/Logo2.jpg>])
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 4.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-))
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -1154,6 +1233,21 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 16.
  (./Secciones/3Introduccion.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand >>
@@ -1179,7 +1273,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 16.
  [2]
-<Figuras/Espectro.png, id=110, 495.8525pt x 362.35374pt>
+<Figuras/Espectro.png, id=35, 495.8525pt x 362.35374pt>
 File: Figuras/Espectro.png Graphic file (type png)
 
 <use Figuras/Espectro.png>
@@ -1324,7 +1418,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 19.
 
 (./Secciones/4SiPM/41IntroSiPM.tex
-<Figuras/pedestal.png, id=137, 1124.2pt x 475.7775pt>
+<Figuras/pedestal.png, id=62, 1124.2pt x 475.7775pt>
 File: Figuras/pedestal.png Graphic file (type png)
 
 <use Figuras/pedestal.png>
@@ -1355,13 +1449,13 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 18.
  [8 <./Figuras/pedestal.png>]
-<Figuras/PED.png, id=143, 714.67pt x 548.0475pt>
+<Figuras/PED.png, id=69, 714.67pt x 548.0475pt>
 File: Figuras/PED.png Graphic file (type png)
  <use Figuras/PED.png>
 Package pdftex.def Info: Figuras/PED.png used on input line 25.
 (pdftex.def)             Requested size: 214.40265pt x 164.41551pt.
 
-<Figuras/EmisionBCF12.png, id=144, 644.4075pt x 389.455pt>
+<Figuras/EmisionBCF12.png, id=70, 644.4075pt x 389.455pt>
 File: Figuras/EmisionBCF12.png Graphic file (type png)
 
 <use Figuras/EmisionBCF12.png>
@@ -1406,7 +1500,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 21.
  (./Secciones/4SiPM/42Equipo.tex
-<Figuras/InteriorTemperatura.png, id=150, 596.2275pt x 446.66875pt>
+<Figuras/InteriorTemperatura.png, id=76, 596.2275pt x 446.66875pt>
 File: Figuras/InteriorTemperatura.png Graphic file (type png)
 
 <use Figuras/InteriorTemperatura.png>
@@ -1414,7 +1508,7 @@ Package pdftex.def Info: Figuras/InteriorTemperatura.png used on input line 14.
 
 (pdftex.def)             Requested size: 178.86963pt x 134.00165pt.
 
-<Figuras/FichaTecnica.png, id=151, 639.38875pt x 470.75874pt>
+<Figuras/FichaTecnica.png, id=77, 639.38875pt x 470.75874pt>
 File: Figuras/FichaTecnica.png Graphic file (type png)
 
 <use Figuras/FichaTecnica.png>
@@ -1476,26 +1570,26 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 47.
  [11]
-<Figuras/SiPM.png, id=161, 244.915pt x 246.9225pt>
+<Figuras/SiPM.png, id=89, 244.915pt x 246.9225pt>
 File: Figuras/SiPM.png Graphic file (type png)
  <use Figuras/SiPM.png>
 Package pdftex.def Info: Figuras/SiPM.png used on input line 54.
 (pdftex.def)             Requested size: 97.96425pt x 98.76724pt.
 
-<Figuras/SiPMfinal.png, id=162, 226.8475pt x 196.735pt>
+<Figuras/SiPMfinal.png, id=90, 226.8475pt x 196.735pt>
 File: Figuras/SiPMfinal.png Graphic file (type png)
 
 <use Figuras/SiPMfinal.png>
 Package pdftex.def Info: Figuras/SiPMfinal.png used on input line 58.
 (pdftex.def)             Requested size: 113.42346pt x 98.36725pt.
 
-<Figuras/tarjeta.png, id=163, 496.85625pt x 367.3725pt>
+<Figuras/tarjeta.png, id=91, 496.85625pt x 367.3725pt>
 File: Figuras/tarjeta.png Graphic file (type png)
 
 <use Figuras/tarjeta.png>
 Package pdftex.def Info: Figuras/tarjeta.png used on input line 62.
 (pdftex.def)             Requested size: 198.73897pt x 146.94638pt.
- <Figuras/ruido.png, id=164, 488.82625pt x 321.2pt>
+ <Figuras/ruido.png, id=92, 488.82625pt x 321.2pt>
 File: Figuras/ruido.png Graphic file (type png)
 
 <use Figuras/ruido.png>
@@ -1579,7 +1673,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 6.
 
-[13] <Figuras/Analisis.png, id=177, 974.64125pt x 446.66875pt>
+[13] <Figuras/Analisis.png, id=106, 974.64125pt x 446.66875pt>
 File: Figuras/Analisis.png Graphic file (type png)
 
 <use Figuras/Analisis.png>
@@ -1610,14 +1704,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 26.
  [14 <./Figuras/Analisis.png>]
-<Figuras/fondogaussiano.png, id=183, 970.62625pt x 410.53375pt>
+<Figuras/fondogaussiano.png, id=112, 970.62625pt x 410.53375pt>
 File: Figuras/fondogaussiano.png Graphic file (type png)
 
 <use Figuras/fondogaussiano.png>
 Package pdftex.def Info: Figuras/fondogaussiano.png used on input line 35.
 (pdftex.def)             Requested size: 388.24362pt x 164.21059pt.
 
-<Figuras/AjusteEspectro1.png, id=184, 772.8875pt x 551.05875pt>
+<Figuras/AjusteEspectro1.png, id=113, 772.8875pt x 551.05875pt>
 File: Figuras/AjusteEspectro1.png Graphic file (type png)
 
 <use Figuras/AjusteEspectro1.png>
@@ -1656,7 +1750,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
 
-<Figuras/FitPosicionPixels.png, id=190, 825.0825pt x 544.0325pt>
+<Figuras/FitPosicionPixels.png, id=119, 825.0825pt x 544.0325pt>
 File: Figuras/FitPosicionPixels.png Graphic file (type png)
 
 <use Figuras/FitPosicionPixels.png>
@@ -1726,7 +1820,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 4.
  [17 <./Figuras/FitPosicionPixels.png>]
-<Figuras/Dependenciatemperatura.png, id=203, 826.08624pt x 553.06625pt>
+<Figuras/Dependenciatemperatura.png, id=133, 826.08624pt x 553.06625pt>
 File: Figuras/Dependenciatemperatura.png Graphic file (type png)
 
 <use Figuras/Dependenciatemperatura.png>
@@ -1796,7 +1890,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 12.
 [19 <./Figuras/Dependenciatemperatura.png>]
-<Figuras/Dependenciavoltaje.png, id=214, 809.0225pt x 548.0475pt>
+<Figuras/Dependenciavoltaje.png, id=145, 809.0225pt x 548.0475pt>
 File: Figuras/Dependenciavoltaje.png Graphic file (type png)
 
 <use Figuras/Dependenciavoltaje.png>
@@ -1898,7 +1992,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 37.
-[22] <Figuras/compensacion.png, id=230, 828.09375pt x 560.0925pt>
+[22] <Figuras/compensacion.png, id=162, 828.09375pt x 560.0925pt>
 File: Figuras/compensacion.png Graphic file (type png)
 
 <use Figuras/compensacion.png>
@@ -1943,7 +2037,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 40.
 
 (./Secciones/5Fibras.tex
-<Figuras/EsquemaNivelesFIbras.png, id=236, 392.46625pt x 210.7875pt>
+<Figuras/EsquemaNivelesFIbras.png, id=168, 392.46625pt x 210.7875pt>
 File: Figuras/EsquemaNivelesFIbras.png Graphic file (type png)
 
 <use Figuras/EsquemaNivelesFIbras.png>
@@ -1974,7 +2068,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 22.
- [24 <./Figuras/EsquemaNivelesFIbras.png>] <Figuras/Guillotina1.png, id=243, 72
+ [24 <./Figuras/EsquemaNivelesFIbras.png>] <Figuras/Guillotina1.png, id=177, 72
 2.7pt x 426.59375pt>
 File: Figuras/Guillotina1.png Graphic file (type png)
 
@@ -1982,20 +2076,20 @@ File: Figuras/Guillotina1.png Graphic file (type png)
 Package pdftex.def Info: Figuras/Guillotina1.png used on input line 33.
 (pdftex.def)             Requested size: 216.81166pt x 127.97911pt.
 
-<Figuras/Guillotina2.png, id=244, 724.7075pt x 315.1775pt>
+<Figuras/Guillotina2.png, id=178, 724.7075pt x 315.1775pt>
 File: Figuras/Guillotina2.png Graphic file (type png)
 
 <use Figuras/Guillotina2.png>
 Package pdftex.def Info: Figuras/Guillotina2.png used on input line 37.
 (pdftex.def)             Requested size: 217.41393pt x 94.55397pt.
 
-<Figuras/SinPulir.png, id=245, 230.8625pt x 208.78pt>
+<Figuras/SinPulir.png, id=179, 230.8625pt x 208.78pt>
 File: Figuras/SinPulir.png Graphic file (type png)
 
 <use Figuras/SinPulir.png>
 Package pdftex.def Info: Figuras/SinPulir.png used on input line 54.
 (pdftex.def)             Requested size: 115.43095pt x 104.38972pt.
- <Figuras/Pulida.png, id=246, 256.96pt x 202.7575pt>
+ <Figuras/Pulida.png, id=180, 256.96pt x 202.7575pt>
 File: Figuras/Pulida.png Graphic file (type png)
 
 <use Figuras/Pulida.png>
@@ -2026,14 +2120,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 64.
  [25 <./Figuras/Guillotina1.png> <./Figuras/Guillotina2.png>] <Figuras/arometal
-ico.png, id=252, 572.1375pt x 212.795pt>
+ico.png, id=186, 572.1375pt x 212.795pt>
 File: Figuras/arometalico.png Graphic file (type png)
 
 <use Figuras/arometalico.png>
 Package pdftex.def Info: Figuras/arometalico.png used on input line 71.
 (pdftex.def)             Requested size: 171.64256pt x 63.83897pt.
 
-<Figuras/arometalicoconrosca.png, id=253, 528.97626pt x 189.70876pt>
+<Figuras/arometalicoconrosca.png, id=187, 528.97626pt x 189.70876pt>
 File: Figuras/arometalicoconrosca.png Graphic file (type png)
 
 <use Figuras/arometalicoconrosca.png>
@@ -2041,14 +2135,14 @@ Package pdftex.def Info: Figuras/arometalicoconrosca.png used on input line 75.
 
 (pdftex.def)             Requested size: 158.69409pt x 56.91306pt.
 
-<Figuras/bunchfibras.png, id=254, 799.98875pt x 139.52126pt>
+<Figuras/bunchfibras.png, id=188, 799.98875pt x 139.52126pt>
 File: Figuras/bunchfibras.png Graphic file (type png)
 
 <use Figuras/bunchfibras.png>
 Package pdftex.def Info: Figuras/bunchfibras.png used on input line 88.
 (pdftex.def)             Requested size: 239.99847pt x 41.85669pt.
 
-<Figuras/bunchfibras1.png, id=255, 487.8225pt x 259.97125pt>
+<Figuras/bunchfibras1.png, id=189, 487.8225pt x 259.97125pt>
 File: Figuras/bunchfibras1.png Graphic file (type png)
 
 <use Figuras/bunchfibras1.png>
@@ -2197,23 +2291,28 @@ LaTeX Info: Redefining \% on input line 24.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6793B531830AA534D6A00420ACC6B836;1017.
 
 
-LaTeX Warning: There were multiply-defined labels.
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  6793B531830AA534D6A00420ACC6B836;1017.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 18161 strings out of 493013
- 323545 string characters out of 6133344
- 411733 words of memory out of 5000000
- 21330 multiletter control sequences out of 15000+600000
- 18623 words of font info for 48 fonts, out of 8000000 for 9000
+ 18764 strings out of 493013
+ 330325 string characters out of 6133344
+ 419453 words of memory out of 5000000
+ 21929 multiletter control sequences out of 15000+600000
+ 24049 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,13n,46p,10451b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,14n,46p,10451b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
@@ -2229,43 +2328,17 @@ ve/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive
 016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (29 pages, 9140989 bytes).
-=======
- 17941 strings out of 493029
- 317663 string characters out of 6136234
- 405194 words of memory out of 5000000
- 21122 multiletter control sequences out of 15000+600000
- 21585 words of font info for 60 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 42i,13n,44p,10451b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (28 pages, 4528198 bytes).
->>>>>>> 2360cebc4beb59fb33e1a9a95128d663b6350053
+xmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/cm-super/sfti1095.pfb>
+Output written on main.pdf (28 pages, 4524766 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 286 compressed objects within 3 object streams
+ 308 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
  78 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
