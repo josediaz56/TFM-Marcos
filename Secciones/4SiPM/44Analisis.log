@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  31 JUL 2017 17:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  31 JUL 2017 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1404,9 +1404,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 $
-     $G_{tot}=G_{SiPM} \cdotp G_{card} \longrightarrow G_{SiPM} = \frac{G_{t...
-
+l.9 \begin{equation}
+                    
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1416,10 +1415,10 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 9--9
  []
 
 
-Overfull \hbox (184.31679pt too wide) detected at line 9
+Overfull \hbox (184.31679pt too wide) detected at line 12
 \OML/cmm/m/it/10 G[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 G[]\OMS/cmsy/m/n/10 ^^A
  \OML/cmm/m/it/10 G[] [][]\OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 G[] \OT1/cmr/m/n/
-10 = []
+10 = [][]
  []
 
 
@@ -1429,7 +1428,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 P
+l.14 P
       ara medir la ganancia total simplemente realizamos una integral del ar...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1725,7 +1724,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
-l.11 ...nte una división, que equivale a $500~\ns
+l.14 ...nte una división, que equivale a $500~\ns
                                                   $. Esta se ajusta con bast...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1831,12 +1830,12 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 11--12
+Overfull \hbox (20.0pt too wide) in paragraph at lines 14--15
 []
  []
 
 
-Overfull \hbox (15.00005pt too wide) in paragraph at lines 11--12
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 14--15
 \OT1/cmr/m/n/10 500 []$
  []
 
@@ -1847,7 +1846,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 D
+l.16 D
       ado que idealmente el pulso de cada pixel es igual, el histograma que ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2305,7 +2304,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 13--14
+Overfull \hbox (20.0pt too wide) in paragraph at lines 16--17
 []
  []
 
@@ -2316,7 +2315,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 C
+l.18 C
       omo resultado de todo esto, lo que obtendremos seran un conjunto de ga...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2502,17 +2501,17 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no y in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 15--16
+Overfull \hbox (20.0pt too wide) in paragraph at lines 18--19
 []
  []
 
 
-Overfull \hbox (25.08725pt too wide) in paragraph at lines 15--16
+Overfull \hbox (25.08725pt too wide) in paragraph at lines 18--19
 \OML/cmm/m/it/10 V[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (13.05557pt too wide) in paragraph at lines 15--16
+Overfull \hbox (13.05557pt too wide) in paragraph at lines 18--19
 \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 V$ 
  []
 
@@ -2523,7 +2522,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 \begin{figure}
+l.20 \begin{figure}
                    [hbtp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2536,7 +2535,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 \begin{figure}[
+l.20 \begin{figure}[
                     hbtp]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2548,7 +2547,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.19  \includegraphics
+l.22  \includegraphics
                       [scale=0.4]{Analisis.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2586,7 +2585,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20  \caption
+l.23  \caption
               {\textbf{Figura 7}.- Análisis}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2609,24 +2608,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21  \end{figure}
+l.24  \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 17--22
+Overfull \hbox (20.0pt too wide) in paragraph at lines 20--25
 []
  []
 
 
-Overfull \hbox (32.89565pt too wide) in paragraph at lines 17--22
+Overfull \hbox (32.89565pt too wide) in paragraph at lines 20--25
 \OT1/cmr/bx/n/10 Figura
  []
 
 
-Overfull \hbox (5.74997pt too wide) in paragraph at lines 17--22
+Overfull \hbox (5.74997pt too wide) in paragraph at lines 20--25
 \OT1/cmr/bx/n/10 7
  []
 
@@ -2637,7 +2636,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 D
+l.26 D
       onde cada uno de estos picos corresponde a la carga de sucesivos núme...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2883,7 +2882,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 23--24
+Overfull \hbox (20.0pt too wide) in paragraph at lines 26--27
 []
  []
 
@@ -2894,7 +2893,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 A
+l.28 A
       hora únicamente desarrollamos una macro en ROOT (programa de análisi...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -3156,7 +3155,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 25--26
+Overfull \hbox (20.0pt too wide) in paragraph at lines 28--29
 []
  []
 
@@ -3790,7 +3789,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 \begin{figure}
+l.36 \begin{figure}
                    [hbtp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3803,7 +3802,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.35 \includegraphics
+l.38 \includegraphics
                      [scale=0.4]{fondogaussiano.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3847,7 +3846,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \caption
+l.39 \caption
              {\textbf{Figura 8}.- Espectro con mucho fondo}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3876,25 +3875,25 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 
-! LaTeX Error: \begin{enumerate} on input line 26 ended by \end{figure}.
+! LaTeX Error: \begin{enumerate} on input line 29 ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 \end{figure}
+l.40 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (32.89565pt too wide) in paragraph at lines 33--38
+Overfull \hbox (32.89565pt too wide) in paragraph at lines 36--41
 \OT1/cmr/bx/n/10 Figura
  []
 
 
-Overfull \hbox (5.74997pt too wide) in paragraph at lines 33--38
+Overfull \hbox (5.74997pt too wide) in paragraph at lines 36--41
 \OT1/cmr/bx/n/10 8
  []
 
@@ -4434,22 +4433,22 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (10.74304pt too wide) in paragraph at lines 39--40
+Overfull \hbox (10.74304pt too wide) in paragraph at lines 42--43
 \OML/cmm/m/it/10 ^^_[]$
  []
 
 
-Overfull \hbox (25.45412pt too wide) in paragraph at lines 39--40
+Overfull \hbox (25.45412pt too wide) in paragraph at lines 42--43
 [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (28.90002pt too wide) in paragraph at lines 39--40
+Overfull \hbox (28.90002pt too wide) in paragraph at lines 42--43
 [] \OMS/cmsy/m/n/10 ^^Y
  []
 
 
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 39--40
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 42--43
 \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 72$
  []
 
@@ -4460,7 +4459,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \begin{figure}
+l.44 \begin{figure}
                    [hbtp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4473,7 +4472,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.43 \includegraphics
+l.46 \includegraphics
                      [scale=0.4]{AjusteEspectro1.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4518,7 +4517,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \caption
+l.47 \caption
              {\textbf{Figura 9}.- Ajuste de la macro de ROOT sobre un espectro}
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -4563,25 +4562,25 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
 
-! LaTeX Error: \begin{enumerate} on input line 26 ended by \end{figure}.
+! LaTeX Error: \begin{enumerate} on input line 29 ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 \end{figure}
+l.48 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (32.89565pt too wide) in paragraph at lines 41--46
+Overfull \hbox (32.89565pt too wide) in paragraph at lines 44--49
 \OT1/cmr/bx/n/10 Figura
  []
 
 
-Overfull \hbox (5.74997pt too wide) in paragraph at lines 41--46
+Overfull \hbox (5.74997pt too wide) in paragraph at lines 44--49
 \OT1/cmr/bx/n/10 9
  []
 
@@ -4593,13 +4592,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 \newpage
+l.50 \newpage
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+! Undefined control sequence.
+<write> \newlabel{ganancias}{{1}{\thepage 
+                                          }}
+l.50 \newpage
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{ganancias}{{1}{}}
+]
 Missing character: There is no D in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -5223,14 +5235,14 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (315.58974pt too wide) detected at line 54
+Overfull \hbox (315.58974pt too wide) detected at line 60
 \OML/cmm/m/it/10 Q \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 GN[] \OT1/cmr/m/n/10 + \O
 ML/cmm/m/it/10 Q[] [][]\OMS/cmsy/m/n/10 ! \OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 Q
  \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 Q[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Q
 [] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 GN[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 Q
 [] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 G\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N[]
  \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 
-Q[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 G
+Q[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 G[]
  []
 
 Missing character: There is no P in font nullfont!
@@ -5533,12 +5545,12 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (12.2542pt too wide) in paragraph at lines 54--56
+Overfull \hbox (12.2542pt too wide) in paragraph at lines 60--62
                                              $[]$
  []
 
 
-Overfull \hbox (7.22223pt too wide) in paragraph at lines 54--56
+Overfull \hbox (7.22223pt too wide) in paragraph at lines 60--62
 \OT1/cmr/m/n/10 
 $
  []
@@ -5685,9 +5697,9 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (129.41122pt too wide) detected at line 58
+Overfull \hbox (129.41122pt too wide) detected at line 67
 \OML/cmm/m/it/10 Centro[]pico\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 V\OT1/cmr/m/n/10
- ) = \OML/cmm/m/it/10 GeRN[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 k[]
+ ) = \OML/cmm/m/it/10 GeRN[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 k[][]
  []
 
 Missing character: There is no D in font nullfont!
@@ -6069,13 +6081,13 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (25.08725pt too wide) in paragraph at lines 58--60
+Overfull \hbox (25.08725pt too wide) in paragraph at lines 67--69
                                                   $\OML/cmm/m/it/10 V[] \OT1/cm
 r/m/n/10 =
  []
 
 
-Overfull \hbox (13.05557pt too wide) in paragraph at lines 58--60
+Overfull \hbox (13.05557pt too wide) in paragraph at lines 67--69
 \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 V$
  []
 
@@ -6086,7 +6098,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 	\begin{figure}
+l.70 	\begin{figure}
                     [hbtp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -6099,7 +6111,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.63 		\includegraphics
+l.72 		\includegraphics
                        [scale=0.4]{FitPosicionPixels.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6146,7 +6158,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 		\caption
+l.73 		\caption
                {\textbf{Figura 10}.- Ajuste carga de las señales del SiPM f...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -6214,25 +6226,25 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no s in font nullfont!
 
-! LaTeX Error: \begin{enumerate} on input line 51 ended by \end{figure}.
+! LaTeX Error: \begin{enumerate} on input line 54 ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 		\end{figure}
+l.74 		\end{figure}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (32.89565pt too wide) in paragraph at lines 61--66
+Overfull \hbox (32.89565pt too wide) in paragraph at lines 70--75
 \OT1/cmr/bx/n/10 Figura
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 61--66
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 70--75
 \OT1/cmr/bx/n/10 10
  []
 
@@ -6326,19 +6338,19 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (133.54329pt too wide) detected at line 71
+Overfull \hbox (133.54329pt too wide) detected at line 83
 \OML/cmm/m/it/10 G[] \OT1/cmr/m/n/10 = 6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 38938
  \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10
  6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 38938 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 
-10[]
+10[][]
  []
 
 
-Overfull \hbox (133.54329pt too wide) detected at line 72
+Overfull \hbox (133.54329pt too wide) detected at line 87
 \OML/cmm/m/it/10 G[] \OT1/cmr/m/n/10 = 7\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 18235
  \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10
  6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 88392 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 
-10[]
+10[][]
  []
 
 Missing character: There is no P in font nullfont!
@@ -6418,19 +6430,19 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-Overfull \hbox (123.54326pt too wide) detected at line 74
+Overfull \hbox (123.54326pt too wide) detected at line 92
 \OML/cmm/m/it/10 G[] \OT1/cmr/m/n/10 = 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 25958
  \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10
  4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 259 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10
-[]
+[][]
  []
 
 
-Overfull \hbox (128.54327pt too wide) detected at line 75
+Overfull \hbox (128.54327pt too wide) detected at line 96
 \OML/cmm/m/it/10 G[] \OT1/cmr/m/n/10 = 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 78823
  \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10
  4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5893 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 1
-0[]
+0[][]
  []
 
 Missing character: There is no d in font nullfont!
@@ -7131,22 +7143,22 @@ Missing character: There is no 9 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (10.74304pt too wide) in paragraph at lines 80--81
+Overfull \hbox (10.74304pt too wide) in paragraph at lines 102--103
 \OML/cmm/m/it/10 ^^_[]$
  []
 
 
-Overfull \hbox (25.45412pt too wide) in paragraph at lines 80--81
+Overfull \hbox (25.45412pt too wide) in paragraph at lines 102--103
 [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (39.24728pt too wide) in paragraph at lines 80--81
+Overfull \hbox (39.24728pt too wide) in paragraph at lines 102--103
 [] \OMS/cmsy/m/n/10 ^^Y
  []
 
 
-Overfull \hbox (22.77785pt too wide) in paragraph at lines 80--81
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 102--103
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 008$
  []
 
@@ -7164,5 +7176,5 @@ Here is how much of TeX's memory you used:
  3652 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,5n,12p,740b,172s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,5n,12p,740b,176s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

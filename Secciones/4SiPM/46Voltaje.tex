@@ -25,13 +25,22 @@ De nuevo comprobamos la calidad del ajuste a partir del test $\chi^2$ obteniendo
 Podemos observar que, al contrario de lo que ocurría con la temperatura, el valor de la ganancia del SiPM aumenta a medida que aumenta el voltaje operacional. Esto es debido a que a medida que aumentamos el voltaje operacional aumenta la diferencía de potencial en la zona de desertización. De esta forma, por un lado, aumentando la zona de desertización, por lo que los pares electrón--hueco dispondrán de mayor espacio para generar una mayor replicación y, por otro lado, estamos aplicando una mayor tensión sobre los pares electrón-hueco generados al detectar radiación y, por extensión, estos se verán acelerádos más rápidamente. Debido a ello dispondrán de una mayor energía para producir un mayor número de pares electrón-hueco. En resumen ambos procesos contribuyen a aumentar la ganancia del SiPM.
 
 La ecuación obtenida en este ajuste $G=cV_{op}+d$ toma los siguientes valores: 
-$$c=2.34123 \cdot 10^8 \pm 2.55246 \cdot 10^6~V^{-1}$$
-$$d=-1.19368 \cdot 10^{10} \pm 1.38112 \cdot 10^8~V^{-1}$$
+\begin{equation}
+c=2.34123 \cdot 10^8 \pm 2.55246 \cdot 10^6~V^{-1}
+\label{ajustependientevoltaje}
+\end{equation}
+\begin{equation}
+d=-1.19368 \cdot 10^{10} \pm 1.38112 \cdot 10^8~V^{-1}
+\label{ajusteordenadavoltaje}
+\end{equation}
 
 Remarquemos de nuevo la importancia de este resultado, no por el resultado numérico, sino porque es la parte que nos faltaba para poder calcular la compensación de la ganancia.
 
 A demás, a modo de comprobación, podemos obtener el Voltage break down a partir de esta expresión, que se corresponde al voltaje al cual la ganancia es cero (voltage a partir del cual estamos en modo geiger y la ganancia empieza a ser no nula). El voltage calculado es: 
-$$G=0=c \cdot V_{BD} +d \longrightarrow V_{BD}=-\frac{d}{c}=50.9852~V$$
+\begin{equation}
+G=0=c \cdot V_{BD} +d \longrightarrow V_{BD}=-\frac{d}{c}=50.9852~V
+\label{ajustebdv}
+\end{equation}
 
 Vemos que este se acerca de forma extraordinaria al voltaje teórico especificado por hamamatsu, $50.97~V$.
 \end{itemize}

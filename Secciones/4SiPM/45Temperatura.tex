@@ -23,8 +23,14 @@ Podemos observar la existencia de un comportamiento lineal casi perfecto en un r
 En la gráfica encontramos la existencia de un decrecimiento del valor de la ganancia del SiPM a medida que aumenta la temperatura. Esto es debido a que la zona de desertización, que se crea en el SiPM al aplicar un voltaje en inversa y que actura como zona útil de detección de radiación, depende de la temperatura. En concreto, al aumentar la temperatura estamos incrementando la excitación térmica de los portadores de carga pudiendo, de esta forma, invadir esta zona de desertización, reduciéndola su tamaño y, por extensión, la ganancia del SiPM.
 
 La ecuación obtenida en este ajuste $G=aT+b$ toma los siguientes valores: 
-$$a=-1.40308 \cdot 10^7 \pm 2.71545 \cdot 10^5~\frac{1}{Cº}$$
-$$b=1.05001 \cdot 10^9 \pm 7.69711 \cdot 10^6 ~\frac{1}{Cº}$$
+\begin{equation}
+a=-1.40308 \cdot 10^7 \pm 2.71545 \cdot 10^5~\frac{1}{Cº}
+\label{ajustependientetemperatura}
+\end{equation}
+\begin{equation}
+b=1.05001 \cdot 10^9 \pm 7.69711 \cdot 10^6 ~\frac{1}{Cº}
+\label{ajusteordenadatemperatura}
+\end{equation}
 
 
 Esta es un resultado importante, no por el valor numérico, sino porque será la base que utilizaremos para conseguir la compensación de la ganancia.

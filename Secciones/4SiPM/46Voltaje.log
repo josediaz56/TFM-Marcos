@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  31 JUL 2017 17:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  31 JUL 2017 18:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3797,19 +3797,19 @@ Overfull \hbox (5.20486pt too wide) in paragraph at lines 27--28
  []
 
 
-Overfull \hbox (144.31393pt too wide) detected at line 28
+Overfull \hbox (144.31393pt too wide) detected at line 31
 \OML/cmm/m/it/10 c \OT1/cmr/m/n/10 = 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 34123 \
 OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10 2
 \OML/cmm/m/it/10 :\OT1/cmr/m/n/10 55246 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10
-[] []\OML/cmm/m/it/10 V[]
+[] []\OML/cmm/m/it/10 V[][]
  []
 
 
-Overfull \hbox (156.95517pt too wide) detected at line 29
+Overfull \hbox (156.95517pt too wide) detected at line 35
 \OML/cmm/m/it/10 d \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/
 cmm/m/it/10 :\OT1/cmr/m/n/10 19368 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \O
 MS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 38112 \OM
-S/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] []\OML/cmm/m/it/10 V[]
+S/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] []\OML/cmm/m/it/10 V[][]
  []
 
 Missing character: There is no R in font nullfont!
@@ -4187,11 +4187,11 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (203.1063pt too wide) detected at line 34
+Overfull \hbox (203.1063pt too wide) detected at line 43
 \OML/cmm/m/it/10 G \OT1/cmr/m/n/10 = 0 = \OML/cmm/m/it/10 c \OMS/cmsy/m/n/10 ^^
 A \OML/cmm/m/it/10 V[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 d [][]\OMS/cmsy/m/n/1
 0 ! \OML/cmm/m/it/10 V[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@[] \OT1/cmr/m/n/
-10 = 50\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 9852 []\OML/cmm/m/it/10 V
+10 = 50\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 9852 []\OML/cmm/m/it/10 V[]
  []
 
 Missing character: There is no V in font nullfont!
@@ -4279,7 +4279,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (30.8334pt too wide) in paragraph at lines 36--37
+Overfull \hbox (30.8334pt too wide) in paragraph at lines 45--46
 \OT1/cmr/m/n/10 50\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 97 []\OML/cmm/m/it/10 V$ 
  []
 
@@ -4297,5 +4297,5 @@ Here is how much of TeX's memory you used:
  3649 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,5n,12p,1014b,122s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,5n,12p,1014b,124s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
