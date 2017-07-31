@@ -4,13 +4,13 @@
 \contentsline {subsection}{\numberline {2.1}Equipo y montaje experimental}{10}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Calibraci\IeC {\'o}n tarjeta}{13}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}An\IeC {\'a}lisis de datos}{13}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Calibraci\IeC {\'o}n en temperatura}{17}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.4}Calibraci\IeC {\'o}n en temperatura}{18}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Calibraci\IeC {\'o}n en voltaje de operaci\IeC {\'o}n}{19}{subsection.2.5}
 \contentsline {subsection}{\numberline {2.6}Estabilizaci\IeC {\'o}n de la ganancia}{21}{subsection.2.6}
-\contentsline {section}{\numberline {3}Protocolo de manipulaci\IeC {\'o}n de fibras centelleadoras}{24}{section.3}
-\contentsline {section}{\numberline {4}Prototipos}{27}{section.4}
-\contentsline {subsection}{\numberline {4.1}Configuraci\IeC {\'o}n}{27}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Resultados}{27}{subsection.4.2}
-\contentsline {section}{\numberline {5}Simulaciones}{27}{section.5}
-\contentsline {section}{\numberline {6}Conclusiones}{27}{section.6}
-\contentsline {section}{\numberline {7}Agradecimientos}{27}{section.7}
+\contentsline {section}{\numberline {3}Protocolo de manipulaci\IeC {\'o}n de fibras centelleadoras}{25}{section.3}
+\contentsline {section}{\numberline {4}Prototipos}{28}{section.4}
+\contentsline {subsection}{\numberline {4.1}Configuraci\IeC {\'o}n}{28}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Resultados}{28}{subsection.4.2}
+\contentsline {section}{\numberline {5}Simulaciones}{28}{section.5}
+\contentsline {section}{\numberline {6}Conclusiones}{28}{section.6}
+\contentsline {section}{\numberline {7}Agradecimientos}{28}{section.7}

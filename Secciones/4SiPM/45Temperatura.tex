@@ -17,16 +17,15 @@ La incertidumbre en la temperatura viene dada por la oscilación en el valor de 
 \includegraphics[scale=0.4]{Dependenciatemperatura.png}
 \caption{\textbf{Figura 11}.- Ganancia frente a temperatura}
 \end{figure}
+\newpage
+Podemos observar la existencia de un comportamiento lineal casi perfecto en un rango de temperatura de 26 grados. Esta es una propiedad que caracteriza al SiPM, una muy buena linealidad en su comportamiento frente a modificaciones en varias magnitudes. Nuevamente comprobamos la calidad del ajuste a partir del test $\chi^2$ obteniendo un valor de $\frac{\chi^2}{ndf}=\frac{2.937}{12}\approx 0.245$, el cual se trata de un valor relativamente bueno.
 
-Podemos observar la existencia de un comportamiento lineal casi perfecto en un rango de temperatura de 26 grados. Esta es una propiedad que caracteriza al SiPM, una muy buena linealidad en su comportamiento frente a modificaciones en varias magnitudes.
-
-Podemos observar que la existencia de un decrecimiento del valor de la ganancia del SiPM a medida que aumenta la temperatura. Esto es debido a que la zona de desertización, que se crea en el SiPM al aplicar un voltaje en inversa y que actura como zona útil de detección de radiación, depende de la temperatura. En concreto, al aumentar la temperatura estamos incrementando la excitación térmica de los portadores de carga pudiendo, de esta forma, invadir esta zona de desertización, reduciéndola su tamaño y, por extensión, la ganancia del SiPM.
+En la gráfica encontramos la existencia de un decrecimiento del valor de la ganancia del SiPM a medida que aumenta la temperatura. Esto es debido a que la zona de desertización, que se crea en el SiPM al aplicar un voltaje en inversa y que actura como zona útil de detección de radiación, depende de la temperatura. En concreto, al aumentar la temperatura estamos incrementando la excitación térmica de los portadores de carga pudiendo, de esta forma, invadir esta zona de desertización, reduciéndola su tamaño y, por extensión, la ganancia del SiPM.
 
 La ecuación obtenida en este ajuste $G=aT+b$ toma los siguientes valores: 
-\begin{itemize}
-\item{} $a=-1.40308 \cdot 10^7 \pm 2.71545 \cdot 10^5$ $T^{-1}$
-\item{} $b=1.05001 \cdot 10^9 \pm 7.69711 \cdot 10^6$ $T^{-1}$
-\end{itemize}
+$$a=-1.40308 \cdot 10^7 \pm 2.71545 \cdot 10^5~\frac{1}{Cº}$$
+$$b=1.05001 \cdot 10^9 \pm 7.69711 \cdot 10^6 ~\frac{1}{Cº}$$
+
 
 Esta es un resultado importante, no por el valor numérico, sino porque será la base que utilizaremos para conseguir la compensación de la ganancia.
 \end{itemize}

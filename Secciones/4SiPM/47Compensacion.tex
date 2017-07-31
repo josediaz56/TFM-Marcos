@@ -4,22 +4,16 @@ Como ya se ha explicado la importancia de este estudio de compensación es poder
 
 Las expresiones que se han obtenido con las dos calibraciones anteriores son:
 $$G(V_{op})=cV_{op}+d; \qquad G(T)=aT+b$$
-
 Esto implica que una variación de la ganancia en cada una de estas magnitudes viene reflejado como:
 $$\partial G(V_{op}) = c \partial V_{op}; \qquad \partial G(T) = a \partial T$$
-
 Finalmente, la variación total de la ganancia ante una variación de ambas magnitudes viene dado por:
 $$\partial G_{tot} = \partial G(V_{op}) + \partial G(T)$$
-
 Por tanto, si queremos que el valor de la ganancia se conserve ante una variación de ambas magnitudes tendremos que conseguir que: 
 $$\partial G_{tot} = 0 =  \partial G(V_{op}) + \partial G(T) \longrightarrow \partial G(V_{op}) = -\partial G(T)  $$
-
 En otras palabras, lo que tenemos que conseguir es producir la misma variación a la ganancia con la modificación del voltaje que la que se ha producido al variar la temperatura. Para determinar esta variarión únicamente sustituimos las expresiones anteriormente obtenidas para cada diferencial de la ganancia:
 $$\partial G(V_{op}) = - \partial G(T)  \longrightarrow c \partial V_{op}= - a \partial T \longrightarrow  \partial V_{op}= - \frac{a}{c} \partial T$$
-
 Finalmente consideramos que a y c las consideramos constantes en voltaje y temperatura, ya que, estas varian muy poco por lo que, en primera aproximación, es aceptable. Con ello integramos a cada lado y obtenemos:
 $$\int_{V_i}^{V_f} \partial V_{op}= - \frac{a}{c} \int_{T_i}^{T_f}\partial T = - \frac{a}{c} \Delta T \longrightarrow \Delta V_{op}= e \Delta T$$
-
 Donde se ha introducido un nuevo parámetro: $e=-\frac{a}{c}$ cuyo valor es:
 $$c=2.34123 \cdot 10^8 \pm 2.55246 \cdot 10^6 \quad V^{-1}$$
 $$a=-1.40308 \cdot 10^7 \pm 2.71545 \cdot 10^5 \quad \frac{1}{Cº}$$
@@ -32,7 +26,6 @@ También apreciamos que obtenemos un valor dos ordenes de magnitud inferior a la
 
 En resumen la ecuación que nos dicta cual es la variación que debemos aplicar al voltaje para mantener un valor de ganancia constante (compensar la ganancia) ante una variación de la temperatura conocida (que puede ser medida con un sensor de temperatura) es:
 $$\Delta V_{op}=0.059929 \cdot \Delta T$$
-
 Finalmente tomamos como referencia el caso anteriormente mostrado en la sección de análisis de datos correspondiente a temperatura 25 grados, Humedad del 45\% y voltaje operacional de 53.97 V = $V_{BD}+ 3$ V, cuya ganancia habíamos visto que era $7.18235 \cdot 10^8$ y procedemos a realizar una verificación midiendo los casos de 21, 23, 25, 27 y 29 grados. En cada uno de ellos se corregirá el voltaje de alimentación de forma adecuada para mantener el mismo valor de la ganancia. El valor de la ganancia para cada caso se ve reflejado en la figura trece. 
 
 \begin{figure}[hbtp]
@@ -41,7 +34,7 @@ Finalmente tomamos como referencia el caso anteriormente mostrado en la sección
 \caption{\textbf{Figura 13}.- Verificación del método de compensación}
 \end{figure}
 
-Donde la raya roja corresponde al ajuste a una constante. Su valor, correspondiente al valor de la ganancia es $G=7.14203 \cdot 10^8 \pm 4.97472 \cdot 10^6$
+Donde la raya roja corresponde al ajuste a una constante. Su valor, correspondiente al valor de la ganancia es $G=7.14203 \cdot 10^8 \pm 4.97472 \cdot 10^6$. Comprobamos una última vez la calidad del ajuste a partir del test $\chi^2$ obteniendo un valor de $\frac{\chi^2}{ndf}=\frac{0.318}{4}\approx 0.0795$, valor lijeramente bajo. Este, probablemente, puede ser debido a una sobreestimación de los errores (algo que ya puede apreciarse en la imágen).
 
 Podemos ver que el método funciona de manera muy eficaz ya que la ganancia presenta variaciones muy pequeñas de aproximadamente $\Delta G=5 \cdot 10^6$, que corresponde a una variación relativa del $2.801 \cdot 10^{-3} $. Vemos que es un método realmente eficaz.
 
