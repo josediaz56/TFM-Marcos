@@ -5,16 +5,33 @@ En concreto, uno de los elementos radiactivos más abundantes generados en estos
 Para que podamos entender la facilidad con la que este se produce el tritio hay que tener en cuenta que este es el tercer isótopo de hidrógeno formado por un protón y dos neutrones. Por un lado, el hidrógeno es uno de los elementos más abundantes de la tierra y, por otro lado, en cualquier lugar de los anteriormente mencionados, se necesita elevar la temperatura para conseguir que, las reacciones en las que se basa su funcionamiento, puedan ocurrir (para abrir el canal de dicha reacción o aumentar la probabilidad de producirse). Como resultado de ello se producen con bastante asiduidad neutrones con energía suficiente para considerase cuasilibres. 
 
 Podemos entender entonces que. en estos lugares y en estas condiciones, dada la alta tasa de hidrógeno y neutrones, existe una posibilidad relativamente alta de que aparezca tritio o de que existan diversos elementos que puedan dar lugar a la creación de tritio. Algunos de los principales canales de creación de tritio son la captura neutronica del $\ce{^6Li}$, $\ce{^7Li}$, $\ce{H}$, etc. las cuales se muestran a continuación:
-$$\ce{^{6}Li} + n \rightarrow \ce{T} + \ce{^{4}He}$$
-$$\ce{^{7}Li} + n \rightarrow  \ce{T} + \ce{^{4}He} + n$$
-$$\ce{^{1}H} + 2n \rightarrow  \ce{T}  $$
+\begin{equation}
+\ce{^{6}Li} + n \rightarrow \ce{T} + \ce{^{4}He}
+\label{capneuLi6}
+\end{equation}
+\begin{equation}
+\ce{^{7}Li} + n \rightarrow  \ce{T} + \ce{^{4}He} + n
+\label{capneuLi7}
+\end{equation}
+\begin{equation}
+\ce{^{1}H} + 2n \rightarrow  \ce{T}  
+\label{capneuH}
+\end{equation}
+%$\eqref{capneuLi6}$ para referenciar ecuaciones
+
 Según nuestro planteamiento también será más facil todavía que se produzca deuterio, segundo isótopo del hidrógeno (compuesto por un protón y un neutrón). Esto es verdad pero ello no nos importa para nuestro objetivo debido a que el deuterio no es un isótopo radiactivo.
 
 Como hemos dicho, el tritio es el tercer isótopo del hidrógeno compuesto por un proton y dos neutrones. Se trata de un elemento radiactivo con un periodo de semidesintegración de $12.32$ años, en concreto, un emisor $\beta^-$ de baja energía que emite electrones según la siguiente reacción:
-$$T \rightarrow \ce{^{3}He} + e^- + \overline{\nu}_e$$
+\begin{equation}
+T \rightarrow \ce{^{3}He} + e^- + \overline{\nu}_e
+\label{desintegraciontritio}
+\end{equation}
 Donde lo que ha ocurrido es que uno de los neutrones que conforman el tritio se ha desintegrado (a partir de una interacción débil) de acuerdo a una desintegración $\beta^-$ en un protón, un electrón y un antineutrino electrónico:
-$$n \rightarrow p + e^- + \overline{\nu}_e \qquad \rightarrow \qquad (pnn)_T\rightarrow (ppn)_{^3He} + e^- + \overline{\nu}_e $$
-La existencia de este antineutrino electrónico es impuesta por la conservación del numero leptónico, en concreto el número leptónico de la familia del electrón ($L_e$). En la práctica no tenemos la posibilidad de detectar esta partícula ya que interacciona muy débilmente con la materia ($\sigma \propto 10^{-42} \quad cm^2$) y por tanto con el material que conforma nuestro detector (en concreto fibras centelleadores BCF-12). Es decir, esta partícula escapa sin interaccionar con el detector y en su lugar solo detectamos su ausencia, es decir, la no conservación de ciertas cantidades físicas como energía, momento, número leptónicos, etc. en la totalidad de las partículas detectadas.
+\begin{equation}
+n \rightarrow p + e^- + \overline{\nu}_e \qquad \rightarrow \qquad (pnn)_T\rightarrow (ppn)_{^3He} + e^- + \overline{\nu}_e 
+\label{desintegracionbeta}
+\end{equation}
+La existencia de este antineutrino electrónico es impuesta por la conservación del numero leptónico, en concreto el número leptónico de la familia del electrón ($L_e$). En la práctica no tenemos la posibilidad de detectar esta partícula ya que interacciona muy débilmente con la materia ($\sigma \propto 10^{-42}~\cm^2$) y por tanto con el material que conforma nuestro detector (en concreto fibras centelleadores BCF-12). Es decir, esta partícula escapa sin interaccionar con el detector y en su lugar solo detectamos su ausencia, es decir, la no conservación de ciertas cantidades físicas como energía, momento, número leptónicos, etc. en la totalidad de las partículas detectadas.
 
 Por tanto solo tenemos la posibilidad de detectar el isotopo $\ce{^3He}$ , isótopo estable, y el electrón. Hay que tener en cuenta que, aunque el isótopo hijo de la reacción de desintegración del tritio, $\ce{^3He}$ , sea estable (presenta una vida media infinita, es decir, no se desintegra) realmente este se encontrará en un estado no estacionario, es decir, no se encuentra en un autoestado de su hamiltoniano, sino en un estado que puede expresarse como una la suma de autoestados del hamiltoniano. Como consecuencia, tras la desintegración $\beta^-$ del tritio tendremos una posterior desexcitación del $\ce{^3He}$ que producirá fotones con varias energías bien definidas, fotones que podremos observar en nuestro detector. En resumen obtendremos un espectro de desintegración del tritio junto a un espectro típico de rayos X, espectro idealmente discreto pero experimentalmente gaussiano debido a incertidumbre de los aparatos de medida.
 
@@ -26,7 +43,7 @@ Dado que el $\ce{^3He}$  presenta una masa muy superior a la de los electrones, 
 \caption{\textbf{Figura 1}.-Espectro energético de los electrones de la desintegración del tritio}
 \end{figure}
 
-Como era de esperar, este presenta la forma típica de un espectro energético de una desintegración $\beta$. Podemos observar que estos poseen una energía máxima de $18.6~\keV$, una energía promedio de $5.7~\keV$ y una moda (valor más probable) lígeramente inferior a la energía promedio, entorno a $4.5~\keV$. Con estos valores de energía podemos apreciar que la energía de radiación del tritio es la más pequeña observada hasta el momento en los isótopos. Como consecuencia el electrón presentará un recorrido libre medio muy corto, del orden de $3-5~\mm$ en el aire y de $5-6\mu m$ en la fibra centelleadora.
+Como era de esperar, este presenta la forma típica de un espectro energético de una desintegración $\beta$. Podemos observar que estos poseen una energía máxima de $18.6~\keV$, una energía promedio de $5.7~\keV$ y una moda (valor más probable) lígeramente inferior a la energía promedio, entorno a $4.5~\keV$. Con estos valores de energía podemos apreciar que la energía de radiación del tritio es la más pequeña observada hasta el momento en los isótopos. Como consecuencia el electrón presentará un recorrido libre medio muy corto, del orden de $3-5~\mm$ en el aire y de $5-6~\mu m$ en la fibra centelleadora.
 
 El problema actual reside en que los mecanismos de detección y monitorización de tritio utilizados en la actualidad, en concreto en centrales nucleares, que será el objetivo final del detector que pretendemos desarrollar en el grupo experimental internacional denominado \textit{Tritium}, son métodos lentos o con un alto umbral de detección. 
 
@@ -57,7 +74,7 @@ También se realizarán una serie de simulaciones del experimento previas al des
 El grupo experimental \textit{Tritium} es un grupo internacional compuesto por tres paises: Portugal, Francia y España; En concreto intervienen las universidades de...  El proyecto que planteamos en este grupo es demasiado extenso para una trabajo de fín de master ya que se necesitan años para conseguir resultados concluyentes y, como ya se ha mencionado anteriormente, será la base de mi futura tésis. En este trabajo de fin de máser únicamente nos centraremos en los primeros pasos de este gran proyecto, el cual ha empezado recientemente y, afortunadamente, me ha permitido estar en este desde el inicio.
 
 Dividiremos este trabajo en cinco partes:
-\begin{itemize}
+\begin{enumerate}
 \item{} En primer lugar realizaremos una calibración de los SiPM, paso fundamental antes de poder obtener cualquier medida del experimento. La finalidad de este paso es poder catalogar la magnitud de la medida del sistema que estamos obteniendo con este instrumento, algo fundamental en física. No se necesita realizar una calibración de los PMT, paso igualmente importante al anterior, ya que esta fue realizada recientemente. 
 \newline
 En último lugar se realizara una comparación de estas dos posibles configuraciónes para ver cual es la más adecuada y que, por tanto, presentará el diseño final del detector.
@@ -69,6 +86,6 @@ En último lugar se realizara una comparación de estas dos posibles configuraci
 \item{} En cuarto lugar se presentarán las simulaciones realizadas con el programa de Geant4, programa desarrollado por el cern capaz de realizar simulaciones muy detalladas de experimentos, principalmente de física de partículas. En este punto se presentaran las simulaciones realizadas tanto para los prototipos como para posibles diseños finales. Esto nos permitirá ver que posibles mejoras podemos incluir a nuestro experimento y en que puntos difieren los resultados obtenidos con las simulaciones con los resultados obtenidos en los distintos experimentos de los prototipo.
 
 \item{} Se presentará un último punto donde se expondrán las conclusiones alcanzadas durante la completitud del trabajo y se comentaran posibles partes del experimento que queden inconclusas o inacabadas o puntos interesantes y que serán propuestos a futuros estudios que habrá que realizar durante la tésis.
-\end{itemize}
+\end{enumerate}
 
 \newpage

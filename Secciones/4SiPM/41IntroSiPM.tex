@@ -16,7 +16,7 @@ Cuando trabajemos con detectores de estado sólido debemos trabajar en condicion
 
 En esta sección nos proponemos desarrollar un método de compensación para las variaciones de la ganancia de un fotomultiplicador de silicio derivadas de la temperatura a partir de variaciones derivadas del voltaje de alimentación del SiPM (voltaje de desertización), de ahora en adelante llamado voltaje operacional. 
 
-En concreto utilizaremos el modelo S13360-1375CS de hamamatsu, ya que será el modelo que utilizaremos en el prototipo del experimento. Se ha elegido este modelo ya que presenta una eficiencia de fotodetección máxima entorno a los 450 nm, que corresponde aproximadamente a la longitud de onda del azul, 435 nm y, en concreto, se asemeja bastante con el máximo de la energía reemitida por las fibras centelleadoras BCF-12, 435 nm, encargadas de detectar la radiación $\beta$ del agua tritiada en nuestro experimento como puede apreciarse en la siguiente figura. Con esto conseguiremos que la señal sea tan grande como sea posible, algo fundamental ya que, como ya se ha mencionado, una de las principales dificultados del experimento es que estamos intentando extraer una señal muy pequeña.
+En concreto utilizaremos el modelo S13360-1375CS de hamamatsu, ya que será el modelo que utilizaremos en el prototipo del experimento. Se ha elegido este modelo ya que presenta una eficiencia de fotodetección máxima entorno a los $450~\nm$, que corresponde aproximadamente a la longitud de onda del azul, $435~\nm$ y, en concreto, se asemeja bastante con el máximo de la energía reemitida por las fibras centelleadoras BCF-12, $435~\nm$, encargadas de detectar la radiación $\beta$ del agua tritiada en nuestro experimento como puede apreciarse en la siguiente figura. Con esto conseguiremos que la señal sea tan grande como sea posible, algo fundamental ya que, como ya se ha mencionado, una de las principales dificultados del experimento es que estamos intentando extraer una señal muy pequeña.
 
 \begin{figure}[htb]
 \centering
@@ -32,13 +32,13 @@ En concreto utilizaremos el modelo S13360-1375CS de hamamatsu, ya que será el m
 \end{figure}
 
 La forma de abordar este método de compensación de la ganancia ha sido el siguiente:
-\begin{itemize}
+\begin{enumerate}
 \item {} 
-Por un lado se ha realizado una calibración de la ganancia frente a la temperatura obteniendo su relación de dependencia. Para ello se ha necesitado la utilización de un sistema de control de temperatura. En concreto se ha utilizado un sistema de la marca DYCOMETAL, (modelo CCM 81) que permite controlar temperatura y humedad relativa con una precisión de 0.1 grados y  0.5\% respectivamente.
+Por un lado se ha realizado una calibración de la ganancia frente a la temperatura obteniendo su relación de dependencia. Para ello se ha necesitado la utilización de un sistema de control de temperatura. En concreto se ha utilizado un sistema de la marca DYCOMETAL, (modelo CCM 81) que permite controlar temperatura y humedad relativa con una precisión de $0.1$ grados  y  $0.5$\% respectivamente.
 
 \item {} Por otro lado se ha realizado una calibración de la ganancia frente al voltaje operacional obteniendo su relación de dependencia. Para obtener este voltaje operacional se ha utilizado un electrómetro de la marca KEITHLEY, en concreto el modelo 6517B, el cual presenta una resolución inferior al mV, más que suficiente para considerar este totalmente constante ya que se necesitan mayores modificaciones para que estas sean apreciables en la ganancia.
 
 \item {} Finalmente, a partir de estas dos dependencias determiandas, se ha obtenido la ecuación de dependencia entre voltaje operacional y temperatura que nos determine una ganancia constante  y se ha realizado un test de comprobación para esta relación.
-\end{itemize}
+\end{enumerate}
 
 El objetivo final de este estudio será mantener la ganancia del fotomultiplicador de silicio constante ante variaciones involuntarias de la temperatura a partir de variaciones voluntarias con el voltaje operacional. Esta es una correción fundamental para el objetivo final del detector ya que de lo contrario (no) obtendríamos alertas de fugas de tritio cuando estas no (si) han ocurrido, cuando, en realidad, lo único que ha ocurrido ha sido una modificación de temperatura.
