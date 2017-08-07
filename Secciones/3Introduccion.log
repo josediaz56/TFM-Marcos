@@ -1,4 +1,18 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  2 AUG 2017 12:35
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.1)  28 JUL 2017 23:45
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**3Introduccion.tex
+(./3Introduccion.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  31 JUL 2017 18:35
+>>>>>>> 95f604197aae845a79064249e3bc1510b5e8b9b9
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,6 +20,7 @@ entering extended mode
 (./3Introduccion.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+>>>>>>> refs/remotes/origin/master
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -16,6 +31,14 @@ Type  H <return>  for immediate help.
 l.1 H
      oy en día existe un problema que concierne  las  centrales nucleares d...
 
+<<<<<<< HEAD
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.1 H
+     oy en día existe un problema que concierne  las  centrales nucleares d...
+=======
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5284,10 +5307,22 @@ Type  H <return>  for immediate help.
                                                   
 l.48 E
       l problema actual reside en que los mecanismos de detección y monitor...
+>>>>>>> refs/remotes/origin/master
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+<<<<<<< HEAD
+ 
+Here is how much of TeX's memory you used:
+ 6 strings out of 493013
+ 284 string characters out of 6133344
+ 53632 words of memory out of 5000000
+ 3649 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 5i,0n,4p,544b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+=======
 Missing character: There is no E in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -15048,5 +15083,10 @@ Here is how much of TeX's memory you used:
  3653 multiletter control sequences out of 15000+600000
  4294 words of font info for 16 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
+<<<<<<< HEAD
  18i,3n,12p,1090b,81s stack positions out of 5000i,500n,10000p,200000b,80000s
+=======
+ 18i,4n,12p,1087b,111s stack positions out of 5000i,500n,10000p,200000b,80000s
+>>>>>>> refs/remotes/origin/master
+>>>>>>> 95f604197aae845a79064249e3bc1510b5e8b9b9
 !  ==> Fatal error occurred, no output PDF file produced!
