@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  7 AUG 2017 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  8 AUG 2017 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -742,7 +742,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.8 \caption
-            {\textbf{Figura 22}.- Esquema Electrico}
+            {\textbf{Figura 22}.- Esquema Electrico~\cite{Andres}}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -764,6 +764,23 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Andres}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.8 ...igura 22}.- Esquema Electrico~\cite{Andres}
+                                                  }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Andres' on page  undefined on input line 8.
+
+Missing character: There is no ] in font nullfont!
 
 ! LaTeX Error: \begin{document} ended by \end{figure}.
 
@@ -790,6 +807,11 @@ Overfull \hbox (32.89565pt too wide) in paragraph at lines 5--10
 
 Overfull \hbox (11.49994pt too wide) in paragraph at lines 5--10
 \OT1/cmr/bx/n/10 22
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 5--10
+[]
  []
 
 
@@ -4713,11 +4735,11 @@ Missing character: There is no . in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 14 strings out of 493029
- 294 string characters out of 6136234
+ 15 strings out of 493029
+ 302 string characters out of 6136234
  57072 words of memory out of 5000000
- 3649 multiletter control sequences out of 15000+600000
+ 3650 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,2n,12p,613b,124s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 20i,2n,26p,613b,124s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

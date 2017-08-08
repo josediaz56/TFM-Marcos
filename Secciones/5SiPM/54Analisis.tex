@@ -2,9 +2,9 @@ En resumen, en nuestra prueba de calibración de los SiPM tenemos una caja que a
 
 En su interior tendremos un diodo LED que emite fotones a $\lambda=435~\nm$, un SiPM, el cual emitirá un pulso de intensidad cada vez que detecte uno o más de estos fotones con cada uno de sus pixels y una tarjeta que convertirá este pulso de intensidad en un pulso de voltaje. Finalmente llevamos este pulso de voltaje a un osciloscopio (marca TELEDYNE LECROY, modelo WwaveRunner 625Zi) para poder ser analizado. 
 
-Una vez en el osciloscopio, la señal que recibíamos cuando se encendía el diodo LED será similar a la de la señal superior de la figura trece (amarilla), el la cual se a activado el modo persistencia del osciloscopio con el objetivo de comparar señales de distintas alturas. Estas señales corresponden a distinto número de pixels activados en cada instante de tiempo ya que, como hemos dicho anteriormente, la señal de salida del sistema es la suma de las señales de cada pixel que se ha activado. Esta se encuentra superpuesta a la señal de sincronización del generador de señales (verde) que nos muestra cuando se ha encendido el diodo LED y que, por tanto, actua como trigger.
+Una vez en el osciloscopio, la señal que recibíamos cuando se encendía el diodo LED será similar a la de la señal superior de la figura trece (amarilla)~\cite{inftec}, el la cual se a activado el modo persistencia del osciloscopio con el objetivo de comparar señales de distintas alturas. Estas señales corresponden a distinto número de pixels activados en cada instante de tiempo ya que, como hemos dicho anteriormente, la señal de salida del sistema es la suma de las señales de cada pixel que se ha activado. Esta se encuentra superpuesta a la señal de sincronización del generador de señales (verde) que nos muestra cuando se ha encendido el diodo LED y que, por tanto, actua como trigger.
 
-El objetivo ahora es calcular la ganancia del sistema. Dado que únicamente existen dos ganancias en el sistema (SiPM y tarjeta) y hemos medido la ganancia de la tarjeta en la sección anterior, determinando la ganancia total podremos determinar la ganancia del SiPM. 
+El objetivo ahora es calcular la ganancia del sistema. Dado que únicamente existen dos ganancias en el sistema (SiPM y tarjeta) y hemos medido la ganancia de la tarjeta en la sección anterior, determinando la ganancia total podremos determinar de forma aproximada la ganancia del SiPM. 
 
 \begin{equation}
 G_{tot}=G_{SiPM} \cdotp G_{card} \longrightarrow G_{SiPM} = \frac{G_{tot}}{G_{card}}
@@ -52,14 +52,14 @@ Ahora únicamente desarrollamos una macro en ROOT (programa de análisis de dato
 \item {} Finalmente la macro los ordena según su posición en el espectro y calcula la ganancia por dos caminos:
 	\begin{enumerate}
 
-	\item {} Por un lado se ha calculado la distancia promedio entre sucesivas gaussianas del espectro.
+	\item {} Por un lado se ha calculado la distancia promedio entre sucesivas gaussianas del espectro~\cite{Hueso}.
 	\begin{equation} 
 	Q = G N_\gamma + Q_0 \longrightarrow \Delta Q= Q_{N_\gamma} - Q_{N_\gamma -1}=G N_\gamma+ Q_0 - G(N_		\gamma -1) - Q_0 = G
 	\label{gananciametodo1}
 	\end{equation}
 	Podemos observar que este cálculo corresponde a la ganancia. Hay que tener en cuenta que se han empleados factores de conversión para convertir la posición del pico (inicialmente en unidades de	tensión, V) en unidades de carga (coulomb). En concreto se ha utilizado el factor $\frac{1}{eR}$, donde R es la resistencia del osciloscopio, 50 $\Omega$ y e es la carga del electrón.
 	
-	\item {} Por otro lado se ha ajustado a una recta las posiciones horizontales de estas gaussianas en el 	espectro frente a el número de pixels. Esto nos da la siguiente ecuación:
+	\item {} Por otro lado se ha ajustado a una recta las posiciones horizontales de estas gaussianas en el 	espectro frente a el número de pixels. Esto nos da la siguiente ecuación~\cite{Hueso}:
 	\begin{equation}
 	Centro\_pico(V) = GeRN_\gamma + k_0
 	\label{gananciametodo2}

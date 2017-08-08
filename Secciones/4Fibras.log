@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  7 AUG 2017 18:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  8 AUG 2017 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1952,31 +1952,6 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no z in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no . in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -2293,18 +2268,6 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no . in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no U in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -2780,15 +2743,16 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no . in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no % in font nullfont!
 Missing character: There is no [ in font nullfont!
 \citation{datasheet}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.24 ...detecci처n te처rica de...~\cite{datasheet}
+l.24 ...cci처n te처rica de 3.4\% ~\cite{datasheet}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3134,12 +3098,29 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no [ in font nullfont!
+\citation{Alberto}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.28 ... y construyo una guillotina~\cite{Alberto}
+                                                  ~\cite{anguloytiempo}~\cit...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Alberto' on page  undefined on input line 28.
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no [ in font nullfont!
 \citation{anguloytiempo}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.28 ...struyo una guillotina~\cite{anguloytiempo}
-                                                  ~\cite{dependencias} ~\cit...
+l.28 ...lotina~\cite{Alberto}~\cite{anguloytiempo}
+                                                  ~\cite{dependencias}~\cite...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3155,8 +3136,8 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.28 ...a~\cite{anguloytiempo}~\cite{dependencias}
-                                                   ~\cite{tesisfibras} (refe...
+l.28 ...}~\cite{anguloytiempo}~\cite{dependencias}
+                                                  ~\cite{tesisfibras} adecua...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3172,8 +3153,8 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.28 ...o}~\cite{dependencias} ~\cite{tesisfibras}
-                                                   (referencia alberto) adec...
+l.28 ...po}~\cite{dependencias}~\cite{tesisfibras}
+                                                   adecuada la cual puede ve...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3184,25 +3165,6 @@ and I'll forget about whatever was undefined.
 LaTeX Warning: Citation `tesisfibras' on page  undefined on input line 28.
 
 Missing character: There is no ] in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no ) in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -3257,13 +3219,8 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 28--29
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 28--29
-[] []
- []
-
-
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 28--29
-[]
+Overfull \hbox (21.7221pt too wide) in paragraph at lines 28--29
+[] [] [] []
  []
 
 
@@ -4252,11 +4209,28 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no [ in font nullfont!
+\citation{Alberto}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.47 ...lla una lijera inclinaci처n~\cite{Alberto}
+                                                  ~\cite{anguloytiempo}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Alberto' on page  undefined on input line 47.
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no [ in font nullfont!
 \citation{anguloytiempo}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.47 ...a lijera inclinaci처n~\cite{anguloytiempo}
+l.47 ...aci처n~\cite{Alberto}~\cite{anguloytiempo}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4275,8 +4249,8 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 47--48
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 47--48
-[] 
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 47--48
+[] [] 
  []
 
 
@@ -4829,11 +4803,28 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no [ in font nullfont!
+\citation{Alberto}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.49 ...bado 처pticamente aceptable~\cite{Alberto}
+                                                  ~\cite{manual}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Alberto' on page  undefined on input line 49.
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no [ in font nullfont!
 \citation{manual}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.49 ...abado 처pticamente aceptable~\cite{manual}
+l.49 ...nte aceptable~\cite{Alberto}~\cite{manual}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4852,8 +4843,8 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 49--50
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 49--50
-[] 
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 49--50
+[] [] 
  []
 
 
@@ -6866,11 +6857,11 @@ Missing character: There is no . in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 19 strings out of 493029
- 280 string characters out of 6136234
+ 20 strings out of 493029
+ 289 string characters out of 6136234
  55072 words of memory out of 5000000
- 3654 multiletter control sequences out of 15000+600000
+ 3655 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,2n,21p,693b,91s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,2n,21p,708b,91s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

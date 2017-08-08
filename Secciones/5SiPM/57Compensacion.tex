@@ -53,10 +53,15 @@ También apreciamos que obtenemos un valor dos ordenes de magnitud inferior a la
 
 En resumen la ecuación que nos dicta cual es la variación que debemos aplicar al voltaje para mantener un valor de ganancia constante (compensar la ganancia) ante una variación de la temperatura conocida (que puede ser medida con un sensor de temperatura) es:
 \begin{equation}
-\Delta V_{op}=0.059929 \cdot \Delta T
+\Delta V_{op}=0.059929 \cdot \Delta T \longrightarrow V_1-V_{ref}=0.059929(T_1-T_{ref})
 \label{compensacionfinal}
 \end{equation}
-Finalmente tomamos como referencia el caso anteriormente mostrado en la sección de análisis de datos correspondiente a temperatura 25 grados, Humedad del 45\% y voltaje operacional de 53.97 V = $V_{BD}+ 3$ V, cuya ganancia habíamos visto que era $7.18235 \cdot 10^8$ y procedemos a realizar una verificación midiendo los casos de 21, 23, 25, 27 y 29 grados. En cada uno de ellos se corregirá el voltaje de alimentación de forma adecuada para mantener el mismo valor de la ganancia. El valor de la ganancia para cada caso se ve reflejado en la figura diecinueve. 
+Donde $V_1$ será el voltaje con el que habrá que alimentar al SiPM a una temperatura ambiental de $T_1$ para mantener la ganancia constante. Para realizar este cálculo se necesita tomar un valor de voltaje operacional y temperatura como referencía, cuya ganancia será la que mantendremos. Para estos valores de referencia elegiremos el caso anteriormente mostrado en la sección de análisis de datos correspondiente a temperatura 25 grados, humedad del 45\% y voltaje operacional de 53.97 V = $V_{BD}+ 3$ V, cuya ganancia habíamos visto que correspondía a $7.18235 \cdot 10^8$. Por tanto, el valor de voltaje operacional $V_1$ con el que habrá que alimentar al SiPM, el cual se encuentra a una temperatura $T_1$, para mantener una ganancia de $7.18235 \cdot 10^8$ es:
+\begin{equation}
+V_1=0.059929T_1+52.47
+\label{compensacionfinal}
+\end{equation}
+Ahora procedemos a realizar una verificación midiendo los casos de 21, 23, 25, 27 y 29 grados. En cada uno de ellos se corregirá el voltaje de alimentación de forma adecuada para mantener el mismo valor de la ganancia. El valor de la ganancia para cada caso se ve reflejado en la figura diecinueve. 
 
 \begin{figure}[hbtp]
 \centering
@@ -66,6 +71,7 @@ Finalmente tomamos como referencia el caso anteriormente mostrado en la sección
 
 Donde la raya roja corresponde al ajuste a una constante. Su valor, correspondiente al valor de la ganancia es $G=7.14203 \cdot 10^8 \pm 4.97472 \cdot 10^6$. Comprobamos una última vez la calidad del ajuste a partir del test $\chi^2$ obteniendo un valor de $\frac{\chi^2}{ndf}=\frac{0.318}{4}\approx 0.0795$, valor lijeramente bajo. Este, probablemente, puede ser debido a una sobreestimación de los errores (algo que ya puede apreciarse en la imágen).
 
-Podemos ver que el método funciona de manera muy eficaz ya que la ganancia presenta variaciones muy pequeñas de aproximadamente $\Delta G=5 \cdot 10^6$, que corresponde a una variación relativa del $2.801 \cdot 10^{-3} $. Vemos que es un método realmente eficaz.
+Podemos ver que el método funciona de manera muy eficaz ya que la ganancia presenta variaciones muy pequeñas de aproximadamente $\Delta G=5 \cdot 10^6$, que corresponde a una variación relativa de $\sigma_{rel}=2.801 \cdot 10^{-3} $. Hemos comprobado por tanto que se trata de un método realmente eficaz.
 
 La máxima variación se observo a 23 grados. Esta es debido a que fue una medida realizada muchas horas despues de tomarse las otras y existen factores externos que no podemos controlar y afectan al sistema. En este tiempo más largo transcurrido es más probable que hayan cambiado estos factores. Sin embargo puede observarse en todo momento que la variación de la ganancia es mínima verificando en gran medida la ecuación anteriormente obtenida.
+
