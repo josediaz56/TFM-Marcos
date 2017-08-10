@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  8 AUG 2017 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  10 AUG 2017 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3631,7 +3631,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 \caption
+l.32 \caption
              {\textbf{Figura 8}.-PDE del SiPM~\cite{datasheet SiPM} y espect...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -3654,7 +3654,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.31 ...ura 8}.-PDE del SiPM~\cite{datasheet SiPM}
+l.32 ...ura 8}.-PDE del SiPM~\cite{datasheet SiPM}
                                                    y espectro de emisión de...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3663,7 +3663,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `datasheet SiPM' on page  undefined on input line 31.
+LaTeX Warning: Citation `datasheet SiPM' on page  undefined on input line 32.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no y in font nullfont!
@@ -3701,7 +3701,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.31 ...de emisión de las fibras~\cite{datasheet}
+l.32 ...de emisión de las fibras~\cite{datasheet}
                                                    respectivamente}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3710,7 +3710,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `datasheet' on page  undefined on input line 31.
+LaTeX Warning: Citation `datasheet' on page  undefined on input line 32.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -3735,34 +3735,34 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \end{figure}
+l.33 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 21--33
+Overfull \hbox (20.0pt too wide) in paragraph at lines 21--34
 []
  []
 
 
-Overfull \hbox (32.89565pt too wide) in paragraph at lines 21--33
+Overfull \hbox (32.89565pt too wide) in paragraph at lines 21--34
 \OT1/cmr/bx/n/10 Figura
  []
 
 
-Overfull \hbox (5.74997pt too wide) in paragraph at lines 21--33
+Overfull \hbox (5.74997pt too wide) in paragraph at lines 21--34
 \OT1/cmr/bx/n/10 8
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 21--33
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 21--34
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 21--33
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 21--34
 []
  []
 
@@ -3773,7 +3773,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 L
+l.35 L
       a forma de abordar este método de compensación de la ganancia ha sid...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -3852,7 +3852,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 34--35
+Overfull \hbox (20.0pt too wide) in paragraph at lines 35--36
 []
  []
 
@@ -4183,12 +4183,12 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 37--38
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 38--39
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1$
  []
 
 
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 37--38
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 38--39
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5$
  []
 

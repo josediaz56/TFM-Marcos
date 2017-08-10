@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  8 AUG 2017 12:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  10 AUG 2017 12:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4051,7 +4051,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.27 \includegraphics
-                     [scale=0.4]{Tapones.png}
+                     [scale=0.4]{Tapones.png}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4081,14 +4081,31 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
+Overfull \hbox (20.0pt too wide) in paragraph at lines 25--27
+ [] 
+ []
+
+
 ! LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \caption
+l.29 \caption
              {\textbf{Figura 21}.- Piezas de sujeción de los PMTs}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \caption{\textbf{Figura 21}
+                                .- Piezas de sujeción de los PMTs}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4127,24 +4144,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 \end{figure}
+l.30 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 25--30
-[]
+Overfull \hbox (32.89565pt too wide) in paragraph at lines 29--31
+[]\OT1/cmr/bx/n/10 Figura
  []
 
 
-Overfull \hbox (32.89565pt too wide) in paragraph at lines 25--30
-\OT1/cmr/bx/n/10 Figura
- []
-
-
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 25--30
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 29--31
 \OT1/cmr/bx/n/10 21
  []
 
@@ -4155,7 +4167,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 L
+l.32 L
       a primera pieza (correspondiente a la pieza derecha de esta figura), m...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -4365,7 +4377,7 @@ Missing character: There is no M in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 31--32
+Overfull \hbox (20.0pt too wide) in paragraph at lines 32--33
 []
  []
 
@@ -4376,7 +4388,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 P
+l.34 P
       ara la segunda pieza encontramos un problema y es que no hay tuberías...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -4915,7 +4927,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 33--34
+Overfull \hbox (20.0pt too wide) in paragraph at lines 34--35
 []
  []
 
@@ -4926,7 +4938,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 \begin{figure}
+l.36 \begin{figure}
                    [htb]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4939,7 +4951,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 \begin{figure}[
+l.36 \begin{figure}[
                     htb]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4950,7 +4962,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.39 \includegraphics
+l.40 \includegraphics
                      [scale=0.25]{Prototipodelantetapon.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4996,7 +5008,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
-l.43 \includegraphics
+l.44 \includegraphics
                      [scale=0.25]{PrototipoDetrastapon.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5047,7 +5059,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 \caption
+l.46 \caption
              {\textbf{Figura 21}.-Cara fibras}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5071,24 +5083,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \end{figure}
+l.47 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 35--47
+Overfull \hbox (20.0pt too wide) in paragraph at lines 36--48
 []
  []
 
 
-Overfull \hbox (32.89565pt too wide) in paragraph at lines 35--47
+Overfull \hbox (32.89565pt too wide) in paragraph at lines 36--48
 \OT1/cmr/bx/n/10 Figura
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 35--47
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 36--48
 \OT1/cmr/bx/n/10 21
  []
 
@@ -5099,7 +5111,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 H
+l.49 H
       ay que tener en cuenta que el proceso de medida se desarrollará en el...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -5489,12 +5501,12 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 48--49
+Overfull \hbox (20.0pt too wide) in paragraph at lines 49--50
 []
  []
 
 
-Overfull \hbox (17.86252pt too wide) in paragraph at lines 48--49
+Overfull \hbox (17.86252pt too wide) in paragraph at lines 49--50
 \OT1/cmr/m/n/10 25\OML/cmm/m/it/10 C$
  []
 
@@ -5505,7 +5517,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 L
+l.51 L
       os PMTs empleados, R8520-ZB2771 y R8520-ZB2773 se alimentaron ambos a ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -5680,5 +5692,5 @@ Here is how much of TeX's memory you used:
  3647 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,2n,12p,955b,81s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,2n,12p,955b,85s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

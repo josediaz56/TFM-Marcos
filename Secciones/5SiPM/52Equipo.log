@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  8 AUG 2017 15:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  10 AUG 2017 11:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4903,39 +4903,6 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
 l.56 \includegraphics
-                     [scale=0.5]{SiPMfinal.png}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-! Undefined control sequence.
-l.60 \includegraphics
                      [scale=0.4]{tarjeta.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4972,7 +4939,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62 \caption
+l.58 \caption
              {\textbf{Figura 10}.-SiPMs y tarjeta de conversora intensidad-v...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -5030,19 +4997,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 \end{figure}
+l.59 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (32.89565pt too wide) in paragraph at lines 48--64
+Overfull \hbox (32.89565pt too wide) in paragraph at lines 48--60
 \OT1/cmr/bx/n/10 Figura
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 48--64
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 48--60
 \OT1/cmr/bx/n/10 10
  []
 
@@ -5216,7 +5183,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67 \begin{figure}
+l.63 \begin{figure}
                    [hbtp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5229,7 +5196,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.69 \includegraphics
+l.65 \includegraphics
                      [scale=0.4]{ruido.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5264,7 +5231,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \caption
+l.66 \caption
              {\textbf{Figura 11}.- Ruido electrónico}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5295,19 +5262,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \end{figure}
+l.67 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (32.89565pt too wide) in paragraph at lines 67--72
+Overfull \hbox (32.89565pt too wide) in paragraph at lines 63--68
 \OT1/cmr/bx/n/10 Figura
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 67--72
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 63--68
 \OT1/cmr/bx/n/10 11
  []
 
@@ -5935,22 +5902,22 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (13.4166pt too wide) in paragraph at lines 75--76
+Overfull \hbox (13.4166pt too wide) in paragraph at lines 71--72
 \OT1/cmr/bx/n/10 fil-
  []
 
 
-Overfull \hbox (14.95827pt too wide) in paragraph at lines 75--76
+Overfull \hbox (14.95827pt too wide) in paragraph at lines 71--72
 \OT1/cmr/bx/n/10 tro
  []
 
 
-Overfull \hbox (22.10538pt too wide) in paragraph at lines 75--76
+Overfull \hbox (22.10538pt too wide) in paragraph at lines 71--72
 \OT1/cmr/bx/n/10 pasa
  []
 
 
-Overfull \hbox (30.34702pt too wide) in paragraph at lines 75--76
+Overfull \hbox (30.34702pt too wide) in paragraph at lines 71--72
 \OT1/cmr/bx/n/10 banda
  []
 
@@ -6123,17 +6090,17 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (31.30534pt too wide) in paragraph at lines 77--78
+Overfull \hbox (31.30534pt too wide) in paragraph at lines 73--74
 \OT1/cmr/bx/n/10 manta
  []
 
 
-Overfull \hbox (15.49298pt too wide) in paragraph at lines 77--78
+Overfull \hbox (15.49298pt too wide) in paragraph at lines 73--74
 \OT1/cmr/bx/n/10 ne-
  []
 
 
-Overfull \hbox (16.0763pt too wide) in paragraph at lines 77--78
+Overfull \hbox (16.0763pt too wide) in paragraph at lines 73--74
 \OT1/cmr/bx/n/10 gra
  []
 
