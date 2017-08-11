@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  10 AUG 2017 13:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  11 AUG 2017 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1824,190 +1824,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 \bibitem{asignatura}
-                          \textsc{MÂª Victoria Castillo Gimenez},
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<argument> \@listctr 
-                     
-l.30 \bibitem{asignatura}
-                          \textsc{MÂª Victoria Castillo Gimenez},
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.30 \bibitem{asignatura}
-                          \textsc{MÂª Victoria Castillo Gimenez},
-I'm forgetting what you said and using zero instead.
-
-\bibcite{asignatura}{0}
-Missing character: There is no Â in font cmcsc10!
-Missing character: There is no ª in font cmcsc10!
-Missing character: There is no , in font nullfont!
-Missing character: There is no Ã in font cmti10!
-Missing character: There is no ³ in font cmti10!
-
-Overfull \hbox (9.88878pt too wide) in paragraph at lines 30--32
-\OT1/cmr/m/sc/10 M
- []
-
-
-Overfull \hbox (20.84982pt too wide) in paragraph at lines 30--32
-\OT1/cmr/m/sc/10 Vic-
- []
-
-
-Overfull \hbox (16.04434pt too wide) in paragraph at lines 30--32
-\OT1/cmr/m/sc/10 to-
- []
-
-
-Overfull \hbox (15.17772pt too wide) in paragraph at lines 30--32
-\OT1/cmr/m/sc/10 ria
- []
-
-
-Overfull \hbox (44.12752pt too wide) in paragraph at lines 30--32
-\OT1/cmr/m/sc/10 Castillo
- []
-
-
-Overfull \hbox (41.31364pt too wide) in paragraph at lines 30--32
-\OT1/cmr/m/sc/10 Gimenez
- []
-
-
-Overfull \hbox (13.05547pt too wide) in paragraph at lines 30--32
-\OT1/cmr/m/it/10 In-
- []
-
-
-Overfull \hbox (20.57207pt too wide) in paragraph at lines 30--32
-\OT1/cmr/m/it/10 stru-
- []
-
-
-Overfull \hbox (40.12196pt too wide) in paragraph at lines 30--32
-\OT1/cmr/m/it/10 mentacin
- []
-
-
-Overfull \hbox (14.56657pt too wide) in paragraph at lines 30--32
-\OT1/cmr/m/it/10 nu-
- []
-
-
-Overfull \hbox (21.64842pt too wide) in paragraph at lines 30--32
-\OT1/cmr/m/it/10 clear 
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 \bibitem{datasheet}
-                         \textsc{Saint-Gobain Crystals},
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<argument> \@listctr 
-                     
-l.33 \bibitem{datasheet}
-                         \textsc{Saint-Gobain Crystals},
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.33 \bibitem{datasheet}
-                         \textsc{Saint-Gobain Crystals},
-I'm forgetting what you said and using zero instead.
-
-\bibcite{datasheet}{0}
-Missing character: There is no , in font nullfont!
-
-Overfull \hbox (31.08868pt too wide) in paragraph at lines 33--35
-\OT1/cmr/m/sc/10 Saint-
- []
-
-
-Overfull \hbox (35.95816pt too wide) in paragraph at lines 33--35
-\OT1/cmr/m/sc/10 Gobain
- []
-
-
-Overfull \hbox (27.70537pt too wide) in paragraph at lines 33--35
-\OT1/cmr/m/sc/10 Crys-
- []
-
-
-Overfull \hbox (21.08876pt too wide) in paragraph at lines 33--35
-\OT1/cmr/m/sc/10 tals
- []
-
-
-Overfull \hbox (22.48874pt too wide) in paragraph at lines 33--35
-\OT1/cmr/m/it/10 Scin-
- []
-
-
-Overfull \hbox (12.52213pt too wide) in paragraph at lines 33--35
-\OT1/cmr/m/it/10 til-
- []
-
-
-Overfull \hbox (14.56656pt too wide) in paragraph at lines 33--35
-\OT1/cmr/m/it/10 lat-
- []
-
-
-Overfull \hbox (13.2888pt too wide) in paragraph at lines 33--35
-\OT1/cmr/m/it/10 ing
- []
-
-
-Overfull \hbox (16.35545pt too wide) in paragraph at lines 33--35
-\OT1/cmr/m/it/10 Op-
- []
-
-
-Overfull \hbox (9.96658pt too wide) in paragraph at lines 33--35
-\OT1/cmr/m/it/10 ti-
- []
-
-
-Overfull \hbox (11.75546pt too wide) in paragraph at lines 33--35
-\OT1/cmr/m/it/10 cal
- []
-
-
-Overfull \hbox (28.19836pt too wide) in paragraph at lines 33--35
-\OT1/cmr/m/it/10 FIbers 
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \bibitem{Alberto}
+l.30 \bibitem{Alberto}
                        \textsc{Alberto Soler Cambra},
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2015,7 +1832,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 <argument> \@listctr 
                      
-l.36 \bibitem{Alberto}
+l.30 \bibitem{Alberto}
                        \textsc{Alberto Soler Cambra},
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2026,7 +1843,7 @@ and I'll forget about whatever was undefined.
 ! You can't use `\relax' after \the.
 <recently read> \c@ 
                     
-l.36 \bibitem{Alberto}
+l.30 \bibitem{Alberto}
                        \textsc{Alberto Soler Cambra},
 I'm forgetting what you said and using zero instead.
 
@@ -2037,148 +1854,331 @@ Missing character: There is no ³ in font cmti10!
 Missing character: There is no Ã in font cmti10!
 Missing character: There is no ³ in font cmti10!
 
-Overfull \hbox (42.27196pt too wide) in paragraph at lines 36--38
+Overfull \hbox (42.27196pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/sc/10 Alberto
  []
 
 
-Overfull \hbox (29.19981pt too wide) in paragraph at lines 36--38
+Overfull \hbox (29.19981pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/sc/10 Soler
  []
 
 
-Overfull \hbox (25.23872pt too wide) in paragraph at lines 36--38
+Overfull \hbox (25.23872pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/sc/10 Cam-
  []
 
 
-Overfull \hbox (17.9555pt too wide) in paragraph at lines 36--38
+Overfull \hbox (17.9555pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/sc/10 bra
  []
 
 
-Overfull \hbox (19.17763pt too wide) in paragraph at lines 36--38
+Overfull \hbox (19.17763pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 Pro-
  []
 
 
-Overfull \hbox (12.01102pt too wide) in paragraph at lines 36--38
+Overfull \hbox (12.01102pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 to-
  []
 
 
-Overfull \hbox (16.86655pt too wide) in paragraph at lines 36--38
+Overfull \hbox (16.86655pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 colo
  []
 
 
-Overfull \hbox (9.71104pt too wide) in paragraph at lines 36--38
+Overfull \hbox (9.71104pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 de
  []
 
 
-Overfull \hbox (45.23299pt too wide) in paragraph at lines 36--38
+Overfull \hbox (45.23299pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 preparacin
  []
 
 
-Overfull \hbox (4.85551pt too wide) in paragraph at lines 36--38
+Overfull \hbox (4.85551pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 y
  []
 
 
-Overfull \hbox (16.9943pt too wide) in paragraph at lines 36--38
+Overfull \hbox (16.9943pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 car-
  []
 
 
-Overfull \hbox (13.28879pt too wide) in paragraph at lines 36--38
+Overfull \hbox (13.28879pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 ac-
  []
 
 
-Overfull \hbox (15.71652pt too wide) in paragraph at lines 36--38
+Overfull \hbox (15.71652pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 ter-
  []
 
 
-Overfull \hbox (6.6444pt too wide) in paragraph at lines 36--38
+Overfull \hbox (6.6444pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 i-
  []
 
 
-Overfull \hbox (22.48875pt too wide) in paragraph at lines 36--38
+Overfull \hbox (22.48875pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 zacin
  []
 
 
-Overfull \hbox (9.71104pt too wide) in paragraph at lines 36--38
+Overfull \hbox (9.71104pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 de
  []
 
 
-Overfull \hbox (9.19994pt too wide) in paragraph at lines 36--38
+Overfull \hbox (9.19994pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 fi-
  []
 
 
-Overfull \hbox (17.50542pt too wide) in paragraph at lines 36--38
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 bras
  []
 
 
-Overfull \hbox (17.88873pt too wide) in paragraph at lines 36--38
+Overfull \hbox (17.88873pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 cen-
  []
 
 
-Overfull \hbox (14.05544pt too wide) in paragraph at lines 36--38
+Overfull \hbox (14.05544pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 tel-
  []
 
 
-Overfull \hbox (21.46654pt too wide) in paragraph at lines 36--38
+Overfull \hbox (21.46654pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 lado-
  []
 
 
-Overfull \hbox (12.90546pt too wide) in paragraph at lines 36--38
+Overfull \hbox (12.90546pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 ras
  []
 
 
-Overfull \hbox (18.52763pt too wide) in paragraph at lines 36--38
+Overfull \hbox (18.52763pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 para
  []
 
 
-Overfull \hbox (7.1555pt too wide) in paragraph at lines 36--38
+Overfull \hbox (7.1555pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 el
  []
 
 
-Overfull \hbox (13.28879pt too wide) in paragraph at lines 36--38
+Overfull \hbox (13.28879pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 de-
  []
 
 
-Overfull \hbox (15.58873pt too wide) in paragraph at lines 36--38
+Overfull \hbox (15.58873pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 tec-
  []
 
 
-Overfull \hbox (12.6499pt too wide) in paragraph at lines 36--38
+Overfull \hbox (12.6499pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 tor
  []
 
 
-Overfull \hbox (14.18321pt too wide) in paragraph at lines 36--38
+Overfull \hbox (14.18321pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 tri-
  []
 
 
-Overfull \hbox (20.70035pt too wide) in paragraph at lines 36--38
+Overfull \hbox (20.70035pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/it/10 tium 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \bibitem{asignatura}
+                          \textsc{MÂª Victoria Castillo Gimenez},
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.33 \bibitem{asignatura}
+                          \textsc{MÂª Victoria Castillo Gimenez},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.33 \bibitem{asignatura}
+                          \textsc{MÂª Victoria Castillo Gimenez},
+I'm forgetting what you said and using zero instead.
+
+\bibcite{asignatura}{0}
+Missing character: There is no Â in font cmcsc10!
+Missing character: There is no ª in font cmcsc10!
+Missing character: There is no , in font nullfont!
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no ³ in font cmti10!
+
+Overfull \hbox (9.88878pt too wide) in paragraph at lines 33--35
+\OT1/cmr/m/sc/10 M
+ []
+
+
+Overfull \hbox (20.84982pt too wide) in paragraph at lines 33--35
+\OT1/cmr/m/sc/10 Vic-
+ []
+
+
+Overfull \hbox (16.04434pt too wide) in paragraph at lines 33--35
+\OT1/cmr/m/sc/10 to-
+ []
+
+
+Overfull \hbox (15.17772pt too wide) in paragraph at lines 33--35
+\OT1/cmr/m/sc/10 ria
+ []
+
+
+Overfull \hbox (44.12752pt too wide) in paragraph at lines 33--35
+\OT1/cmr/m/sc/10 Castillo
+ []
+
+
+Overfull \hbox (41.31364pt too wide) in paragraph at lines 33--35
+\OT1/cmr/m/sc/10 Gimenez
+ []
+
+
+Overfull \hbox (13.05547pt too wide) in paragraph at lines 33--35
+\OT1/cmr/m/it/10 In-
+ []
+
+
+Overfull \hbox (20.57207pt too wide) in paragraph at lines 33--35
+\OT1/cmr/m/it/10 stru-
+ []
+
+
+Overfull \hbox (40.12196pt too wide) in paragraph at lines 33--35
+\OT1/cmr/m/it/10 mentacin
+ []
+
+
+Overfull \hbox (14.56657pt too wide) in paragraph at lines 33--35
+\OT1/cmr/m/it/10 nu-
+ []
+
+
+Overfull \hbox (21.64842pt too wide) in paragraph at lines 33--35
+\OT1/cmr/m/it/10 clear 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \bibitem{datasheet}
+                         \textsc{Saint-Gobain Crystals},
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.36 \bibitem{datasheet}
+                         \textsc{Saint-Gobain Crystals},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.36 \bibitem{datasheet}
+                         \textsc{Saint-Gobain Crystals},
+I'm forgetting what you said and using zero instead.
+
+\bibcite{datasheet}{0}
+Missing character: There is no , in font nullfont!
+
+Overfull \hbox (31.08868pt too wide) in paragraph at lines 36--38
+\OT1/cmr/m/sc/10 Saint-
+ []
+
+
+Overfull \hbox (35.95816pt too wide) in paragraph at lines 36--38
+\OT1/cmr/m/sc/10 Gobain
+ []
+
+
+Overfull \hbox (27.70537pt too wide) in paragraph at lines 36--38
+\OT1/cmr/m/sc/10 Crys-
+ []
+
+
+Overfull \hbox (21.08876pt too wide) in paragraph at lines 36--38
+\OT1/cmr/m/sc/10 tals
+ []
+
+
+Overfull \hbox (22.48874pt too wide) in paragraph at lines 36--38
+\OT1/cmr/m/it/10 Scin-
+ []
+
+
+Overfull \hbox (12.52213pt too wide) in paragraph at lines 36--38
+\OT1/cmr/m/it/10 til-
+ []
+
+
+Overfull \hbox (14.56656pt too wide) in paragraph at lines 36--38
+\OT1/cmr/m/it/10 lat-
+ []
+
+
+Overfull \hbox (13.2888pt too wide) in paragraph at lines 36--38
+\OT1/cmr/m/it/10 ing
+ []
+
+
+Overfull \hbox (16.35545pt too wide) in paragraph at lines 36--38
+\OT1/cmr/m/it/10 Op-
+ []
+
+
+Overfull \hbox (9.96658pt too wide) in paragraph at lines 36--38
+\OT1/cmr/m/it/10 ti-
+ []
+
+
+Overfull \hbox (11.75546pt too wide) in paragraph at lines 36--38
+\OT1/cmr/m/it/10 cal
+ []
+
+
+Overfull \hbox (28.19836pt too wide) in paragraph at lines 36--38
+\OT1/cmr/m/it/10 FIbers 
  []
 
 

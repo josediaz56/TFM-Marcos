@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  10 AUG 2017 13:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  11 AUG 2017 13:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**8Previsiones.tex
-(./8Previsiones.tex
+**9Previsiones.tex
+(./9Previsiones.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 
@@ -2326,14 +2326,7 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 13--14
 []
  []
 
-Missing character: There is no A in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no Ã in font nullfont!
-Missing character: There is no ¡ in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no q in font nullfont!
@@ -7071,7 +7064,7 @@ Overfull \hbox (5.43053pt too wide) in paragraph at lines 48--49
 
 )
 ! Emergency stop.
-<*> 8Previsiones.tex
+<*> 9Previsiones.tex
                     
 *** (job aborted, no legal \end found)
 

@@ -76,26 +76,32 @@ Ahora únicamente desarrollamos una macro en ROOT (programa de análisis de dato
 	
 Para este caso concreto las ganancias obtenidas por los dos caminos anteriores son respectivamentente:
 \begin{equation}
-G_1= 6.38938 \cdot 10^8 \pm  6.38938 \cdot 10^8
+G_1= 6.38938 \cdot 10^8 \pm 2.15953 \cdot 10^8
 \label{gananciatotalmetodo1} 
 \end{equation}
 \begin{equation}
 G_2=7.18235 \cdot 10^8 \pm 6.88392 \cdot 10^6
 \label{gananciatotalmetodo2}
 \end{equation}
-Por extensión, las ganancias del SiPM calculadas por cada camino son (aproximadamente) 
+Por extensión, las ganancias del SiPM calculadas por cada camino son (aproximadamente)$\eqref{ganancias}$: 
 \begin{equation}
-G_1= 4.25958 \cdot 10^5 \pm 4.259 \cdot 10^4
+G_1= 6.38938 \cdot 10^6 \pm 2.15953 \cdot 10^6
 \label{gananciaSiPMmetodo1}
 \end{equation}
 \begin{equation}
-G_2= 4.78823 \cdot 10^5 \pm 4.5893 \cdot 10^4
+G_2= 7.18235 \cdot 10^6 \pm 6.88392 \cdot 10^4
 \label{gananciaSiPMmetodo2}
 \end{equation}
 
-donde los errores se han obtenido por propagación. Hay que tener en cuenta que el primer método siempre posee errores mayores. Estas se encuentran un orden de magnitud por debajo de la ganancia teórica, con un error relativo de... Esto es debido a...
+donde los errores se han obtenido por propagación. Si comparamos con la literatura~\cite{datasheet SiPM} podemos observar que ambos valores son bastante aceptables con errores relativos de:
 
-Dado que, en la practica, las gaussianas no estan perfectamente equiespaciadas debido a errores e incertidumbres consideraremos como más fiable el segundo método ya que se trata de un método más formal. 
+\begin{equation}
+\sigma_{rel1} \approx 0.0649 = 6,49\%; \qquad \sigma_{rel2} \approx 0.1971 =19,71\%
+\label{erroresgananciasSiPM}
+\end{equation}
+
+
+Dado que, en la practica, las gaussianas no estan perfectamente equiespaciadas debido a errores e incertidumbres consideraremos como más fiable el segundo método ya que se trata de un método más formal, a pesar de tener un error relativo mayor. Además el segundo método posee un error menor, indicativo de que es un método más fiable.
 
 Nuevamente se ha aplicado el test $\chi^2$ con el objetivo de comprobar la calidad de nuestro ajuste. Se ha obtenido un resultado de $\frac{\chi^2}{ndf}=\frac{0.05452}{7}\approx 0.008$. Podemos apreciar que ahora hemos obtenido un valor bastante por debajo de la unidad. Este, probablemente, es debido a que se han sobreestimado los errores de las medidas (calculados a partir de las sigmas de las gaussianas del ajuste de la figura 15).
 
