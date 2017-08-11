@@ -20,7 +20,7 @@ Como resultado de todo esto, lo que obtendremos seran un conjunto de gaussianas 
 \begin{figure}[hbtp]
  \centering
  \includegraphics[scale=0.4]{Analisis.png}
- \caption{\textbf{Figura 13}.- Análisis}
+ \caption{Análisis}
  \end{figure}
 
 Donde cada uno de estos picos corresponde a la carga de sucesivos número de pixels activados (uno, dos, etc.). El primer pico no debe tenerse en cuenta en el análisis ya que este corresponde al pedestal (cero pixels activados). Su origen es debido a la existencia de las cuentas ocuras.
@@ -36,7 +36,7 @@ Ahora únicamente desarrollamos una macro en ROOT (programa de análisis de dato
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.4]{fondogaussiano.png}
-\caption{\textbf{Figura 14}.- Espectro con mucho fondo}
+\caption{Espectro con mucho fondo}
 \end{figure}
 
 \item {} Seguidamente, ajustamos el espectro a una recta mas una suma de n gaussianas, donde n es el número de gaussianas que superan la recta (calculado en el paso anterior). La necesidad de utilizar una recta es debido a que siempre vamos a tener dark counts y otro tipo de bakcground que se verán reflejados en una linea base en el histograma como puede verse en la figura trece. Podemos apreciar en la figura quince que el ajuste (linea roja) es relativamente bueno. Para poder ver hasta que punto nuestro ajuste es aceptable aplicamos el test $\chi^2$, donde se ha obtenido un resultado de $\frac{\chi^2}{ndf}=\frac{1276}{223}\approx 5.72$. Vemos que efectivamente el ajuste se realizado con gran precisión.
@@ -44,7 +44,7 @@ Ahora únicamente desarrollamos una macro en ROOT (programa de análisis de dato
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.4]{AjusteEspectro1.png}
-\caption{\textbf{Figura 15}.- Ajuste de la macro de ROOT sobre un espectro}
+\caption{ Ajuste de la macro de ROOT sobre un espectro}
 \end{figure}
 
 \item {} Dado que se ha observado que, aun con el tercer paso, existen situaciones límites en que el background sigue superando esta recta, se ha incluido un paso en la macro en la cual se acepta por teclado uno a uno los picos que serán utilizados en el análisis. Además la macro calcula la resolución de cada gaussiana y la resolución total, obtenida a partir de la suma cuadrática de la resolución de cada gaussiana. Los valores habitualmente encontrados en los análisis se encuentran sobre 1.5\% y 5\% respectivamente, valores más que aceptables.
@@ -69,7 +69,7 @@ Ahora únicamente desarrollamos una macro en ROOT (programa de análisis de dato
 	\begin{figure}[hbtp]
 		\centering
 		\includegraphics[scale=0.4]{FitPosicionPixels.png}
-		\caption{\textbf{Figura 16}.- Ajuste carga de las señales del SiPM frente a nº de pixels encendidos}
+		\caption{Ajuste carga de las señales del SiPM frente a nº de pixels encendidos}
 		\end{figure}
 			
 	\end{enumerate}
