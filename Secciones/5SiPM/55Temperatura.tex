@@ -10,12 +10,12 @@ Hay que tener en cuenta que, como se dijo anteriormente, el sistema de control d
 
 La incertidumbre en la temperatura viene dada por la oscilación en el valor de la temperatura observada directamente en el panel de control del sistema. La oscilación observada fue en todo momento de 0.1 grados, una incertidumbre totalmente inapreciable tanto a nivel visual en la gráfica como a nivel de variación de la ganancia.
 
-\item {} Por otro lado, partiendo de estos 4 vectores de dimensión 14 en nuestro caso (igual al número de ficheros que ha leido) que contienen ganancia, temperatura y sus errores de forma ordenada la macro realiza un ajuste lineal. El ajuste obtenido se presenta en la figura diecisiete.
+\item {} Por otro lado, partiendo de estos 4 vectores de dimensión 14 en nuestro caso (igual al número de ficheros que ha leido) que contienen ganancia, temperatura y sus errores de forma ordenada la macro realiza un ajuste lineal. El ajuste obtenido se presenta en la figura 17.
 
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.4]{Dependenciatemperatura.png}
-\caption{ Ganancia frente a temperatura}
+\caption{ Ganancia frente a temperatura\label{temperatura}}
 \end{figure}
 
 Podemos observar la existencia de un comportamiento lineal casi perfecto en un rango de temperatura de 26 grados. Esta es una propiedad que caracteriza al SiPM, una muy buena linealidad en su comportamiento frente a modificaciones en varias magnitudes. Nuevamente comprobamos la calidad del ajuste a partir del test $\chi^2$ obteniendo un valor de $\frac{\chi^2}{ndf}=\frac{2.937}{12}\approx 0.245$, el cual se trata de un valor relativamente bueno.

@@ -2,7 +2,7 @@ En resumen, en nuestra prueba de calibración de los SiPM tenemos una caja que a
 
 En su interior tendremos un diodo LED que emite fotones a $\lambda=435~\nm$, un SiPM, el cual emitirá un pulso de intensidad cada vez que detecte uno o más de estos fotones con cada uno de sus pixels y una tarjeta que convertirá este pulso de intensidad en un pulso de voltaje. Finalmente llevamos este pulso de voltaje a un osciloscopio (marca TELEDYNE LECROY, modelo WwaveRunner 625Zi) para poder ser analizado. 
 
-Una vez en el osciloscopio, la señal que recibíamos cuando se encendía el diodo LED será similar a la de la señal superior de la figura trece (amarilla)~\cite{inftec}, el la cual se a activado el modo persistencia del osciloscopio con el objetivo de comparar señales de distintas alturas. Estas señales corresponden a distinto número de pixels activados en cada instante de tiempo ya que, como hemos dicho anteriormente, la señal de salida del sistema es la suma de las señales de cada pixel que se ha activado. Esta se encuentra superpuesta a la señal de sincronización del generador de señales (verde) que nos muestra cuando se ha encendido el diodo LED y que, por tanto, actua como trigger.
+Una vez en el osciloscopio, la señal que recibíamos cuando se encendía el diodo LED será similar a la de la señal superior de la figura 13 (amarilla)~\cite{inftec}, el la cual se a activado el modo persistencia del osciloscopio con el objetivo de comparar señales de distintas alturas. Estas señales corresponden a distinto número de pixels activados en cada instante de tiempo ya que, como hemos dicho anteriormente, la señal de salida del sistema es la suma de las señales de cada pixel que se ha activado. Esta se encuentra superpuesta a la señal de sincronización del generador de señales (verde) que nos muestra cuando se ha encendido el diodo LED y que, por tanto, actua como trigger.
 
 El objetivo ahora es calcular la ganancia del sistema. Dado que únicamente existen dos ganancias en el sistema (SiPM y tarjeta) y hemos medido la ganancia de la tarjeta en la sección anterior, determinando la ganancia total podremos determinar de forma aproximada la ganancia del SiPM. 
 
@@ -15,12 +15,12 @@ Para medir la ganancia total simplemente realizamos una integral del area de cad
 
 Dado que idealmente el pulso de cada pixel es igual, el histograma que estamos obteniendo deberían ser deltas de dirac equiespaciadas. Sin embargo hay que tener en cuenta que la cascada que produce cada uno de estos fotones detectados en cada pixel esta sometido a fluctuaciones estadísticas. Además los propios instrumentos de medidas empleados tienen una incertidumbre inherente. Hay que tener en cuenta que tambień tenemos distintas fuentes de background, como dark counts (ruido térmico), fotones de luz del exterior, etc. 
 
-Como resultado de todo esto, lo que obtendremos seran un conjunto de gaussianas equiespaciadas. En la figura trece inferior puede verse el resultado de una toma de datos de 25000 eventos a 25 grados, 60\% de humedad y $V_{ov}=3V$
+Como resultado de todo esto, lo que obtendremos seran un conjunto de gaussianas equiespaciadas. En la figura 13 inferior puede verse el resultado de una toma de datos de 25000 eventos a 25 grados, 60\% de humedad y $V_{ov}=3V$
 
 \begin{figure}[hbtp]
  \centering
  \includegraphics[scale=0.4]{Analisis.png}
- \caption{Análisis}
+ \caption{Análisis\label{analisis}}
  \end{figure}
 
 Donde cada uno de estos picos corresponde a la carga de sucesivos número de pixels activados (uno, dos, etc.). El primer pico no debe tenerse en cuenta en el análisis ya que este corresponde al pedestal (cero pixels activados). Su origen es debido a la existencia de las cuentas ocuras.
@@ -31,20 +31,20 @@ Ahora únicamente desarrollamos una macro en ROOT (programa de análisis de dato
 
 \item {} A continuación, a partir de una función de la librería TSpectrum, busca en este histograma y devuelve el número de gaussianas que ha encontrado y su posición.
 
-\item {} Ahora ajusta todos los datos del histograma a una recta y solo se queda con las gaussianas, cuya norma sobrepasa en altura a esta recta. El objetivo de este paso es que, en casos muy concretos (temperatura alta o luz del laboratorio encendida) tenemos mucho ruido y, aparece un fondo el cual, el programa ajusta a una gaussiana y, por extensión, calcula la ganancia de manera incorrecta. Un ejemplo de esto se muestra en la figura catorce.
+\item {} Ahora ajusta todos los datos del histograma a una recta y solo se queda con las gaussianas, cuya norma sobrepasa en altura a esta recta. El objetivo de este paso es que, en casos muy concretos (temperatura alta o luz del laboratorio encendida) tenemos mucho ruido y, aparece un fondo el cual, el programa ajusta a una gaussiana y, por extensión, calcula la ganancia de manera incorrecta. Un ejemplo de esto se muestra en la figura 14.
 
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.4]{fondogaussiano.png}
-\caption{Espectro con mucho fondo}
+\caption{Espectro con mucho fondo\label{fondogrande}}
 \end{figure}
 
-\item {} Seguidamente, ajustamos el espectro a una recta mas una suma de n gaussianas, donde n es el número de gaussianas que superan la recta (calculado en el paso anterior). La necesidad de utilizar una recta es debido a que siempre vamos a tener dark counts y otro tipo de bakcground que se verán reflejados en una linea base en el histograma como puede verse en la figura trece. Podemos apreciar en la figura quince que el ajuste (linea roja) es relativamente bueno. Para poder ver hasta que punto nuestro ajuste es aceptable aplicamos el test $\chi^2$, donde se ha obtenido un resultado de $\frac{\chi^2}{ndf}=\frac{1276}{223}\approx 5.72$. Vemos que efectivamente el ajuste se realizado con gran precisión.
+\item {} Seguidamente, ajustamos el espectro a una recta mas una suma de n gaussianas, donde n es el número de gaussianas que superan la recta (calculado en el paso anterior). La necesidad de utilizar una recta es debido a que siempre vamos a tener dark counts y otro tipo de bakcground que se verán reflejados en una linea base en el histograma como puede verse en la figura \ref{analisis}. Podemos apreciar en la figura 15 que el ajuste (linea roja) es relativamente bueno. Para poder ver hasta que punto nuestro ajuste es aceptable aplicamos el test $\chi^2$, donde se ha obtenido un resultado de $\frac{\chi^2}{ndf}=\frac{1276}{223}\approx 5.72$. Vemos que efectivamente el ajuste se realizado con gran precisión.
 
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.4]{AjusteEspectro1.png}
-\caption{ Ajuste de la macro de ROOT sobre un espectro}
+\caption{ Ajuste de la macro de ROOT sobre un espectro\label{Root}}
 \end{figure}
 
 \item {} Dado que se ha observado que, aun con el tercer paso, existen situaciones límites en que el background sigue superando esta recta, se ha incluido un paso en la macro en la cual se acepta por teclado uno a uno los picos que serán utilizados en el análisis. Además la macro calcula la resolución de cada gaussiana y la resolución total, obtenida a partir de la suma cuadrática de la resolución de cada gaussiana. Los valores habitualmente encontrados en los análisis se encuentran sobre 1.5\% y 5\% respectivamente, valores más que aceptables.
@@ -64,12 +64,12 @@ Ahora únicamente desarrollamos una macro en ROOT (programa de análisis de dato
 	Centro\_pico(V) = GeRN_\gamma + k_0
 	\label{gananciametodo2}
 	\end{equation}
-	Donde R y e significan lo mismo. Vemos por tanto que apartir del valor de la pendiente podemos obtener	el valor de la ganancia. La figura dieciseis muestra un ejemplo de ajuste entre posiciones de gaussianas y número de pixels para el caso de 25 grados, humedad de 45\% y $V_{ov}=3V$. Podemos observar que existe	un acuerdo excelente, algo que ocurria prácticamente en la totalidad de los casos. Este gráfico presenta barras de error pero no son apreciables a esta escala.
+	Donde R y e significan lo mismo. Vemos por tanto que apartir del valor de la pendiente podemos obtener	el valor de la ganancia. La figura 16 muestra un ejemplo de ajuste entre posiciones de gaussianas y número de pixels para el caso de 25 grados, humedad de 45\% y $V_{ov}=3V$. Podemos observar que existe	un acuerdo excelente, algo que ocurria prácticamente en la totalidad de los casos. Este gráfico presenta barras de error pero no son apreciables a esta escala.
 		
 	\begin{figure}[hbtp]
 		\centering
 		\includegraphics[scale=0.4]{FitPosicionPixels.png}
-		\caption{Ajuste carga de las señales del SiPM frente a nº de pixels encendidos}
+		\caption{Ajuste carga de las señales del SiPM frente a nº de pixels encendidos\label{ajuste}}
 		\end{figure}
 			
 	\end{enumerate}
@@ -103,6 +103,6 @@ donde los errores se han obtenido por propagación. Si comparamos con la literat
 
 Dado que, en la practica, las gaussianas no estan perfectamente equiespaciadas debido a errores e incertidumbres consideraremos como más fiable el segundo método ya que se trata de un método más formal, a pesar de tener un error relativo mayor.
 
-Nuevamente se ha aplicado el test $\chi^2$ con el objetivo de comprobar la calidad de nuestro ajuste. Se ha obtenido un resultado de $\frac{\chi^2}{ndf}=\frac{0.05452}{7}\approx 0.008$. Podemos apreciar que ahora hemos obtenido un valor bastante por debajo de la unidad. Este, probablemente, es debido a que se han sobreestimado los errores de las medidas (calculados a partir de las sigmas de las gaussianas del ajuste de la figura 15).
+Nuevamente se ha aplicado el test $\chi^2$ con el objetivo de comprobar la calidad de nuestro ajuste. Se ha obtenido un resultado de $\frac{\chi^2}{ndf}=\frac{0.05452}{7}\approx 0.008$. Podemos apreciar que ahora hemos obtenido un valor bastante por debajo de la unidad. Este, probablemente, es debido a que se han sobreestimado los errores de las medidas (calculados a partir de las sigmas de las gaussianas del ajuste de la figura $\ref{Root}$).
 
 \end{enumerate}

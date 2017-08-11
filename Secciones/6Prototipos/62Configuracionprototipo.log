@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  10 AUG 2017 12:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  11 AUG 2017 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1678,12 +1678,10 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.10 \caption
-             {\textbf{Figura 20}.- Prototipo}
+             { Prototipo\label{prototipo}}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no . in font nullfont!
-Missing character: There is no - in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -1709,16 +1707,6 @@ or  <return>  to continue without it.
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 7--12
 []
- []
-
-
-Overfull \hbox (32.89565pt too wide) in paragraph at lines 7--12
-\OT1/cmr/bx/n/10 Figura
- []
-
-
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 7--12
-\OT1/cmr/bx/n/10 20
  []
 
 
@@ -4003,15 +3991,8 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 23--24
@@ -4092,8 +4073,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 \caption
-             {\textbf{Figura 21}.- Piezas de sujeción de los PMTs}
+l.28 \caption
+             { Piezas de sujeción de los PMTs\label{tapones}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4104,13 +4085,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 \caption{\textbf{Figura 21}
-                                .- Piezas de sujeción de los PMTs}
+l.28 \caption{ P
+                iezas de sujeción de los PMTs\label{tapones}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no . in font nullfont!
-Missing character: There is no - in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -4149,16 +4128,6 @@ l.30 \end{figure}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-Overfull \hbox (32.89565pt too wide) in paragraph at lines 29--31
-[]\OT1/cmr/bx/n/10 Figura
- []
-
-
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 29--31
-\OT1/cmr/bx/n/10 21
- []
 
 
 ! LaTeX Error: Missing \begin{document}.
@@ -4916,15 +4885,8 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 2 in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 34--35
@@ -5060,22 +5022,39 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.46 \caption
-             {\textbf{Figura 21}.-Cara fibras}
+             {Prototipo con piezas de sujeción \label{prototipotapones}}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no . in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no P in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no r in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no z in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no n in font nullfont!
 
 ! LaTeX Error: \begin{document} ended by \end{figure}.
 
@@ -5092,16 +5071,6 @@ or  <return>  to continue without it.
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 36--48
 []
- []
-
-
-Overfull \hbox (32.89565pt too wide) in paragraph at lines 36--48
-\OT1/cmr/bx/n/10 Figura
- []
-
-
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 36--48
-\OT1/cmr/bx/n/10 21
  []
 
 
@@ -5686,11 +5655,11 @@ Missing character: There is no . in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 12 strings out of 493029
- 270 string characters out of 6136234
+ 9 strings out of 493029
+ 245 string characters out of 6136234
  54072 words of memory out of 5000000
- 3647 multiletter control sequences out of 15000+600000
- 3948 words of font info for 15 fonts, out of 8000000 for 9000
+ 3645 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,2n,12p,955b,85s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,2n,12p,955b,56s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

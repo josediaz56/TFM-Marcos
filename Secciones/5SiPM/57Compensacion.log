@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  8 AUG 2017 11:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  11 AUG 2017 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3731,16 +3731,8 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 9 in font nullfont!
 Missing character: There is no . in font nullfont!
 
 ! LaTeX Error: Environment figure undefined.
@@ -3817,12 +3809,10 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.69 \caption
-             {\textbf{Figura 19}.- Verificación del método de compensación}
+             {Verificación del método de compensación\label{compensacion}}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no . in font nullfont!
-Missing character: There is no - in font nullfont!
 Missing character: There is no V in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -3877,16 +3867,6 @@ or  <return>  to continue without it.
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 66--71
 []
- []
-
-
-Overfull \hbox (32.89565pt too wide) in paragraph at lines 66--71
-\OT1/cmr/bx/n/10 Figura
- []
-
-
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 66--71
-\OT1/cmr/bx/n/10 19
  []
 
 
@@ -4909,11 +4889,11 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 76--77
 
  
 Here is how much of TeX's memory you used:
- 13 strings out of 493029
- 235 string characters out of 6136234
+ 11 strings out of 493029
+ 214 string characters out of 6136234
  59072 words of memory out of 5000000
- 3648 multiletter control sequences out of 15000+600000
- 3948 words of font info for 15 fonts, out of 8000000 for 9000
+ 3647 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,5n,12p,797b,81s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,5n,12p,797b,79s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

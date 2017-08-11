@@ -9,7 +9,7 @@ Hay que tener en cuenta que los SiPM son detectores de estado sólido y, por ext
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.2]{pedestal.png}
-\caption{Dark counts}
+\caption{Dark counts\label{Darkcounts}}
 \end{figure}
 
 Cuando trabajemos con detectores de estado sólido debemos trabajar en condiciones de voltaje operacional y temperatura óptimas para poder medir con el detector ya  que, estas cuentas oscuras dependen de estas magnitudes y pueden llegar a ser tan numerosas que absorban por completo la señal del sistema. También podemos reducir su importancia sobre la medida con ayuda de triggers, por ejemplo, medir únicamente cuando la señal de entrada del sistema este activa (si se conoce este intervalo de tiempo). En cualquier caso siempre se deberá realizar una medida del pedestal (sin señal de entrada) para tener en cuenta el número y características de los eventos que van a contribuir a la señal sin proceder de la misma y utilizar esta información para el posterior análisis. 
@@ -29,7 +29,7 @@ En concreto utilizaremos el modelo S13360-1375CS de hamamatsu. Se ha elegido est
 \includegraphics[scale=0.35]{EmisionBCF12.png} 
 }
 \label{8}
-\caption{PDE del SiPM~\cite{datasheet SiPM} y espectro de emisión de las fibras~\cite{datasheet} respectivamente}
+\caption{PDE del SiPM~\cite{datasheet SiPM} y espectro de emisión de las fibras~\cite{datasheet} respectivamente\label{Espectros}}
 \end{figure}
 
 La forma de abordar este método de compensación de la ganancia ha sido el siguiente:

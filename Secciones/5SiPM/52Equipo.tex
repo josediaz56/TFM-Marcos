@@ -3,9 +3,9 @@ Para llevar a cabo esta caracterización de los SiPM se ha necesitado de cierta 
 \begin{enumerate}
 \item {} En primer lugar se necesitaba una \textbf{cámara de control de temperatura}. 
 \newline
-Dado que la cámara existente en el laboratorio del IFIC no estaba configurada tuvo que utilizarse la camara que se encontraba en el IFIMED. Esta cámara (marca DYCOMETAL, modelo CCM 81) se ve reflejada en la figura nueve izquierda.
+Dado que la cámara existente en el laboratorio del IFIC no estaba configurada tuvo que utilizarse la camara que se encontraba en el IFIMED. Esta cámara (marca DYCOMETAL, modelo CCM 81) se ve reflejada en la figura 9 izquierda.
 
-Este sistema dispone de un panel de control con el que poder especificar la temperatura y humedad a la que queremos trabajar en el interior de la cámara. Sin embargo, para asegurar el correcto funcionamiento de la cámara debiamos trabajar siempre en la zona 1 de acuerdo al diagrama de fases existente en la ficha técnica de la cámara, mostrado en la figura nueve derecha. Posee un interior metálico que nos permite una rápida estabilidad ante posibles cambios de las condiciones en su interior y, además, actua a modo de jaula de Faraday. 
+Este sistema dispone de un panel de control con el que poder especificar la temperatura y humedad a la que queremos trabajar en el interior de la cámara. Sin embargo, para asegurar el correcto funcionamiento de la cámara debiamos trabajar siempre en la zona 1 de acuerdo al diagrama de fases existente en la ficha técnica de la cámara, mostrado en la figura 9 derecha. Posee un interior metálico que nos permite una rápida estabilidad ante posibles cambios de las condiciones en su interior y, además, actua a modo de jaula de Faraday. 
 
 \begin{figure}[htb]
 \centering
@@ -17,7 +17,7 @@ Este sistema dispone de un panel de control con el que poder especificar la temp
 %\subfloat[Espectro de emisión]
 \includegraphics[scale=0.3]{FichaTecnica.png} 
 }
-\caption{Sistema de control de temperatura y diagrama de fases~\cite{dycometal}}
+\caption{Sistema de control de temperatura y diagrama de fases~\cite{dycometal}\label{sistematemperatura}}
 \end{figure}
 
 Su incertidumbre se encontraba en 0.1 grados para la temperatura y 0.5\% para la humedad relativa. Estas incertidumbres se determinaron observando la oscilación  máxima en la pantalla del panel de ambos parámetros tras llegar a la estabilidad en el interior de la cámara.
@@ -41,9 +41,9 @@ Este generador de señal nos proporciona una segunda señal denominada señal de
 
 \item {} En quinto lugar utilizamos un \textbf{SiPM} para detectar los fotones emitidos por el LED. En concreto se utilizo el modelo S13360-1375CS de hamamatsu, que es un fotomultiplicador cerámico de silicio que presenta una ganancia teórica de $G=4 \cdotp 10^6$ y una eficiencia de fotodetección teórica del 50\% a 25 grados y $V_{ov}=V_{op}-V_{bd}=3V$. Este tiene un rango espectral de [270-900] nm~\cite{datasheet SiPM}.
 
-Esta compuesto por un total de 285 pixels de 75 $\mu m$ cada uno dando lugar a una superficie total activa de 1.3x1.3 $mm^2$ frente a su superficie total que es de 6x5 $mm^2$. Puede verse reflejado en la figura diez izquierda~\cite{datasheet SiPM}. 
+Esta compuesto por un total de 285 pixels de 75 $\mu m$ cada uno dando lugar a una superficie total activa de 1.3x1.3 $mm^2$ frente a su superficie total que es de 6x5 $mm^2$. Puede verse reflejado en la figura 10 izquierda~\cite{datasheet SiPM}. 
 
-\item {} Hay que tener en cuenta que el SiPM nos proporciona un pulso de intensidad a la salida y  necesitamos convertir este en un pulso de voltaje para, de esta forma, poder introducirla al osciloscopio para realizar el posterior análisis. Para ello emplearemos en sexto lugar una \textbf{tarjeta conversora} de intensidad en voltaje que puede verse reflejada en la figura diez derecha. 
+\item {} Hay que tener en cuenta que el SiPM nos proporciona un pulso de intensidad a la salida y  necesitamos convertir este en un pulso de voltaje para, de esta forma, poder introducirla al osciloscopio para realizar el posterior análisis. Para ello emplearemos en sexto lugar una \textbf{tarjeta conversora} de intensidad en voltaje que puede verse reflejada en la figura 10 derecha. 
 
 \begin{figure}[htb]
 \centering
@@ -55,15 +55,15 @@ Esta compuesto por un total de 285 pixels de 75 $\mu m$ cada uno dando lugar a u
 %\subfloat[Espectro de emisión]
 \includegraphics[scale=0.4]{tarjeta.png} 
 }
-\caption{SiPMs y tarjeta de conversora intensidad-voltaje}
+\caption{SiPMs y tarjeta de conversora intensidad-voltaje\label{TarjetaSiPM}}
 \end{figure}
 
-\item {} Finalmente vimos que, únicamente alimentando la tarjeta, antes de alimentar el SiPM y la led, obteníamos una perturbación externa a nuestro experimento. Esta se presenta en la figura once. 
+\item {} Finalmente vimos que, únicamente alimentando la tarjeta, antes de alimentar el SiPM y la led, obteníamos una perturbación externa a nuestro experimento. Esta se presenta en la figura 11. 
 
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.4]{ruido.png}
-\caption{Ruido electrónico}
+\caption{Ruido electrónico\label{Ruido}}
 \end{figure}
 
 Se intento caracterizar esta señal de perturbación ajena a nuestro experimento y, a priori, de origen desconocido. Tenía una amplitud máxima de 4 mV y una frecuencia bastante irregular entorno al MHz. Finalmente se vio que era debido por una parte a la emisión producida por la antenas de radiotelevisión valenciana y, por otra parte, de las distintos intrumentos electrónicos conectados a la red eléctrica del IFIC, ya que esta posee una toma a tierra bastante irregular. 

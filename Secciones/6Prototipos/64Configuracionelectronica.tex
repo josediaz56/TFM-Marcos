@@ -1,11 +1,11 @@
 Finalmente, con cada una de las partes del prototipo debidamente conectadas y calibradas y la fuente de tritio debidamente situada y asegudara, únicamente nos resta configurar la parte electŕonica del sistema para empezar a medir en el prototipo y obtener una señal adecuada. El objetivo será obtener un espectro energético de experimento con ayuda de un analizador multicanal analógico, MCA con tarjeta PCA3 y un programa Oxford WIN-MCA. 
 
-Para ello necesitamos realizar una seríe de transformaciónes a la señal para que, por un lado,  pueda ser analizada de manera adecuada por el MCA y, por otro lado, optimicemos al máximo la señal sobre el background. El esquema electrónico utilizado se muestra en la figura veinti dos.
+Para ello necesitamos realizar una seríe de transformaciónes a la señal para que, por un lado,  pueda ser analizada de manera adecuada por el MCA y, por otro lado, optimicemos al máximo la señal sobre el background. El esquema electrónico utilizado se muestra en la figura 23.
 
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.4]{Esquemaelectronico.png}
-\caption{Esquema Electrico~\cite{Andres}}
+\caption{Esquema Electrico~\cite{Andres}\label{electronica}}
 \end{figure}
 
 Para conseguir cada uno de estos pasos se ha utilizado tecnología NIM. A continuación se procede a explicar el camino seguido por la señal y cada uno de los módulos que intervienen en estas transformaciones:
@@ -28,7 +28,7 @@ Estas cuatro señales (PMT, puerta lógica de cada PMT y puerta lógica de coinc
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.4]{SenalesNIM.png}
-\caption{ Señal de salida del PMT (1), señal de salida del discriminador para cada PMT (2 y 3) y señal de salida del módulo de concidencias respectivamente}
+\caption{ Señal de salida del PMT (1), señal de salida del discriminador para cada PMT (2 y 3) y señal de salida del módulo de concidencias respectivamente\label{señales}}
 \end{figure}
 
 
@@ -39,7 +39,7 @@ Estas cuatro señales (PMT, puerta lógica de cada PMT y puerta lógica de coinc
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.4]{SenalesMCA.png}
-\caption{Señales de entrada del MCA}
+\caption{Señales de entrada del MCA\label{señales MCA}}
 \end{figure}
 
 

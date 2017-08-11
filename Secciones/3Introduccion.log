@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  8 AUG 2017 17:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  11 AUG 2017 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4431,9 +4431,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -4608,13 +4606,11 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.43 \caption
-             {\textbf{Figura 1}.-Espectro energético de los electrones de l...
+             {Espectro energético de los electrones de la desintegración d...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no . in font nullfont!
-Missing character: There is no - in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -4683,7 +4679,7 @@ Missing character: There is no [ in font nullfont!
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
 l.43 ...ntegración del tritio ~\cite{TesisTritio}
-                                                  }
+                                                  \label{Espectrotritio}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4713,18 +4709,8 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 40--45
  []
 
 
-Overfull \hbox (32.89565pt too wide) in paragraph at lines 40--45
-\OT1/cmr/bx/n/10 Figura
- []
-
-
-Overfull \hbox (5.74997pt too wide) in paragraph at lines 40--45
-\OT1/cmr/bx/n/10 1
- []
-
-
 Overfull \hbox (5.43053pt too wide) in paragraph at lines 40--45
-[]
+[][]
  []
 
 
