@@ -1,1 +1,25 @@
-El proyecto \textit{Tritium} ha realizado un primer paso construyendo un prototipo en forma de U cuyo interior, con una capacidad de $39~ml$
+El proyecto \textit{Tritium} ha realizado un primer paso construyendo un prototipo en forma de U cuyo interior, con una capacidad de $39~ml$, se ha rellenado con un una disolución de agua tritiada con una actividad de $108.11~\mega\becquerel/L$ (sec. $\ref{sec:Resultados}$).
+
+Se ha conseguido obtener una señal del sistema a partir de la cual, mediante un tratamiento de datos \textit{off-line} que incluye la extracción del background, se ha obtenido una señal de actividad debida únicamente tritio (fig. $\ref{senaltritio}$). Este nos permite comprobar que el prototipo funciona correctamente ya que es capaz de discernir la presencia de tritio a partir de su contribución a la actividad total (background).
+
+Sin embargo se ha visto que el prototipo presenta una eficiencia muy lejos de la idónea lo cual nos produce una numerosa pérdida de cuentas y, por extensión, una medida de la actividad que presenta el agua tritiada de su interior muy inferior en comparación con su valor teórico. 
+
+Para comprobar hasta que punto es ineficiente nuestro prototipo se ha realizado una serie de estimaciones que nos han permitido determinar aproximadamente la actividad efectiva máxima que esperaríamos detectar con nuestro prototipo debido únicamente al agua tritiada, cuyo valor es $215.03~\becquerel$. En esta estimación se han tenido en cuenta eficiencias tanto de las fibras como de los fotomultiplicadores. 
+
+Sin embargo, la actividad medida con nuestro prototipo es únicamente de $0.01\becquerel$, cuatro órdenes de magnitud por debajo del valor máximo. Podemos comprobar que se trata de una pérdida de cuentas realmente importante que produce un reordenamiento de prioridades en el proyecto ya que, de lo contrario, no podremos reducir la actividad del tritio en la muestra y seguir obteniendo señal. 
+
+Ahora, la mayor prioridad y, por tanto, el tema sobre que tratarán las siguientes modificaciones en el prototipo será obtener una mayor eficiencia. Para ello el primer paso es determinar el punto en el que se ha producido esta pérdida de la señal. 
+
+Se ha visto que un punto muy importante es el clad de la fibra, el cual permite una recolección eficiente de la luz. Debido a que las fibras utilizadas en el prototipo no presentan clad tenemos una gran pérdida de la señal en cada reflexión ($94\%$). Esto nos permite considerar que, aproximadamente, solo contirbuirán a la señal los fotones reemitidos por la fibra en la dirección del ángulo sólido cubierto por las caras finales de cada fibra, es decir, el ángulo sólido cubierto por las caras finales de bunch. 
+
+A partir de una rápida estimación se ha visto que esto produce una considerable pérdida de cuentas llegando a factores del orden de $10^{-4}$ o $10^{-5}$ en distancias de apenas $2$ o $4~\cm$ respectivamente, valores que explicarían nuestra medida tan baja. Por tanto un primer paso en el siguiente prototipo será la utilización de fibras centelleadoras con clad. 
+
+El incluir clad en las fibras centelleadoras será un proceso dificil y bastante laborioso ya que actualmente Saint-Gobain unicamente ofrece clads comerciales de aproximadamente $40~\mu m$, imposibilitando por completo su uso en este experimento ya que ningun electrón procedente de la desitnegración del tritio conseguiría cruzar el clad y aportar señal. Por tanto solo nos queda buscar algún método alternativo para obtener un clad. 
+
+Se esta barajando la posibilidad de utilizar las instalaciones del ICMOL para realizar deposición de aluminio por evaporación en vacío, el cual nos permite llegar a grosores del orden de cientos de nanometros o menos. Sin embargo habrá que realizar un estudio sobre la aderencia ya que recordemos que las fibras se encontrarán en todo momento sumergidas en agua tritiada y necesitamos que el clad presente una adherencia mínima para permanecer en la fibra. También habrá que ver cual es el material que utilizaremos para conformar el clad. Lo ideal sería utilizar un materíal plastico sin embargo no se trata de una técnica estudiada para utilizar materiales no metálicos por lo que el hecho de hacerlo nos puede conducir a problemas.
+
+También es ha visto la necesidad de cambiar la forma del prototipo ya que, de la forma actual, forma de U, la parte del bunch de fibras (aproximadamente el $33\%$) no contribuye a la señal ya que necesita un número excesivo de reflexiones para llegar al PMTs y, en cada una de estas existirá siempre una mayor o menor pérdida de la señal.
+
+Por tanto, de todo también esto podemos ver que un punto decisivo será avanzar en las simulaciones para determinar el grosor y el material del clad, el diseño del prototipo, etc que optimicen la señal obtenida por el sistema. También nos permitirá estar preparados para superar de la mejor forma futuros problemas que nos encontraremos.
+
+En último lugar también se han comentado futuros cambios que ya se estan estudiando pero cuya importancia es menor y podemos aplazar para un futuro tales como la automatización del sistema, utilización de electrónica de bajo ruido, etc.
