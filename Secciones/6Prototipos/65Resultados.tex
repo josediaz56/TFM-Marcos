@@ -65,3 +65,39 @@ Podemos realizar una rápida estimación de la magnitud relativa de estos ángul
 Si nos calculamos el ángulo y, por extensión, este factor para el caso del ángulo sólido subtendido por la fibra centelleadora vemos que este ángulo siempre será aproximadamente $90º$ debido al hecho quela fibra centelleadora es mucho mayor que su destancia punto de la desintegración, $5\mu m$ como máximo. Por tanto este factor será aproximadamente $0.5$ en todo momento, es decir, aproximadamente la mitad de los electrones que se producen en este punto del agua tritiada pasan por la fibra. Sin embargo, la reemisión de fotones de las fibras al detectar un electrón posee un factor realmente pequeño. Por ejemplo, un punto situado a 2 cm de la cara final de la fibra posee un factor de $3.12\cdotp 10^{-4}$ llegando a valer $0$ para los puntos correspondientes a la parte inferior del prototipo como se ha mencionado anteriormente. Vemos por tanto que si llega a ser un factor realmente relevante y que podría explicar esta gran pérdida de señal. 
 
 Por tanto, debida a la necesidad de recolectar el máximo de luz, un paso inmediato en el siguiente prototipo será incluir fibras con clad que nos permitan recolectar un mayor porcentaje de luz. El problema reside en que el grosor actual del single clad comercial de las fibras Saint-Gobain es de, aproximadamente, $4\%$ del diametro, es decir, $40~\mu m$. Prácticamente ningun electrón conseguirá pasar el clad y ser detectado en el núcleo de la fibra por lo que habrá que considerar otros mecanismos de guia de ondas. Una posible solución a este problema sería incluir nosotros el clad en las fibras a partir del proceso de deposición de aluminio por evaporación en vacío. Esto lo podemos realizar en el ICMOL, departamento asociado al IFIC, con el cual ya se han realizado trabajos similares anteriores. De esta forma podríamos conseguir un clad con un espesor del orden de cientos de nanometros, espesor suficientemente pequeño para que un porcentaje aceptable de electrones derivados de la desintegración del tritio puedan superarlo. 
+
+En último lugar, para comprobar que nuestro argumento de la pérdida de la señal situamos una fuente de actividad conocida, cuya emisión sea suficientemente energética, en el exterior del prototipo y procedemos a medir la señal. 
+
+Si ahora también medimos una actividad con aproximadamente cuatro órdenes de magnitud inferior a la actividad teórica estipulada por la fuente, $3~\mu Ci \approx 1,11 \cdotp 10^{5}~\becquerel$, no habremos confirmado nuestro argumento pero si le habremos dado mucho peso ya que, una vez los fotones reemitidos por la fibra llegan al PMT ya es realmente complicado perder la señal. 
+
+La fuente elegida es Cs-137, el cual presenta una desintegración $\beta^{-}$, según el siguiente decaimiento
+\begin{equation}
+\ce{^{137}Cs} \rightarrow \ce{^{137}Ba} + e^- + \overline{\nu}_e
+\label{desintegracionbeta}
+\end{equation}
+cuyos electrones emitidos en esta desintegración poseen una energía promedio de $512~\kilo\eV$. Estos electrones no llegaremos a verlos pero tras esta desintegración el $\ce{^{137}Ba}$ se encuentra en un estado excitado y, por consiguiente, se desexcita en un tiempo de $153$ segundos a partir de una desintegración $\gamma$ cuyos fotones presentan una energía de $662~\kilo\eV$. Estos son los fotones que llegarán a la fibra centelleadoras y que pretendemos utilizar para obtener la eficiencia del sistema. Hay que tener en cuenta que, debido al pequeño tamaño de las fibras centelleadoras, únicamente aspiraremos a detectar el valle compton de esta desintegración. No conseguiremos observar el pico debido al efecto fotoeléctrico. Este valle compton corresponde aproximadamente a un $10\%$ de las cuentas, es decir, únicamente aspiraremos a detectar una actividad de $1.11 \cdotp 10^{4}~\becquerel$. Si además tenemos en cuenta la eficiencia de los PMTs y de las fibras centelleadoras, $30\%$ y $3\%$ respectivamente, únicamente aspiraremos a detectar una actividad de $99.9~\becquerel \approx 1 \cdotp 10^{2} \becquerel$
+
+A continuación, de forma similar al caso del tritio, mostramos el espectro medido con el prototipo y la fuente de Cs-137.
+
+\begin{figure}[htb]
+\centering
+{
+%\subfloat[Espectro de emisión]
+\includegraphics[scale=0.27]{Signal_Cs-137+tritio_and_tritio.png} 
+}
+{
+%\subfloat[Espectro de emisión]
+\includegraphics[scale=0.27]{Signal_Cs-137.png} 
+}
+\caption{Histograma energético de la señal del prototipo con fuente de Cs-137 y del fondo superpuestos y señal únicamente debido al Cs-137.\label{senalcesio}}
+\end{figure}
+
+En este espectro podemos ver que se ha medido una señal con una actividad de, aproximadamente, $0.45~\becquerel$. Vemos que se trata de aproximadamente 3 ordenes de magnitud por debajo de lo que esperaríamos detectar.
+
+Por tanto procedemos a calcular el ángulo sólido para verificar que su valor podría explicar esta diferencia. Para ello, por un lado suponemos que únicamente tienen aprotación a la señal los fotones los cuales llegan diréctamente de la fuente y justo en la cara final del bunch son absorbidos por las fibras centelleadoras y reemitidos ya que, debido al espectro de la eficiencia de fotodetección de los PMTs, los fotones de $662~\kilo\eV$ que llegan al PMT no tendrán aprotación significativa y debido al ángulo sólido, los que se absorben a una distancía mínima de la cara final tampoco tendrán aportación. Por otro lado tenemos en cuenta que la fuente se ha situado sobre la parte central de la U y debajo de la estructura de acero que sujeta el prototipo (fig. $\ref{prototipo}$).Con todo esto el ángulo sólido calculado es aproximadamente $4.435 \cdotp 10^{-3}$. 
+
+
+Vemos que este ángulo sólido justo nos aporta la diferencia de tres órdenes de magnitud que necesitamos. Tomando por válido nuestro argumento obtendríamos una señal máxima de $0.443~\becquerel$, ligeramente inferior al valor determinado.
+
+
+Por tanto, aunque no hayamos comprobado que la perdida de señal sea debido al caso del ángulo sólido vemos que es esta hipótesis se ajusta perfectamente a los resultados. Las mínimas desviaciones podrían ser debido a que se ha considerado que únicamente aportan a la señal los fotones reemitidos justo en la cara final. Esto ha sido una aproximación para realizar un rápido cálculo pero realmente también tendrán aportación los fotones reemitidos a una distancia del orden del milímetro o inferior, lo cual se traduciría en un ligero aumento del ángulo sólido y por tanto, de la señal detectada. Este hecho podría explicar perfectamente el resultado obtenido en esta prueba de verificación. La prueba que nos confirmará en último lugar que lo ocurrrido ha sido realmente esto serán las simulaciones realizadas sobre el experimento.

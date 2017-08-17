@@ -13,6 +13,6 @@
 \contentsline {subsection}{\numberline {4.2}Procedimiento de llenado}{30}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Configuraci\IeC {\'o}n de la electr\IeC {\'o}nica}{31}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Resultados}{34}{subsection.4.4}
-\contentsline {section}{\numberline {5}Simulaciones}{38}{section.5}
-\contentsline {section}{\numberline {6}Previsiones de futuro}{42}{section.6}
-\contentsline {section}{\numberline {7}Conclusiones}{45}{section.7}
+\contentsline {section}{\numberline {5}Simulaciones}{40}{section.5}
+\contentsline {section}{\numberline {6}Previsiones de futuro}{44}{section.6}
+\contentsline {section}{\numberline {7}Conclusiones}{47}{section.7}
