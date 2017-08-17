@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  17 AUG 2017 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  17 AUG 2017 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -9816,7 +9816,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 l.78 ...poseen una energía promedio de $512~\kilo
-                                                  \eV$. Estos electrones no ...
+                                                  \eV$ ~\cite{Isotopos}. Est...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9825,13 +9825,30 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.78 ...een una energía promedio de $512~\kilo\eV
-                                                  $. Estos electrones no lle...
+                                                  $ ~\cite{Isotopos}. Estos ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no [ in font nullfont!
+\citation{Isotopos}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.78 ...romedio de $512~\kilo\eV$ ~\cite{Isotopos}
+                                                  . Estos electrones no lleg...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Isotopos' on page  undefined on input line 78.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -10048,7 +10065,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 l.78 ...tones presentan una energía de $662~\kilo
-                                                  \eV$. Estos son los fotone...
+                                                  \eV$ ~\cite{Isotopos}. Est...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10057,13 +10074,30 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.78 ...es presentan una energía de $662~\kilo\eV
-                                                  $. Estos son los fotones q...
+                                                  $ ~\cite{Isotopos}. Estos ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no [ in font nullfont!
+\citation{Isotopos}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.78 ...nergía de $662~\kilo\eV$ ~\cite{Isotopos}
+                                                  . Estos son los fotones qu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Isotopos' on page  undefined on input line 78.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -10312,8 +10346,16 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no N in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -10650,6 +10692,11 @@ Overfull \hbox (15.00005pt too wide) in paragraph at lines 77--79
  []
 
 
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 77--79
+[]
+ []
+
+
 Overfull \hbox (25.83109pt too wide) in paragraph at lines 77--79
 []$
  []
@@ -10667,6 +10714,11 @@ Overfull \hbox (5.73285pt too wide) in paragraph at lines 77--79
 
 Overfull \hbox (15.00005pt too wide) in paragraph at lines 77--79
 \OT1/cmr/m/n/10 662 []$
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 77--79
+[]
  []
 
 
@@ -12870,11 +12922,11 @@ Missing character: There is no . in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 19 strings out of 493029
- 289 string characters out of 6136234
+ 20 strings out of 493029
+ 299 string characters out of 6136234
  59072 words of memory out of 5000000
- 3654 multiletter control sequences out of 15000+600000
+ 3655 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,4n,21p,1156b,108s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,4n,21p,1216b,108s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

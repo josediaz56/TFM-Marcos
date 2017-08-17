@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  17 AUG 2017 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  17 AUG 2017 16:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1417,7 +1417,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 19.
 
 (./Secciones/4Fibras.tex
-<Figuras/EsquemaNivelesFIbras.png, id=183, 392.46625pt x 210.7875pt>
+<Figuras/EsquemaNivelesFIbras.png, id=186, 392.46625pt x 210.7875pt>
 File: Figuras/EsquemaNivelesFIbras.png Graphic file (type png)
 
 <use Figuras/EsquemaNivelesFIbras.png>
@@ -1448,7 +1448,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 21.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 21.
- [8 <./Figuras/EsquemaNivelesFIbras.png>] <Figuras/Guillotina1.png, id=201, 722
+ [8 <./Figuras/EsquemaNivelesFIbras.png>] <Figuras/Guillotina1.png, id=204, 722
 .7pt x 426.59375pt>
 File: Figuras/Guillotina1.png Graphic file (type png)
 
@@ -1456,20 +1456,20 @@ File: Figuras/Guillotina1.png Graphic file (type png)
 Package pdftex.def Info: Figuras/Guillotina1.png used on input line 32.
 (pdftex.def)             Requested size: 216.81166pt x 127.97911pt.
 
-<Figuras/Guillotina2.png, id=202, 724.7075pt x 315.1775pt>
+<Figuras/Guillotina2.png, id=205, 724.7075pt x 315.1775pt>
 File: Figuras/Guillotina2.png Graphic file (type png)
 
 <use Figuras/Guillotina2.png>
 Package pdftex.def Info: Figuras/Guillotina2.png used on input line 36.
 (pdftex.def)             Requested size: 217.41393pt x 94.55397pt.
 
-<Figuras/SinPulir.png, id=207, 230.8625pt x 208.78pt>
+<Figuras/SinPulir.png, id=210, 230.8625pt x 208.78pt>
 File: Figuras/SinPulir.png Graphic file (type png)
 
 <use Figuras/SinPulir.png>
 Package pdftex.def Info: Figuras/SinPulir.png used on input line 53.
 (pdftex.def)             Requested size: 115.43095pt x 104.38972pt.
- <Figuras/Pulida.png, id=208, 256.96pt x 202.7575pt>
+ <Figuras/Pulida.png, id=211, 256.96pt x 202.7575pt>
 File: Figuras/Pulida.png Graphic file (type png)
 
 <use Figuras/Pulida.png>
@@ -1500,14 +1500,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 63.
  [9 <./Figuras/Guillotina1.png> <./Figuras/Guillotina2.png>] <Figuras/arometali
-co.png, id=219, 572.1375pt x 212.795pt>
+co.png, id=222, 572.1375pt x 212.795pt>
 File: Figuras/arometalico.png Graphic file (type png)
 
 <use Figuras/arometalico.png>
 Package pdftex.def Info: Figuras/arometalico.png used on input line 70.
 (pdftex.def)             Requested size: 171.64256pt x 63.83897pt.
 
-<Figuras/arometalicoconrosca.png, id=220, 528.97626pt x 189.70876pt>
+<Figuras/arometalicoconrosca.png, id=223, 528.97626pt x 189.70876pt>
 File: Figuras/arometalicoconrosca.png Graphic file (type png)
 
 <use Figuras/arometalicoconrosca.png>
@@ -1515,14 +1515,14 @@ Package pdftex.def Info: Figuras/arometalicoconrosca.png used on input line 74.
 
 (pdftex.def)             Requested size: 158.69409pt x 56.91306pt.
 
-<Figuras/bunchfibras.png, id=221, 799.98875pt x 139.52126pt>
+<Figuras/bunchfibras.png, id=224, 799.98875pt x 139.52126pt>
 File: Figuras/bunchfibras.png Graphic file (type png)
 
 <use Figuras/bunchfibras.png>
 Package pdftex.def Info: Figuras/bunchfibras.png used on input line 87.
 (pdftex.def)             Requested size: 239.99847pt x 41.85669pt.
 
-<Figuras/bunchfibras1.png, id=222, 487.8225pt x 259.97125pt>
+<Figuras/bunchfibras1.png, id=225, 487.8225pt x 259.97125pt>
 File: Figuras/bunchfibras1.png Graphic file (type png)
 
 <use Figuras/bunchfibras1.png>
@@ -1570,7 +1570,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 23.
 
 (./Secciones/5SiPM/51IntroSiPM.tex
-<Figuras/pedestal.png, id=232, 1124.2pt x 475.7775pt>
+<Figuras/pedestal.png, id=235, 1124.2pt x 475.7775pt>
 File: Figuras/pedestal.png Graphic file (type png)
 
 <use Figuras/pedestal.png>
@@ -1601,13 +1601,13 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 17.
  [11 <./Figuras/pedestal.png>]
-<Figuras/PED.png, id=240, 714.67pt x 548.0475pt>
+<Figuras/PED.png, id=243, 714.67pt x 548.0475pt>
 File: Figuras/PED.png Graphic file (type png)
  <use Figuras/PED.png>
 Package pdftex.def Info: Figuras/PED.png used on input line 25.
 (pdftex.def)             Requested size: 214.40265pt x 164.41551pt.
 
-<Figuras/EmisionBCF12.png, id=241, 644.4075pt x 389.455pt>
+<Figuras/EmisionBCF12.png, id=244, 644.4075pt x 389.455pt>
 File: Figuras/EmisionBCF12.png Graphic file (type png)
 
 <use Figuras/EmisionBCF12.png>
@@ -1652,7 +1652,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 25.
  (./Secciones/5SiPM/52Equipo.tex
-<Figuras/InteriorTemperatura.png, id=255, 596.2275pt x 446.66875pt>
+<Figuras/InteriorTemperatura.png, id=258, 596.2275pt x 446.66875pt>
 File: Figuras/InteriorTemperatura.png Graphic file (type png)
 
 <use Figuras/InteriorTemperatura.png>
@@ -1660,7 +1660,7 @@ Package pdftex.def Info: Figuras/InteriorTemperatura.png used on input line 14.
 
 (pdftex.def)             Requested size: 178.86963pt x 134.00165pt.
 
-<Figuras/FichaTecnica.png, id=256, 639.38875pt x 470.75874pt>
+<Figuras/FichaTecnica.png, id=259, 639.38875pt x 470.75874pt>
 File: Figuras/FichaTecnica.png Graphic file (type png)
 
 <use Figuras/FichaTecnica.png>
@@ -1720,19 +1720,19 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 45.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 45.
-[14] <Figuras/SiPM.png, id=278, 244.915pt x 246.9225pt>
+[14] <Figuras/SiPM.png, id=281, 244.915pt x 246.9225pt>
 File: Figuras/SiPM.png Graphic file (type png)
  <use Figuras/SiPM.png>
 Package pdftex.def Info: Figuras/SiPM.png used on input line 52.
 (pdftex.def)             Requested size: 134.70364pt x 135.80777pt.
 
-<Figuras/tarjeta.png, id=279, 806.01125pt x 591.20876pt>
+<Figuras/tarjeta.png, id=282, 806.01125pt x 591.20876pt>
 File: Figuras/tarjeta.png Graphic file (type png)
 
 <use Figuras/tarjeta.png>
 Package pdftex.def Info: Figuras/tarjeta.png used on input line 56.
 (pdftex.def)             Requested size: 201.50232pt x 147.80182pt.
- <Figuras/ruido.png, id=280, 488.82625pt x 321.2pt>
+ <Figuras/ruido.png, id=283, 488.82625pt x 321.2pt>
 File: Figuras/ruido.png Graphic file (type png)
 
 <use Figuras/ruido.png>
@@ -1776,7 +1776,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 28.
  (./Secciones/5SiPM/53CalibracionTarjeta.tex
-<Figuras/CircuitoTarjeta.png, id=290, 604.2575pt x 468.75125pt>
+<Figuras/CircuitoTarjeta.png, id=293, 604.2575pt x 468.75125pt>
 File: Figuras/CircuitoTarjeta.png Graphic file (type png)
 
 <use Figuras/CircuitoTarjeta.png>
@@ -1821,7 +1821,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 4.
  [16 <./Figuras/CircuitoTarjeta.png>]
-<Figuras/Analisis.png, id=300, 974.64125pt x 446.66875pt>
+<Figuras/Analisis.png, id=303, 974.64125pt x 446.66875pt>
 File: Figuras/Analisis.png Graphic file (type png)
 
 <use Figuras/Analisis.png>
@@ -1852,14 +1852,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 31.
  [17]
-<Figuras/fondogaussiano.png, id=307, 970.62625pt x 410.53375pt>
+<Figuras/fondogaussiano.png, id=310, 970.62625pt x 410.53375pt>
 File: Figuras/fondogaussiano.png Graphic file (type png)
 
 <use Figuras/fondogaussiano.png>
 Package pdftex.def Info: Figuras/fondogaussiano.png used on input line 38.
 (pdftex.def)             Requested size: 388.24362pt x 164.21059pt.
 
-<Figuras/AjusteEspectro1.png, id=309, 770.88pt x 539.01375pt>
+<Figuras/AjusteEspectro1.png, id=312, 770.88pt x 539.01375pt>
 File: Figuras/AjusteEspectro1.png Graphic file (type png)
 
 <use Figuras/AjusteEspectro1.png>
@@ -1915,7 +1915,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 68.
  [19 <./Figuras/AjusteEspectro1.png>]
-<Figuras/FitPosicionPixels.png, id=337, 871.255pt x 565.11125pt>
+<Figuras/FitPosicionPixels.png, id=340, 871.255pt x 565.11125pt>
 File: Figuras/FitPosicionPixels.png Graphic file (type png)
 
 <use Figuras/FitPosicionPixels.png>
@@ -1973,7 +1973,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
  [20 <./Figuras/FitPosicionPixels.png>]
-<Figuras/Dependenciatemperatura.png, id=355, 868.24374pt x 566.115pt>
+<Figuras/Dependenciatemperatura.png, id=358, 868.24374pt x 566.115pt>
 File: Figuras/Dependenciatemperatura.png Graphic file (type png)
 
 <use Figuras/Dependenciatemperatura.png>
@@ -2052,7 +2052,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 6.
  [22 <./Figuras/Dependenciatemperatura.png>]
-<Figuras/Dependenciavoltaje.png, id=370, 870.25125pt x 568.1225pt>
+<Figuras/Dependenciavoltaje.png, id=373, 870.25125pt x 568.1225pt>
 File: Figuras/Dependenciavoltaje.png Graphic file (type png)
 
 <use Figuras/Dependenciavoltaje.png>
@@ -2154,7 +2154,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 53.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 53.
-[25] <Figuras/compensacion.png, id=407, 870.25125pt x 567.11874pt>
+[25] <Figuras/compensacion.png, id=410, 870.25125pt x 567.11874pt>
 File: Figuras/compensacion.png Graphic file (type png)
 
 <use Figuras/compensacion.png>
@@ -2238,7 +2238,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 46.
 
 (./Secciones/6Prototipos/62Configuracionprototipo.tex
-<Figuras/Prototipo.png, id=419, 790.955pt x 521.95pt>
+<Figuras/Prototipo.png, id=422, 790.955pt x 521.95pt>
 File: Figuras/Prototipo.png Graphic file (type png)
 
 <use Figuras/Prototipo.png>
@@ -2281,7 +2281,7 @@ LaTeX Warning: Command \textordmasculine invalid in math mode on input line 21.
 LaTeX Warning: Command \textordmasculine invalid in math mode on input line 21.
 
 
-<Figuras/Tapones.png, id=424, 664.4825pt x 393.47pt>
+<Figuras/Tapones.png, id=427, 664.4825pt x 393.47pt>
 File: Figuras/Tapones.png Graphic file (type png)
  <use Figuras/Tapones.png>
 Package pdftex.def Info: Figuras/Tapones.png used on input line 27.
@@ -2312,7 +2312,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 35.
 
 [29 <./Figuras/Prototipo.png>]
-<Figuras/Prototipodelantetapon.png, id=430, 751.80875pt x 532.99126pt>
+<Figuras/Prototipodelantetapon.png, id=433, 751.80875pt x 532.99126pt>
 File: Figuras/Prototipodelantetapon.png Graphic file (type png)
 
 <use Figuras/Prototipodelantetapon.png>
@@ -2320,7 +2320,7 @@ Package pdftex.def Info: Figuras/Prototipodelantetapon.png used on input line 4
 0.
 (pdftex.def)             Requested size: 187.95172pt x 133.24748pt.
 
-<Figuras/PrototipoDetrastapon.png, id=431, 765.86125pt x 524.96124pt>
+<Figuras/PrototipoDetrastapon.png, id=434, 765.86125pt x 524.96124pt>
 File: Figuras/PrototipoDetrastapon.png Graphic file (type png)
 
 <use Figuras/PrototipoDetrastapon.png>
@@ -2411,7 +2411,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
  [31]
-<Figuras/Esquemaelectronico.png, id=451, 713.66624pt x 447.6725pt>
+<Figuras/Esquemaelectronico.png, id=454, 713.66624pt x 447.6725pt>
 File: Figuras/Esquemaelectronico.png Graphic file (type png)
 
 <use Figuras/Esquemaelectronico.png>
@@ -2442,7 +2442,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 21.
  [32 <./Figuras/Esquemaelectronico.png>]
-<Figuras/SenalesNIM.png, id=465, 809.0225pt x 606.265pt>
+<Figuras/SenalesNIM.png, id=468, 809.0225pt x 606.265pt>
 File: Figuras/SenalesNIM.png Graphic file (type png)
 
 <use Figuras/SenalesNIM.png>
@@ -2473,7 +2473,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 38.
  [33 <./Figuras/SenalesNIM.png>]
-<Figuras/SenalesMCA.png, id=473, 805.0075pt x 573.14125pt>
+<Figuras/SenalesMCA.png, id=476, 805.0075pt x 573.14125pt>
 File: Figuras/SenalesMCA.png Graphic file (type png)
 
 <use Figuras/SenalesMCA.png>
@@ -2521,14 +2521,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 8.
 [34 <./Figuras/SenalesMCA.png>]
-<Figuras/Tritium3-fcpst2.png, id=481, 758.835pt x 543.02875pt>
+<Figuras/Tritium3-fcpst2.png, id=484, 758.835pt x 543.02875pt>
 File: Figuras/Tritium3-fcpst2.png Graphic file (type png)
 
 <use Figuras/Tritium3-fcpst2.png>
 Package pdftex.def Info: Figuras/Tritium3-fcpst2.png used on input line 19.
 (pdftex.def)             Requested size: 204.88818pt x 146.6197pt.
 
-<Figuras/tritiumsignal.png, id=482, 761.84625pt x 546.04pt>
+<Figuras/tritiumsignal.png, id=485, 761.84625pt x 546.04pt>
 File: Figuras/tritiumsignal.png Graphic file (type png)
 
 <use Figuras/tritiumsignal.png>
@@ -2617,7 +2617,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 71.
 [37]
-<Figuras/Signal_Cs-137+tritio_and_tritio.png, id=501, 758.835pt x 541.02126pt>
+<Figuras/Signal_Cs-137+tritio_and_tritio.png, id=506, 758.835pt x 541.02126pt>
 File: Figuras/Signal_Cs-137+tritio_and_tritio.png Graphic file (type png)
 
 <use Figuras/Signal_Cs-137+tritio_and_tritio.png>
@@ -2625,7 +2625,7 @@ Package pdftex.def Info: Figuras/Signal_Cs-137+tritio_and_tritio.png used on in
 put line 86.
 (pdftex.def)             Requested size: 204.88818pt x 146.07768pt.
 
-<Figuras/Signal_Cs-137.png, id=502, 749.80125pt x 539.01375pt>
+<Figuras/Signal_Cs-137.png, id=507, 749.80125pt x 539.01375pt>
 File: Figuras/Signal_Cs-137.png Graphic file (type png)
 
 <use Figuras/Signal_Cs-137.png>
@@ -2695,7 +2695,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 59.
  (./Secciones/7Simulaciones.tex
-<Figuras/Finalforntal.png, id=514, 396.48125pt x 303.1325pt>
+<Figuras/Finalforntal.png, id=519, 396.48125pt x 303.1325pt>
 File: Figuras/Finalforntal.png Graphic file (type png)
 
 <use Figuras/Finalforntal.png>
@@ -2726,7 +2726,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 20.
  [40 <./Figuras/Finalforntal.png>]
-<Figuras/espectrotritiosimulado.png, id=521, 1480.53125pt x 857.2025pt>
+<Figuras/espectrotritiosimulado.png, id=526, 1480.53125pt x 857.2025pt>
 File: Figuras/espectrotritiosimulado.png Graphic file (type png)
 
 <use Figuras/espectrotritiosimulado.png>
@@ -2734,21 +2734,21 @@ Package pdftex.def Info: Figuras/espectrotritiosimulado.png used on input line
 24.
 (pdftex.def)             Requested size: 296.101pt x 171.43745pt.
 
-<Figuras/eventosXfibras.png, id=523, 1499.6025pt x 858.20625pt>
+<Figuras/eventosXfibras.png, id=528, 1499.6025pt x 858.20625pt>
 File: Figuras/eventosXfibras.png Graphic file (type png)
 
 <use Figuras/eventosXfibras.png>
 Package pdftex.def Info: Figuras/eventosXfibras.png used on input line 36.
 (pdftex.def)             Requested size: 149.96902pt x 85.82565pt.
 
-<Figuras/eventosYfibras.png, id=524, 1482.53876pt x 854.19125pt>
+<Figuras/eventosYfibras.png, id=529, 1482.53876pt x 854.19125pt>
 File: Figuras/eventosYfibras.png Graphic file (type png)
 
 <use Figuras/eventosYfibras.png>
 Package pdftex.def Info: Figuras/eventosYfibras.png used on input line 40.
 (pdftex.def)             Requested size: 148.26256pt x 85.42412pt.
 
-<Figuras/eventosZfibras.png, id=525, 1480.53125pt x 844.15375pt>
+<Figuras/eventosZfibras.png, id=530, 1480.53125pt x 844.15375pt>
 File: Figuras/eventosZfibras.png Graphic file (type png)
 
 <use Figuras/eventosZfibras.png>
@@ -2780,14 +2780,14 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 52.
  [41 <./Figuras/espectrotritiosimulado.png> <./Figuras/eventosXfibras.png> <./F
 iguras/eventosYfibras.png> <./Figuras/eventosZfibras.png>] <Figuras/Histogramaf
-ibras.png, id=534, 1489.565pt x 857.2025pt>
+ibras.png, id=539, 1489.565pt x 857.2025pt>
 File: Figuras/Histogramafibras.png Graphic file (type png)
 
 <use Figuras/Histogramafibras.png>
 Package pdftex.def Info: Figuras/Histogramafibras.png used on input line 55.
 (pdftex.def)             Requested size: 297.90771pt x 171.43745pt.
 
-<Figuras/deposicionenergiaagua.png, id=535, 1492.57625pt x 847.165pt>
+<Figuras/deposicionenergiaagua.png, id=540, 1492.57625pt x 847.165pt>
 File: Figuras/deposicionenergiaagua.png Graphic file (type png)
 
 <use Figuras/deposicionenergiaagua.png>
@@ -2795,7 +2795,7 @@ Package pdftex.def Info: Figuras/deposicionenergiaagua.png used on input line 6
 7.
 (pdftex.def)             Requested size: 149.26636pt x 84.72145pt.
 
-<Figuras/longitudrecorridaagua.png, id=536, 1509.64pt x 845.1575pt>
+<Figuras/longitudrecorridaagua.png, id=541, 1509.64pt x 845.1575pt>
 File: Figuras/longitudrecorridaagua.png Graphic file (type png)
 
 <use Figuras/longitudrecorridaagua.png>
@@ -2803,7 +2803,7 @@ Package pdftex.def Info: Figuras/longitudrecorridaagua.png used on input line 7
 1.
 (pdftex.def)             Requested size: 150.97284pt x 84.52069pt.
 
-<Figuras/energiadeposicionfibras.png, id=537, 1560.83125pt x 849.1725pt>
+<Figuras/energiadeposicionfibras.png, id=542, 1560.83125pt x 849.1725pt>
 File: Figuras/energiadeposicionfibras.png Graphic file (type png)
 
 <use Figuras/energiadeposicionfibras.png>
@@ -2811,7 +2811,7 @@ Package pdftex.def Info: Figuras/energiadeposicionfibras.png used on input line
  80.
 (pdftex.def)             Requested size: 156.09227pt x 84.92221pt.
 
-<Figuras/longitudfibras.png, id=538, 1549.79pt x 849.1725pt>
+<Figuras/longitudfibras.png, id=543, 1549.79pt x 849.1725pt>
 File: Figuras/longitudfibras.png Graphic file (type png)
 
 <use Figuras/longitudfibras.png>
@@ -2844,7 +2844,7 @@ Package babel Info: Redefining spanish shorthand "?
  [42 <./Figuras/Histogramafibras.png> <./Figuras/deposicionenergiaagua.png> <./
 Figuras/longitudrecorridaagua.png> <./Figuras/energiadeposicionfibras.png> <./F
 iguras/longitudfibras.png>]
-<Figuras/reemisionfotones.png, id=549, 1475.5125pt x 851.18pt>
+<Figuras/reemisionfotones.png, id=554, 1475.5125pt x 851.18pt>
 File: Figuras/reemisionfotones.png Graphic file (type png)
 
 <use Figuras/reemisionfotones.png>
@@ -2915,14 +2915,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 16.
  [44]
-<Figuras/Tarjeta.png, id=572, 808.01875pt x 447.6725pt>
+<Figuras/Tarjeta.png, id=577, 808.01875pt x 447.6725pt>
 File: Figuras/Tarjeta.png Graphic file (type png)
 
 <use Figuras/Tarjeta.png>
 Package pdftex.def Info: Figuras/Tarjeta.png used on input line 33.
 (pdftex.def)             Requested size: 161.60088pt x 89.53291pt.
 
-<Figuras/Arduino.png, id=573, 364.36125pt x 217.81375pt>
+<Figuras/Arduino.png, id=578, 364.36125pt x 217.81375pt>
 File: Figuras/Arduino.png Graphic file (type png)
 
 <use Figuras/Arduino.png>
@@ -3043,29 +3043,29 @@ Package babel Info: Redefining spanish shorthand "?
 
 [48]) (./Secciones/11Bibliografia.tex
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 48.
  [49])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
 Package babel Info: Redefining spanish shorthand <<
@@ -3109,10 +3109,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 18999 strings out of 493029
- 333179 string characters out of 6136234
- 418522 words of memory out of 5000000
- 21977 multiletter control sequences out of 15000+600000
+ 19001 strings out of 493029
+ 333202 string characters out of 6136234
+ 417553 words of memory out of 5000000
+ 21978 multiletter control sequences out of 15000+600000
  26097 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,14n,44p,10451b,594s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3136,10 +3136,10 @@ r/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (51 pages, 10384780 bytes).
+Output written on main.pdf (51 pages, 10386142 bytes).
 PDF statistics:
- 746 PDF objects out of 1000 (max. 8388607)
- 592 compressed objects within 6 object streams
- 220 named destinations out of 1000 (max. 500000)
+ 751 PDF objects out of 1000 (max. 8388607)
+ 597 compressed objects within 6 object streams
+ 221 named destinations out of 1000 (max. 500000)
  397 words of extra memory for PDF output out of 10000 (max. 10000000)
 
