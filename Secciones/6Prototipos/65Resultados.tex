@@ -16,7 +16,7 @@ Finalmente se normalizan cada uno de los histogramas al tiempo correspondiente a
 \centering
 {
 %\subfloat[Espectro de emisión]
-\includegraphics[scale=0.27]{Tritium3-fcpst2.png} 
+\includegraphics[scale=0.27]{tritio-fondo.png} 
 }
 {
 %\subfloat[Espectro de emisión]
@@ -26,7 +26,7 @@ Finalmente se normalizan cada uno de los histogramas al tiempo correspondiente a
 \end{figure}
 
 
-En esta figura podemos observar que estamos detectando un pico de señal de aproximadamente $0.045~\becquerel$ y una señal debida únicamente a tritio de aproximadamente $0.01~\becquerel$. Podemos apreciar la existencia de una zona entre los canales 450 y 700 donde el fondo supera a la señal. Habrá que indagar más en este prototipo para encontrar la explicación de este fenómeno.
+En esta figura podemos observar que estamos detectando un pico de señal de aproximadamente $0.05~\becquerel$ y una señal debida únicamente a tritio de aproximadamente $0.013~\becquerel$. 
 
 Para ver hasta que punto nuestro sistema funciona de forma adecuada podemos realizar un rápido cálculo para ver cual es la actividad que aspiramos detectar con nuestro prototipo. Para ello por un lado calcularemos el volumen efectivo de la fuente (volumen de agua tritiada que tendrá contribución a la señal final) y, por otro lado, utilizaremos este volumen para determinar cual es la actividad que deberíamos medir en nuestro experimento.
 
@@ -35,7 +35,7 @@ Para ver hasta que punto nuestro sistema funciona de forma adecuada podemos real
 
 El volumen de la fibrá es el volumen correspondiente a un cilindro de radio $0.5~\mm$ (radio de la fibra) y una longitud efectiva de $20~\cm$, donde se ha tenido en cuenta que, aunque la longitud real de la fibra son $25~\cm$, esta contiene en los extremos del bunch unos aros metálicos y, además, parte de esta fibra sobresale del prototipo para acoplar a los PMTs. Por extensión, esta sección de la fibra, aproximadamente $2,5~\cm$ a cada extremo,  no contribuyen a la señal de detección del tritio. Con todo esto el volumen ocupado por la fibra será $V_{fibra}=1.5708 \cdotp 10^{-4}$ litros.
 
-Análogamente calculamos el volumen ocupado por la fuente más la fibra, que corresponderá a un cilindro de radio $0.5~\mm+5\mu m$ (radio de la fibra + radio efectivo de la fuente) y la misma longitud que la fibra, es decir, $20~\cm$, ya que en estos extremos se encuentra el final del prototipo. Como resultado el volumen ocupado por la fibra y la parte de la fuente que contribuye a la señal de esta fibrá será $V_{total}=1.6023 \cdotp 10^{-4}$ litros. 
+Análogamente calculamos el volumen ocupado por la fuente más la fibra (volumen total), que corresponderá a un cilindro de radio $0.5~\mm+5\mu m$ (radio de la fibra + radio efectivo de la fuente) y la misma longitud que la fibra, es decir, $20~\cm$, ya que en estos extremos se encuentra el final del prototipo. Como resultado el volumen ocupado por la fibra y la parte de la fuente que contribuye a la señal de esta fibrá será $V_{total}=1.6023 \cdotp 10^{-4}$ litros. 
 
 Por tanto el volumen ocupado únicamente por el porcentaje de la fuente que esta interviniendo en la señal de esta fibra será la diferencia entre estos $V_{fuente}=3.1573 \cdotp 10^{-6}$ litros.
  
@@ -51,13 +51,13 @@ Finalmente, teniendo en cuenta que la eficiencia de la fibras y de los PMTs son,
 
 \end{itemize}
 
-Podemos ver que estamos detectando 4 ordenes de magnitud menos de lo que deberíamos. Por un lado esto es debido a imperfecciones del sistema pero la principal fuente de la pérdida de la señal es el hecho de que las fibras empleadas en este prototipo no poseen clad. 
+Podemos ver que estamos detectando 4 ordenes de magnitud menos de lo que deberíamos. Esto es debido en parte a imperfecciones del sistema pero la principal fuente de la pérdida de la señal es el hecho de que las fibras empleadas en este prototipo no poseen clad. 
 
 El clad hace que los fotones sean conducidos por el interior de las fibras a partir de reflexiones hasta el contador de fotones, es decir, actua como guia de luz. En nuestro caso, fibras sin clad, en cada reflexión se produce una pérdida del $94\%$ de la señal, por tanto, prácticamente la totalidad de los fotones de emisión de las fibras escaparán de estas llegando al agua y produciendo de esta forma una pérdida de señal. 
 
 Como resultado únicamente detectaremos el porcentaje asociado al ángulo sólido cubierto por las fibras centelleadoras respecto al total de electrones emitidos por el tritio, cuya emisión supondremos isótropa. Además, del total de fotones reemitidos por las fibras centelleadoras (de nuevo se supone emisión isótropa) ante la detección de este electrón, únicamente detectaremos el porcentaje asociado al ángulo sólido cubierto por la cara final de la fibra centelleadora. También hay que tener en cuenta que el porcentaje de fibra que se encuentra en la parte inferior de la U que conforma el prototipo apenas intervendrá en la señal ya que vemos que prácticamente la totalidad de esta será perdida (su ángulo sólido es cero). 
 
-Podemos realizar una rápida estimación de la magnitud relativa de estos ángulos sólidos para ver su importancia en la pérdida de la señal. Integrando la expresión del ángulo sólido esta toma la siguiente forma: $\Omega=2\pi(1-\cos{\theta})$ donde $\theta$ es el ángulo que subtiene la superficie que queremos calcular$~\cite{unizar}$. Por tanto, dado que la superficie total de emisión será $4\pi$ ($\theta=180º$) el factor de reducción debido al ángulo sólido será:
+Podemos realizar una rápida estimación de la magnitud relativa de estos ángulos sólidos para ver su importancia en la pérdida de la señal. Integrando la expresión del ángulo sólido para una esfera esta toma la siguiente forma: $\Omega=2\pi(1-\cos{\theta})$ donde $\theta$ es el ángulo que subtiene la superficie que queremos calcular$~\cite{unizar}$. Por tanto, dado que la superficie total de emisión será $4\pi$ ($\theta=180º$) el factor de reducción debido al ángulo sólido será:
 \begin{equation}
 \frac{\Omega}{4\pi}=\frac{1-\cos{\theta}}{2}
 \label{factordebidoalangulosolido}
@@ -94,7 +94,7 @@ A continuación, de forma similar al caso del tritio, mostramos el espectro medi
 
 En este espectro podemos ver que se ha medido una señal con una actividad lijeramente inferior a $0.45~\becquerel$. Vemos que se trata de aproximadamente 3 ordenes de magnitud por debajo de lo que esperaríamos detectar.
 
-Por tanto procedemos a calcular el ángulo sólido para verificar que su valor podría explicar esta diferencia. Para ello, por un lado suponemos que únicamente tienen aprotación a la señal los fotones los cuales llegan diréctamente de la fuente y justo en la cara final del bunch son absorbidos por las fibras centelleadoras y reemitidos ya que, debido al espectro de la eficiencia de fotodetección de los PMTs, los fotones de $662~\kilo\eV$ que llegan al PMT no tendrán aprotación significativa y debido al ángulo sólido, los que se absorben a una distancía mínima de la cara final tampoco tendrán aportación. Por otro lado tenemos en cuenta que la fuente se ha situado sobre la parte central de la U y debajo de la estructura de acero que sujeta el prototipo (fig. $\ref{prototipo}$).Con todo esto el ángulo sólido calculado es aproximadamente $4.435 \cdotp 10^{-3}$. 
+Por tanto procedemos a calcular el ángulo sólido para verificar que su valor podría explicar esta diferencia. Para ello, por un lado suponemos que únicamente tienen aprotación a la señal los fotones los cuales llegan diréctamente de la fuente y justo en la cara final del bunch son absorbidos por las fibras centelleadoras y reemitidos ya que, por un lado, debido al espectro de la eficiencia de fotodetección de los PMTs, los fotones de $662~\kilo\eV$ que llegan al PMT no tendrán aprotación significativa y, por otro lado, debido al ángulo sólido, los que se absorben a una distancía mínima de la cara final tampoco tendrán aportación. Además tenemos en cuenta que la fuente se ha situado sobre la parte central de la U y debajo de la estructura de acero que sujeta el prototipo (fig. $\ref{prototipo}$).Con todo esto el ángulo sólido calculado es aproximadamente $4.435 \cdotp 10^{-3}$. 
 
 
 Vemos que este ángulo sólido justo nos aporta la diferencia de tres órdenes de magnitud que necesitamos. Tomando por válido nuestro argumento obtendríamos una señal máxima de $0.443~\becquerel$, el cual vemos que se acerca de forma casi perfecta al valor esperado.
