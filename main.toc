@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {3.4}Calibraci\IeC {\'o}n en temperatura}{21}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}Calibraci\IeC {\'o}n en voltaje de operaci\IeC {\'o}n}{22}{subsection.3.5}
 \contentsline {subsection}{\numberline {3.6}Estabilizaci\IeC {\'o}n de la ganancia}{24}{subsection.3.6}
-\contentsline {section}{\numberline {4}Prototipos}{28}{section.4}
+\contentsline {section}{\numberline {4}Prototipo}{28}{section.4}
 \contentsline {subsection}{\numberline {4.1}Configuraci\IeC {\'o}n del prototipo}{28}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Procedimiento de llenado}{30}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Configuraci\IeC {\'o}n de la electr\IeC {\'o}nica}{31}{subsection.4.3}

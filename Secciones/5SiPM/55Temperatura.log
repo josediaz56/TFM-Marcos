@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  11 AUG 2017 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  23 AUG 2017 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3315,14 +3315,12 @@ MS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 71545 \OM
 S/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] [][][]
  []
 
-Missing character: There is no Â in font cmr10!
-Missing character: There is no º in font cmr10!
 
-Overfull \hbox (135.74881pt too wide) detected at line 33
+Overfull \hbox (125.48633pt too wide) detected at line 33
 \OML/cmm/m/it/10 b \OT1/cmr/m/n/10 = 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 05001 \
 OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10 7
 \OML/cmm/m/it/10 :\OT1/cmr/m/n/10 69711 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10
-[] [][][]
+[][]
  []
 
 Missing character: There is no E in font nullfont!
@@ -3462,7 +3460,7 @@ Missing character: There is no . in font nullfont!
 Here is how much of TeX's memory you used:
  15 strings out of 493029
  253 string characters out of 6136234
- 56072 words of memory out of 5000000
+ 55072 words of memory out of 5000000
  3650 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

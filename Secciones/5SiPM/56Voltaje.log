@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  11 AUG 2017 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  23 AUG 2017 12:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3840,11 +3840,11 @@ OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10 2
  []
 
 
-Overfull \hbox (156.95517pt too wide) detected at line 35
+Overfull \hbox (138.16347pt too wide) detected at line 35
 \OML/cmm/m/it/10 d \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/
 cmm/m/it/10 :\OT1/cmr/m/n/10 19368 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \O
 MS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 38112 \OM
-S/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] []\OML/cmm/m/it/10 V[][]
+S/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[][]
  []
 
 Missing character: There is no R in font nullfont!

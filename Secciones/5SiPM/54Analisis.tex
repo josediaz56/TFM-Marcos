@@ -27,7 +27,7 @@ Donde cada uno de estos picos corresponde a la carga de sucesivos número de pix
  
 Ahora únicamente desarrollamos una macro en ROOT (programa de análisis de datos desarrollado por el CERN) que, utilizando la librería TSpectrum (librería especialmente diseñada para el análisis de histograma) nos permita obtener la ganancia del sistema. Su forma de proceder es la siguiente:
 \begin{enumerate}
-\item {} Primero la macro lee el fichero de datos y lo guarda en una variable de tipo histograma. La macro se detiene cuando no encuentra más valores para leer.
+\item {} Primero la macro lee el fichero de datos, los guarda en una variable de tipo histograma y los representa. La macro termina de leer el fichero cuando no encuentra más valores.
 
 \item {} A continuación, a partir de una función de la librería TSpectrum, busca en este histograma y devuelve el número de gaussianas que ha encontrado y su posición.
 
