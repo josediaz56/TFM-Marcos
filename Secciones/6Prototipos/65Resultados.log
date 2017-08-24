@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  21 AUG 2017 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  24 AUG 2017 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1475,6 +1475,8 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -5254,11 +5256,8 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -5388,6 +5387,33 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
+! Undefined control sequence.
+l.48 ...iones por segundo, es decir, $11.996~\kilo
+                                                  \becquerel$.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.48 ...segundo, es decir, $11.996~\kilo\becquerel
+                                                  $.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (46.70844pt too wide) in paragraph at lines 48--49
@@ -5397,8 +5423,13 @@ Overfull \hbox (46.70844pt too wide) in paragraph at lines 48--49
 
 
 Overfull \hbox (46.70844pt too wide) in paragraph at lines 48--49
-\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3893\OMS/cmsy/m/n/10 ^^A \OT
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1996\OMS/cmsy/m/n/10 ^^A \OT
 1/cmr/m/n/10 10[]$
+ []
+
+
+Overfull \hbox (27.77786pt too wide) in paragraph at lines 48--49
+\OT1/cmr/m/n/10 11\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 996 []$ 
  []
 
 Missing character: There is no F in font nullfont!
@@ -5627,7 +5658,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.50 ...tar es, aproximadamente $215.03~\becquerel
+l.50 ...tar es, aproximadamente $107.96~\becquerel
                                                   $.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5638,7 +5669,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (27.77786pt too wide) in paragraph at lines 50--51
-\OT1/cmr/m/n/10 215\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 03 []$ 
+\OT1/cmr/m/n/10 107\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 96 []$ 
  []
 
 Missing character: There is no P in font nullfont!
@@ -8754,6 +8785,21 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
+\citation{clad}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.67 ...trabajos similares anteriores$~\cite{clad}
+                                                  $. De esta forma podríamo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `clad' on page  undefined on input line 67.
+
 Missing character: There is no . in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -8969,6 +9015,11 @@ Overfull \hbox (13.33337pt too wide) in paragraph at lines 67--68
 
 Overfull \hbox (24.80565pt too wide) in paragraph at lines 67--68
 \OT1/cmr/m/n/10 40 []\OML/cmm/m/it/10 ^^Vm$
+ []
+
+
+Overfull \hbox (10.9861pt too wide) in paragraph at lines 67--68
+[]\OT1/cmr/m/n/10 [[]]$
  []
 
 Missing character: There is no E in font nullfont!
@@ -12799,10 +12850,10 @@ Missing character: There is no . in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 20 strings out of 493029
- 299 string characters out of 6136234
+ 21 strings out of 493029
+ 305 string characters out of 6136234
  59072 words of memory out of 5000000
- 3655 multiletter control sequences out of 15000+600000
+ 3656 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  18i,4n,21p,1216b,108s stack positions out of 5000i,500n,10000p,200000b,80000s
