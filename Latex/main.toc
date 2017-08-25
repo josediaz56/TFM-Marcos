@@ -1,0 +1,18 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introduccion}{2}{section.1}
+\contentsline {section}{\numberline {2}Protocolo de manipulaci\IeC {\'o}n de fibras centelleadoras}{8}{section.2}
+\contentsline {section}{\numberline {3}Calibraci\IeC {\'o}n de los fotomultiplicadores de silicio (SiPM)}{11}{section.3}
+\contentsline {subsection}{\numberline {3.1}Equipo y montaje experimental}{13}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Caracter\IeC {\'\i }sticas de la tarjeta}{16}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}An\IeC {\'a}lisis de datos}{16}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Calibraci\IeC {\'o}n en temperatura}{21}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Calibraci\IeC {\'o}n en voltaje de operaci\IeC {\'o}n}{22}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Estabilizaci\IeC {\'o}n de la ganancia}{24}{subsection.3.6}
+\contentsline {section}{\numberline {4}Prototipo}{28}{section.4}
+\contentsline {subsection}{\numberline {4.1}Configuraci\IeC {\'o}n del prototipo}{28}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Procedimiento de llenado}{30}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Configuraci\IeC {\'o}n de la electr\IeC {\'o}nica}{31}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Resultados}{34}{subsection.4.4}
+\contentsline {section}{\numberline {5}Simulaciones}{40}{section.5}
+\contentsline {section}{\numberline {6}Previsiones de futuro}{44}{section.6}
+\contentsline {section}{\numberline {7}Conclusiones}{47}{section.7}
