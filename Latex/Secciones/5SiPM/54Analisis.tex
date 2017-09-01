@@ -2,7 +2,8 @@ En resumen, en nuestra prueba de calibración de los SiPM tenemos una caja que a
 
 En su interior colocamos un diodo LED que emite fotones de $\lambda=435~\nm$, un SiPM, que emite un impulso de intensidad cada vez que detecte uno o más  fotones  y una tarjeta que convierte este impulso de intensidad en un impulso de voltaje. Finalmente llevamos este impulso de voltaje a un osciloscopio (marca TELEDYNE LECROY, modelo WwaveRunner 625Zi) que lo analiza. 
 Una vez en el osciloscopio, la señal que recibimos cuando se enciende el diodo LED es similar a la de la señal superior de la figura~\ref{analisis} (amarilla)~\cite{inftec}. Para el análisis,  se  activa el modo persistencia del osciloscopio con el objetivo de comparar señales de distintas alturas. Estas señales corresponden a distinto número de pixels activados en cada instante de tiempo ya que, como hemos dicho anteriormente, la señal de salida del sistema es la suma de las señales de los pixeles activados. La señal se muestra superpuesta a la señal de sincronización del generador de señales (verde) que nos muestra cuando se ha encendido el diodo LED y que, por tanto, acúua como trigger.
-El objetivo ahora es calcular la ganancia del sistema. Dado que únicamente existen dos ganancias en el sistema (SiPM y tarjeta) y hemos medido la ganancia de la tarjeta en la sección anterior, determinando la ganancia total podremos determinar de forma aproximada la ganancia del SiPM. 
+
+El objetivo ahora es calcular la ganancia del sistema. Dado que únicamente existen dos ganancias en el sistema (SiPM y tarjeta) y conocemos la ganancia de la tarjeta, mencionada en la sección anterior, determinando la ganancia total podremos determinar de forma aproximada la ganancia del SiPM. 
 
 \begin{equation}
 G_{tot}=G_{SiPM} \cdotp G_{card} \longrightarrow G_{SiPM} = \frac{G_{tot}}{G_{card}}
@@ -21,13 +22,13 @@ Como resultado de todo esto, lo que obtenemos un conjunto de gaussianas equiespa
  \end{figure}
 donde cada uno de los picos corresponde a la carga de un número de pixels activados (uno, dos, etc.). El primer pico no debe tenerse en cuenta en el análisis, ya que este corresponde al pedestal (cero pixels activados). Su origen es debido a la existencia de las cuentas oscuras.
  
-Hemos desarrollado una macro en ROOT~\cite{ROOT} que, utilizando la librería TSpectrum (especialmente diseñada para el análisis de histogramas con picos) para obtener la ganancia del sistema. Su diagrama de flujo es el siguiente:
+Hemos desarrollado una macro en ROOT$~\cite{manualROOT}$ que, utilizando la librería TSpectrum (especialmente diseñada para el análisis de histogramas con picos) para obtener la ganancia del sistema. Su diagrama de flujo es el siguiente:
 \begin{enumerate}
 \item {} Primero la macro lee el fichero de datos, los guarda en una variable de tipo histograma y los representa. La macro termina de leer el fichero cuando no encuentra más valores.
 
 \item {} A continuación, a partir de una función de la librería TSpectrum, busca en este histograma y devuelve el número de gausianas que ha encontrado y su posición.
 
-\item {} Seguidamente ajusta todos los datos del histograma a una recta y solo se queda con las gausianas, cuya norma sobrepasa en altura a esta recta. El objetivo de este paso es que, en casos muy concretos (temperatura alta o luz del laboratorio encendida) tenemos mucho ruido y, aparece un fondo,  que el programa ajusta a una gausiana y, como consecuencia calcula la ganancia de manera incorrecta. Un ejemplo de este caso se muestra en la figura~\cite{fondogrande}.
+\item {} Seguidamente ajusta todos los datos del histograma a una recta y solo se queda con las gausianas, cuya norma sobrepasa en altura a esta recta. El objetivo de este paso es que, en casos muy concretos (temperatura alta o luz del laboratorio encendida) tenemos mucho ruido y, aparece un fondo,  que el programa ajusta a una gausiana y, como consecuencia calcula la ganancia de manera incorrecta. Un ejemplo de este caso se muestra en la figura$~\ref{fondogrande}$.
 
 \begin{figure}[hbtp]
 \centering
@@ -97,6 +98,6 @@ donde los errores se han obtenido por propagación. Si comparamos con la bibliog
 
 
 Dado que, en la práctica, las gausianas no están perfectamente equiespaciadas debido a errores e incertidumbres, consideraremos como más fiable el segundo método, ya que se trata de un método más formal, a pesar de tener un error relativo mayor.
-El test $\chi^2$ da un valor de  $\frac{\chi^2}{ndf}=\frac{0.05452}{7}\approx 0.008$, bastante imferior a la unidad, debido  probablemente a que se han sobreestimado los errores de las medidas (calculados a partir de las desviaciones típicas de las gausianas del ajuste de la figura $\ref{Root}$).
+El test $\chi^2$ da un valor de  $\frac{\chi^2}{ndf}=\frac{0.05452}{7}\approx 0.008$, bastante inferior a la unidad, debido  probablemente a que se han sobreestimado los errores de las medidas (calculados a partir de las desviaciones típicas de las gausianas del ajuste de la figura $\ref{Root}$).
 
 \end{enumerate}

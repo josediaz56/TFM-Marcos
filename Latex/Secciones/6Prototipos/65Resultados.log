@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  25 AUG 2017 12:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  1 SEP 2017 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2446,7 +2446,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.29 ...señal de aproximadamente $0.05~\becquerel
+l.29 ...e $0.0505 \pm 5.7 \cdot 10^{-4}~\becquerel
                                                   $ y una señal debida úni...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2506,7 +2506,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.29 ...ritio de aproximadamente $0.013~\becquerel
+l.29 ...e $0.0132 \pm 6.9 \cdot 10^{-4}~\becquerel
                                                   $.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2521,13 +2521,33 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 29--30
  []
 
 
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 05 []$
+Overfull \hbox (35.55566pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0505 \OMS/cmsy/m/n/10 ^^F
  []
 
 
-Overfull \hbox (22.77785pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 013 []$ 
+Overfull \hbox (15.5556pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7 \OMS/cmsy/m/n/10 ^^A
+ []
+
+
+Overfull \hbox (20.73618pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/n/10 10[] []$
+ []
+
+
+Overfull \hbox (35.55566pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0132 \OMS/cmsy/m/n/10 ^^F
+ []
+
+
+Overfull \hbox (15.5556pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 9 \OMS/cmsy/m/n/10 ^^A
+ []
+
+
+Overfull \hbox (20.73618pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/n/10 10[] []$ 
  []
 
 
@@ -11016,28 +11036,20 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no j in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.95 ...dad lijeramente inferior a $0.3~\becquerel
+l.95 ...de $0.305 \pm 1.6 \cdot 10^{-3}~\becquerel
                                                   $. Vemos que se trata de a...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11140,8 +11152,18 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 95--96
  []
 
 
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 95--96
-\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3 []$
+Overfull \hbox (30.55565pt too wide) in paragraph at lines 95--96
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 305 \OMS/cmsy/m/n/10 ^^F
+ []
+
+
+Overfull \hbox (15.5556pt too wide) in paragraph at lines 95--96
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 6 \OMS/cmsy/m/n/10 ^^A
+ []
+
+
+Overfull \hbox (20.73618pt too wide) in paragraph at lines 95--96
+\OT1/cmr/m/n/10 10[] []$
  []
 
 Missing character: There is no P in font nullfont!
