@@ -1,6 +1,6 @@
-Finalmente, con toda esta información, procedemos a desarrollar un protocolo de compensación de la ganancia. Nuestro objetivo es que, ante una modificación de la ganancia debido a una variación involuntaria de la temperatura (por ejemplo debido a variación climatológicas) aplicar de manera voluntaria una variación adecuada en el voltaje operacional que devuelva a la ganancia a su valor inicial.
+Finalmente, con toda la información obtenida en los apartados anteriores, procedemos a desarrollar un protocolo de compensación de la ganancia. Nuestro objetivo es que, ante una modificación de la ganancia debida a una variación involuntaria de la temperatura (por ejemplo debido a variaciones climatológicas) aplicar de manera voluntaria una variación adecuada en el voltaje operacional que devuelva a la ganancia a su valor inicial.
 
-Como ya se ha explicado la importancia de este estudio de compensación es poder utilizar este sistema a modo de alarma. Dado que este estará expuesto a condiciones climáticas inevitablemente sufrira variaciones de temperatura. Si queremos el detector final sea capaz de avisar en caso de obtener una señal demasiado grande y que esta señal se corresponda a una fuga de tritio necesitamos que el sistema posea una ganancia constante.
+Como ya se ha explicado anteriormente, la importancia de este estudio de compensación radica en que deseamos utilizar el detector  a modo de alarma. Dado que este estará expuesto a condiciones climáticas no previstas, inevitablemente sufrirá variaciones de temperatura. Si queremos que el detector final sea capaz de avisar en caso de obtener una señal demasiado grande y que esta señal se corresponda a una fuga de tritio, necesitamos que el sistema posea una ganancia constante.
 
 Las expresiones que se han obtenido con las dos calibraciones anteriores son:
 \begin{equation}
@@ -12,40 +12,42 @@ Esto implica que una variación de la ganancia en cada una de estas magnitudes v
 \partial G(V_{op}) = c \partial V_{op}; \qquad \partial G(T) = a \partial T
 \label{variacionparcialganancia}
 \end{equation}
+
 Finalmente, la variación total de la ganancia ante una variación de ambas magnitudes viene dado por:
 \begin{equation}
 \partial G_{tot} = \partial G(V_{op}) + \partial G(T)
 \label{variaciontotalganancia}
 \end{equation}
-Por tanto, si queremos que el valor de la ganancia se conserve ante una variación de ambas magnitudes tendremos que conseguir que: 
+
+Por tanto, si queremos que el valor de la ganancia se conserve ante una variación de ambas magnitudes, tenemos que conseguir que: 
 \begin{equation}
 \partial G_{tot} = 0 =  \partial G(V_{op}) + \partial G(T) \longrightarrow \partial G(V_{op}) = -\partial G(T)  
 \label{basecompensacion}
 \end{equation}
-En otras palabras, lo que tenemos que conseguir es producir la misma variación a la ganancia con la modificación del voltaje que la que se ha producido al variar la temperatura. Para determinar esta variarión únicamente sustituimos las expresiones anteriormente obtenidas para cada diferencial de la ganancia:
+En otras palabras, debemos producir una  variación opuesta  de la ganancia con la modificación del voltaje a la que se ha producido al variar la temperatura. Para determinar esta variación, únicamente sustituimos las expresiones anteriormente obtenidas para cada diferencial de la ganancia:
 \begin{equation}
 \partial G(V_{op}) = - \partial G(T)  \longrightarrow c \partial V_{op}= - a \partial T \longrightarrow  \partial V_{op}= - \frac{a}{c} \partial T
 \label{compensacionparciales}
 \end{equation}
-En trabajos anteriores$\cite{TFMSiPM2}\cite{tesisSiPM}\cite{cladtesis}$ se ha visto que ambas pendientes, a y c, apenas varían en voltaje y temperatura. Por tanto, en primera aproximación, podemos considerarlas constantes en ambas magnitudes. Con ello integramos a cada lado y obtenemos:
+En trabajos anteriores$\cite{TFMSiPM2, tesisSiPM, cladtesis}$ se ha visto que ambas pendientes, $a$ y $c$, apenas varían en voltaje y temperatura. Por tanto, en primera aproximación, podemos considerarlas constantes en ambas magnitudes. Con ello integramos a cada lado y obtenemos:
 \begin{equation}
 \int_{V_i}^{V_f} \partial V_{op}= - \frac{a}{c} \int_{T_i}^{T_f}\partial T = - \frac{a}{c} \Delta T \longrightarrow \Delta V_{op}= e \Delta T
 \label{integral}
 \end{equation}
-Donde se ha introducido un nuevo parámetro: $e=-\frac{a}{c}$ cuyo valor es $\eqref{ajustependientetemperatura}$ $\eqref{ajustependientevoltaje}$:
+donde se ha introducido un nuevo parámetro: $$e=-\frac{a}{c}$$ cuyo valor es de las ecuaciones $\eqref{ajustependientetemperatura}$  y $\eqref{ajustependientevoltaje}$:
 \begin{equation}
 c=2.34123 \cdot 10^8 \pm 2.55246 \cdot 10^6 \quad V^{-1}
 \label{pendientevoltaje}
 \end{equation}
 \begin{equation}
-a=-1.40308 \cdot 10^7 \pm 2.71545 \cdot 10^5 \quad \frac{1}{Cº}
+a=-1.40308 \cdot 10^7 \pm 2.71545 \cdot 10^5 \quad \celsius^{-1}
 \label{pendientetemperatura}
 \end{equation}
 \begin{equation}
-e=-\frac{a}{c} = 0.059929 \pm 0,001331 \quad \frac{V}{Cº}
+e=-\frac{a}{c} = 0.059929 \pm 0,001331 \quad \volt  \celsius^{-1}
 \label{pendientecompensacion}
 \end{equation}
-Donde el error de e se ha obtenido por propagación de errores. 
+donde el error de $e$ se ha obtenido mediante propagación de errores. 
 
 Finalmente, procedemos a analizar el resultado. Hemos obtenido dos dependencias de la ganancia lineales y opuestas. Por un lado la ganancia disminuye con la temperatura y por otro lado la ganancia aumenta con el voltaje operacional. Por tanto, si queremos conseguir modificaciones opuestas de la ganancia debemos desplazar voltaje y temperatura en la misma dirección (aumentar o disminuir ambas magnitudes simultaneamente). Si analizamos el resultado vemos que, efectivamente tenemos una dependencia positiva.
 
