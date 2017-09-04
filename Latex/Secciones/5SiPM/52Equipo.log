@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  4 SEP 2017 10:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  4 SEP 2017 11:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5089,7 +5089,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.48 \includegraphics
-                     [scale=0.55]{SiPM.png}
+                     [scale=0.50]{SiPM.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -5106,7 +5106,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
-Missing character: There is no 5 in font nullfont!
+Missing character: There is no 0 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -5118,7 +5118,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
 l.52 \includegraphics
-                     [scale=0.25]{tarjeta.png}
+                     [scale=0.20]{tarjeta.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -5135,7 +5135,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 2 in font nullfont!
-Missing character: There is no 5 in font nullfont!
+Missing character: There is no 0 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -5527,6 +5527,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 58--63
+[][]
+ []
+
 Missing character: There is no L in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -5641,17 +5646,12 @@ Missing character: There is no P in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 58--64
-[][]
- []
-
-
-Overfull \hbox (18.418pt too wide) in paragraph at lines 58--64
+Overfull \hbox (18.418pt too wide) in paragraph at lines 64--65
 \OML/cmm/m/it/10 G \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (15.00005pt too wide) in paragraph at lines 58--64
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 64--65
 \OT1/cmr/m/n/10 110$
  []
 
@@ -5823,7 +5823,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...ng: Reference `Ruido' on page \thepage 
                                                   \space undefined\on@line .
-l.65 ... Esta se presenta en la figura~\ref{Ruido}
+l.66 ... Esta se presenta en la figura~\ref{Ruido}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5832,11 +5832,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `Ruido' on page  undefined on input line 65.
+LaTeX Warning: Reference `Ruido' on page  undefined on input line 66.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 65--66
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 66--67
 [] 
  []
 
@@ -5847,7 +5847,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67 \begin{figure}
+l.68 \begin{figure}
                    [hbtp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5860,7 +5860,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.69 \includegraphics
+l.70 \includegraphics
                      [scale=0.4]{ruido.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5895,7 +5895,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \caption
+l.71 \caption
              {Ruido electrónico\label{Ruido}}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5924,7 +5924,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \end{figure}
+l.72 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -6058,7 +6058,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.73 .... Tenía una amplitud máxima de $4~\milli
+l.74 .... Tenía una amplitud máxima de $4~\milli
                                                   \volt$ y una frecuencia ba...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6067,7 +6067,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.73 ...ía una amplitud máxima de $4~\milli\volt
+l.74 ...ía una amplitud máxima de $4~\milli\volt
                                                   $ y una frecuencia bastant...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6118,7 +6118,7 @@ Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
 <recently read> \mega 
                       
-l.73 ...encia bastante irregular entorno al $\mega
+l.74 ...encia bastante irregular entorno al $\mega
                                                   \hertz$. Finalmente se vio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6127,7 +6127,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.73 ...bastante irregular entorno al $\mega\hertz
+l.74 ...bastante irregular entorno al $\mega\hertz
                                                   $. Finalmente se vio que e...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6587,27 +6587,27 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 73--75
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 74--76
 \OT1/cmr/m/n/10 4 []$
  []
 
 
-Overfull \hbox (13.4166pt too wide) in paragraph at lines 73--75
+Overfull \hbox (13.4166pt too wide) in paragraph at lines 74--76
 \OT1/cmr/bx/n/10 fil-
  []
 
 
-Overfull \hbox (14.95827pt too wide) in paragraph at lines 73--75
+Overfull \hbox (14.95827pt too wide) in paragraph at lines 74--76
 \OT1/cmr/bx/n/10 tro
  []
 
 
-Overfull \hbox (22.10538pt too wide) in paragraph at lines 73--75
+Overfull \hbox (22.10538pt too wide) in paragraph at lines 74--76
 \OT1/cmr/bx/n/10 pasa
  []
 
 
-Overfull \hbox (30.34702pt too wide) in paragraph at lines 73--75
+Overfull \hbox (30.34702pt too wide) in paragraph at lines 74--76
 \OT1/cmr/bx/n/10 banda
  []
 
@@ -6780,17 +6780,17 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (31.30534pt too wide) in paragraph at lines 76--77
+Overfull \hbox (31.30534pt too wide) in paragraph at lines 77--78
 \OT1/cmr/bx/n/10 manta
  []
 
 
-Overfull \hbox (15.49298pt too wide) in paragraph at lines 76--77
+Overfull \hbox (15.49298pt too wide) in paragraph at lines 77--78
 \OT1/cmr/bx/n/10 ne-
  []
 
 
-Overfull \hbox (16.0763pt too wide) in paragraph at lines 76--77
+Overfull \hbox (16.0763pt too wide) in paragraph at lines 77--78
 \OT1/cmr/bx/n/10 gra
  []
 
