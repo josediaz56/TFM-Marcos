@@ -53,6 +53,14 @@ Este SiPM compuesto por un total de $285$ pixels de $75~\micro\meter$ cada uno d
 }
 \caption{SiPMs y tarjeta de conversora intensidad-voltaje\label{TarjetaSiPM}}
 \end{figure}
+Esta es una tarjeta desarrollada en el marco del proyecto NEXT.Esta consiste de dos entradas donde podemos conectar dos SiPM distintos. La tarjeta contiene el circuito  de la figura~\ref{esquemacircuitotarjeta} para cada SiPM:
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.4]{CircuitoTarjeta.png}
+\caption{Circuito de una tarjeta tipo~\cite{datasheet SiPM}\label{esquemacircuitotarjeta}}
+\end{figure}
+La tarjeta tiene una ganancia de $G=110$. Este será el valor que utilizaremos en el análisis posterior para calcular la ganancia de los SiPM.
 
 \item {} Seguidamente se observó que, únicamente alimentando la tarjeta, antes de alimentar el SiPM y la led, obteníamos una perturbación externa a nuestro experimento. Esta se presenta en la figura~\ref{Ruido}. 
 
