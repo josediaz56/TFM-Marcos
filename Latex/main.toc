@@ -14,4 +14,4 @@
 \contentsline {subsection}{\numberline {4.4}Resultados}{32}{subsection.4.4}
 \contentsline {section}{\numberline {5}Simulaciones}{37}{section.5}
 \contentsline {section}{\numberline {6}Previsiones de futuro}{41}{section.6}
-\contentsline {section}{\numberline {7}Conclusiones}{44}{section.7}
+\contentsline {section}{\numberline {7}Resultados y conclusiones}{44}{section.7}
