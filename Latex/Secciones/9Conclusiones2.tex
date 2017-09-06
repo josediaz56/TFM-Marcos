@@ -4,11 +4,11 @@
 Este trabajo se ha realizado en el marco del proyecto \textit{Tritium}. El contenido del mismo incluye la fabricación del primer prototipo, destinado a validar las ideas en las que se basa el proyecto, y la de algunos de los componentes esenciales del mismo.  Los principales logros, resultados  y conclusiones son los siguientes:
 
 \begin{enumerate}
-\item Se ha diseñado un prototipo de detector de tritio basado en fibras centelleadoras, en forma de U leídas por fotosensores, para lo cual se han estudiado previamente las referencias existentes de detección de tritio en agua.
+\item Se ha diseñado un prototipo de detector de tritio basado en fibras centelleadoras, en forma de U leídas por fotosensores, para lo cuál se han estudiado previamente las referencias existentes de detección de tritio en agua.
 
 \item Se han  construido dos unidades de este prototipo,  cuyo interior puede albergar una capacidad de $39~\milli\liter$,  de solución radiactiva. La mecanización de las piezas se ha realizado en el Taller de  Mecánica del IFIC.
 
-\item Se ha construido dos haces de fibras centelleadoras sin clad, como sistema de detección de estos prototipos.  La guillotina empleada para cortar las fibras se ha construido en el Taller de  Mecánica del IFIC.
+\item Se han construido dos haces de fibras centelleadoras sin clad, como sistema de detección de estos prototipos.  La guillotina empleada para cortar las fibras se ha construido en el Taller de  Mecánica del IFIC.
 
 
 \item Se ha rellenado uno de los prototipos con un una solución de agua tritiada con una actividad de $108.11~\mega\becquerel/\liter$ (sec. $\ref{sec:Resultados}$), preparada en el LARAM.  La  razón de emplear una actividad tan elevada es el poder validar y comprobar en un tiempo reducido las características de la señal  del tritio en las fibras centelleadoras. El segundo prototipo se ha rellenado con agua destilada, a fin de poder medir la señal de  fondo.
@@ -17,17 +17,17 @@ Este trabajo se ha realizado en el marco del proyecto \textit{Tritium}. El conte
 
 \item Se han instalado ambos prototipos en una caja negra, diseñada y construida en los laboratorios del IFIC, para realizar las medidas con el menor fondo posible.
 
-\item Se ha medido la señal de ambos prototipos  con fotomultiplicadores calibrados, disponibles en el laboratorio de Reacciones Nucleares.  Aunque  los fotosensores  previstos en Tritium son SiPM, la falta de experiencia con los mismos en este tipo de medidas, aconsejaba tener fotosensores calibrados y bien conocidos en medidas preliminares.
+\item Se ha medido la señal de ambos prototipos  con fotomultiplicadores calibrados, disponibles en el laboratorio de Reacciones Nucleares.  Aunque  los fotosensores  previstos en Tritium son SiPM, en un primer prototipo era  aconsejable emplear fotosensores calibrados y bien conocidos en medidas anteriores.
 
 \item Se han realizado medidas tanto de la señal como del fondo a lo largo de un mes. Se ha obtenido, mediante un tratamiento de datos \textit{off-line}, que incluye la substracción del fondo, la señal de actividad del tritio (fig.~\ref{senaltritio}). 
 
-\item Se ha obtenido, sin embargo, una eficiencia de detección inferior a  la prevista,  lo que implica una pérdida sucesos, dando una  actividad del agua tritiada  inferior al valor real. Este hecho implica una pérdida de la luz de centelleo cuando se transmite a lo largo de  la fibra centelleadora.
+\item Se ha obtenido, una eficiencia de detección inferior a  la prevista,  lo que implica una pérdida de sucesos, dando una  actividad del agua tritiada  inferior al valor real. Este hecho implica una pérdida  sustancial de la luz de centelleo cuando se transmite a lo largo de  la fibra centelleadora.
 
 \item Desconocemos por ahora la razón de obtener una señal inferior a la prevista. Entre las posibles razones están: problemas en la refracción total en la interface plástico-agua, debida a impurezas en la superficie de la fibra centelleadora, o a aire disuelto en la solución radiactiva. También podrían entrar en juego   problemas producidos por  la geometría en forma de U, que podría conllevar que con una probabilidad muy alta  que uno de los  ángulos de incidencia en la propagación de la luz sea menor que el de reflexión total y se pierda la luz de centelleo en el agua.  Investigar el mecanismo de pérdida de luz es la prioridad esencial en la continuación de nuestras investigaciones. Las conclusiones de estas investigaciones determinarán la forma de los nuevos prototipos y los posibles tratamientos de la superficie de las fibras centelleadoras, que podrían incluir aluminización o depósito de otra molécula mediante evaporación en el ICMOL.
 
 \item Se ha estudiado la dependencia de la ganancia con la temperatura de  SiPM similares a los que serán empleados en Tritium, en una caja térmica. Se han desarrollado procedimientos de estabilización de la ganancia mediante variación del voltaje, que se han programado en macros de ROOT.
 
-\item Se han estudiado posibles tarjetas y microprocesadores que podrían llevar a cabo de forma automática las tareas de estabilización de la ganancia. En una primera etapa emplearemos  microprocesadores Arduinos gestionados por LabView. 
+\item Se han estudiado posibles tarjetas y microprocesadores que podrían llevar a cabo de forma automática las tareas de calibración y estabilización de la ganancia de los SiPM. En una primera etapa emplearemos  microprocesadores Arduinos gestionados por LabView. 
 
 \item Se ha implementado en GEANT4 un dispositivo de detección de tritio en agua mediante fibras centelleadoras similar al empleado, pero rectilíneo.  Estas simulaciones son un primer paso para disponer de simulaciones realistas para todos los prototipos que se elaboren en el desarrollo del proyecto Tritium.
 
