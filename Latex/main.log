@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.1)  7 SEP 2017 00:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.1)  7 SEP 2017 00:19
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1022,7 +1022,17 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ))
-No file main.aux.
+(./main.aux
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+
+
+LaTeX Warning: Label `compensacionfinal' multiply defined.
+
+
+LaTeX Warning: Label `desintegracionbeta' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1039,7 +1049,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5.
@@ -1138,20 +1148,21 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
+
+(./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-
-(./Secciones/2Portada.tex <Figuras/Logo1.png, id=4, 290.394pt x 36.792pt>
+ (./Secciones/2Portada.tex
+<Figuras/Logo1.png, id=80, 290.394pt x 36.792pt>
 File: Figuras/Logo1.png Graphic file (type png)
-
-<use Figuras/Logo1.png>
+ <use Figuras/Logo1.png>
 Package pdftex.def Info: Figuras/Logo1.png used on input line 8.
 (pdftex.def)             Requested size: 290.39328pt x 36.7919pt.
- <Figuras/Logo2.jpg, id=6, 1768.6075pt x 2334.7225pt>
-File: Figuras/Logo2.jpg Graphic file (type jpg)
 
-<use Figuras/Logo2.jpg>
+<Figuras/Logo2.jpg, id=82, 1768.6075pt x 2334.7225pt>
+File: Figuras/Logo2.jpg Graphic file (type jpg)
+ <use Figuras/Logo2.jpg>
 Package pdftex.def Info: Figuras/Logo2.jpg used on input line 27.
 (pdftex.def)             Requested size: 176.87111pt x 233.48593pt.
 Package babel Info: Redefining spanish shorthand <<
@@ -1178,10 +1189,28 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 61.
- [1
+
+[1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figur
-as/Logo1.png> <./Figuras/Logo2.jpg>])
+as/Logo1.png> <./Figuras/Logo2.jpg>]) (./main.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+))
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -1228,24 +1257,6 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 15.
  (./Secciones/3Introduccion4.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 4.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-
-LaTeX Warning: Citation `300TBq' on page 2 undefined on input line 4.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand >>
@@ -1270,7 +1281,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 22.
-[2]
+ [2]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand >>
@@ -1308,26 +1319,12 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 57.
  [3]
-
-LaTeX Warning: Reference `fig:Espectrotritio' on page 4 undefined on input line
- 69.
-
-
-LaTeX Warning: Citation `Isotopos' on page 4 undefined on input line 70.
-
-<Figuras/Espectro.png, id=49, 495.8525pt x 362.35374pt>
+<Figuras/Espectro.png, id=146, 495.8525pt x 362.35374pt>
 File: Figuras/Espectro.png Graphic file (type png)
 
 <use Figuras/Espectro.png>
 Package pdftex.def Info: Figuras/Espectro.png used on input line 72.
 (pdftex.def)             Requested size: 297.5138pt x 217.41393pt.
-
-
-LaTeX Warning: Citation `TesisTritio' on page 4 undefined on input line 74.
-
-
-LaTeX Warning: Citation `TesisTritio' on page 4 undefined on input line 74.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 78.
 Package babel Info: Redefining spanish shorthand >>
@@ -1340,24 +1337,6 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 78.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 78.
-
-LaTeX Warning: Citation `Rat' on page 4 undefined on input line 80.
-
-
-LaTeX Warning: Citation `limiteMB' on page 4 undefined on input line 80.
-
-
-LaTeX Warning: Citation `Limitetiempo' on page 4 undefined on input line 80.
-
-
-LaTeX Warning: Citation `Limite' on page 4 undefined on input line 80.
-
-
-LaTeX Warning: Citation `Isotopos' on page 4 undefined on input line 82.
-
-
-LaTeX Warning: Citation `gel' on page 4 undefined on input line 84.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 85.
 Package babel Info: Redefining spanish shorthand >>
@@ -1382,7 +1361,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 85.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 85.
-[4]
+ [4]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 86.
 Package babel Info: Redefining spanish shorthand >>
@@ -1420,15 +1399,6 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 89.
  [5 <./Figuras/Espectro.png>]
-
-LaTeX Warning: Citation `TesisTritio' on page 6 undefined on input line 90.
-
-
-LaTeX Warning: Citation `Rat' on page 6 undefined on input line 90.
-
-
-LaTeX Warning: Citation `Anillo' on page 6 undefined on input line 93.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 97.
 Package babel Info: Redefining spanish shorthand >>
@@ -1453,17 +1423,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 97.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 97.
-[6]
-
-LaTeX Warning: Citation `Geant4a' on page 7 undefined on input line 102.
-
-
-LaTeX Warning: Citation `Geant4b' on page 7 undefined on input line 102.
-
-
-LaTeX Warning: Citation `Geant4c' on page 7 undefined on input line 102.
-
-)
+ [6])
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand >>
@@ -1476,14 +1436,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 19.
- (./Secciones/4Fibras.tex
 
-LaTeX Warning: Reference `desintegraciontritio' on page 7 undefined on input li
-ne 1.
-
-
-LaTeX Warning: Citation `Alberto' on page 7 undefined on input line 1.
-
+(./Secciones/4Fibras.tex
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand >>
@@ -1508,33 +1462,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
-[7]
-
-LaTeX Warning: Reference `Esquemafibras' on page 8 undefined on input line 3.
-
-<Figuras/EsquemaNivelesFIbras.png, id=84, 392.46625pt x 210.7875pt>
+ [7]
+<Figuras/EsquemaNivelesFIbras.png, id=210, 392.46625pt x 210.7875pt>
 File: Figuras/EsquemaNivelesFIbras.png Graphic file (type png)
 
 <use Figuras/EsquemaNivelesFIbras.png>
 Package pdftex.def Info: Figuras/EsquemaNivelesFIbras.png used on input line 7.
 
 (pdftex.def)             Requested size: 274.72449pt x 147.55025pt.
-
-
-LaTeX Warning: Citation `asignatura' on page 8 undefined on input line 9.
-
-
-LaTeX Warning: Citation `asignatura' on page 8 undefined on input line 9.
-
-
-LaTeX Warning: Reference `Espectros' on page 8 undefined on input line 12.
-
-
-LaTeX Warning: Citation `datasheet' on page 8 undefined on input line 17.
-
-
-LaTeX Warning: Citation `datasheet' on page 8 undefined on input line 19.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 21.
 Package babel Info: Redefining spanish shorthand >>
@@ -1559,75 +1494,42 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 21.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 21.
-[8 <./Figuras/EsquemaNivelesFIbras.png>]
-
-LaTeX Warning: Citation `Alberto' on page 9 undefined on input line 23.
-
-
-LaTeX Warning: Citation `anguloytiempo' on page 9 undefined on input line 23.
-
-
-LaTeX Warning: Citation `dependencias' on page 9 undefined on input line 23.
-
-
-LaTeX Warning: Citation `tesisfibras' on page 9 undefined on input line 23.
-
-
-LaTeX Warning: Reference `Guillotina' on page 9 undefined on input line 23.
-
-<Figuras/Guillotina1.png, id=90, 722.7pt x 426.59375pt>
+ [8 <./Figuras/EsquemaNivelesFIbras.png>] <Figuras/Guillotina1.png, id=230, 722
+.7pt x 426.59375pt>
 File: Figuras/Guillotina1.png Graphic file (type png)
 
 <use Figuras/Guillotina1.png>
 Package pdftex.def Info: Figuras/Guillotina1.png used on input line 29.
 (pdftex.def)             Requested size: 180.67455pt x 106.64816pt.
 
-<Figuras/Guillotina2.png, id=91, 724.7075pt x 315.1775pt>
+<Figuras/Guillotina2.png, id=231, 724.7075pt x 315.1775pt>
 File: Figuras/Guillotina2.png Graphic file (type png)
 
 <use Figuras/Guillotina2.png>
 Package pdftex.def Info: Figuras/Guillotina2.png used on input line 33.
 (pdftex.def)             Requested size: 239.1542pt x 104.0089pt.
 
-
-LaTeX Warning: Citation `Alberto' on page 9 undefined on input line 42.
-
-
-LaTeX Warning: Citation `anguloytiempo' on page 9 undefined on input line 42.
-
-
-LaTeX Warning: Reference `Pulido' on page 9 undefined on input line 44.
-
-
-LaTeX Warning: Citation `Alberto' on page 9 undefined on input line 44.
-
-
-LaTeX Warning: Citation `manual' on page 9 undefined on input line 44.
-
-<Figuras/SinPulir.png, id=92, 230.8625pt x 208.78pt>
+<Figuras/SinPulir.png, id=237, 230.8625pt x 208.78pt>
 File: Figuras/SinPulir.png Graphic file (type png)
 
 <use Figuras/SinPulir.png>
 Package pdftex.def Info: Figuras/SinPulir.png used on input line 50.
 (pdftex.def)             Requested size: 138.51855pt x 125.26895pt.
- <Figuras/Pulida.png, id=93, 256.96pt x 202.7575pt>
+ <Figuras/Pulida.png, id=238, 256.96pt x 202.7575pt>
 File: Figuras/Pulida.png Graphic file (type png)
 
 <use Figuras/Pulida.png>
 Package pdftex.def Info: Figuras/Pulida.png used on input line 54.
 (pdftex.def)             Requested size: 154.17719pt x 121.65543pt.
 
-
-LaTeX Warning: Reference `Arofibra' on page 9 undefined on input line 61.
-
-<Figuras/arometalico.png, id=94, 572.1375pt x 212.795pt>
+<Figuras/arometalico.png, id=240, 572.1375pt x 212.795pt>
 File: Figuras/arometalico.png Graphic file (type png)
 
 <use Figuras/arometalico.png>
 Package pdftex.def Info: Figuras/arometalico.png used on input line 67.
 (pdftex.def)             Requested size: 228.85094pt x 85.11649pt.
 
-<Figuras/arometalicoconrosca.png, id=95, 528.97626pt x 189.70876pt>
+<Figuras/arometalicoconrosca.png, id=241, 528.97626pt x 189.70876pt>
 File: Figuras/arometalicoconrosca.png Graphic file (type png)
 
 <use Figuras/arometalicoconrosca.png>
@@ -1659,29 +1561,19 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 74.
  [9 <./Figuras/Guillotina1.png> <./Figuras/Guillotina2.png>]
-
-LaTeX Warning: Reference `Arofibra' on page 10 undefined on input line 76.
-
-
-LaTeX Warning: Reference `Bunch' on page 10 undefined on input line 78.
-
-<Figuras/bunchfibras.png, id=101, 799.98875pt x 139.52126pt>
+<Figuras/bunchfibras.png, id=254, 799.98875pt x 139.52126pt>
 File: Figuras/bunchfibras.png Graphic file (type png)
 
 <use Figuras/bunchfibras.png>
 Package pdftex.def Info: Figuras/bunchfibras.png used on input line 84.
 (pdftex.def)             Requested size: 263.9971pt x 46.04214pt.
 
-<Figuras/bunchfibras1.png, id=102, 487.8225pt x 259.97125pt>
+<Figuras/bunchfibras1.png, id=255, 487.8225pt x 259.97125pt>
 File: Figuras/bunchfibras1.png Graphic file (type png)
 
 <use Figuras/bunchfibras1.png>
 Package pdftex.def Info: Figuras/bunchfibras1.png used on input line 88.
 (pdftex.def)             Requested size: 160.98192pt x 85.79077pt.
-
-
-LaTeX Warning: Reference `Bunch' on page 10 undefined on input line 93.
-
 )
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 23.
@@ -1696,12 +1588,6 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 23.
  (./Secciones/5SiPM/51IntroSiPM.tex
-
-LaTeX Warning: Citation `TFMSiPM2' on page 10 undefined on input line 1.
-
-
-LaTeX Warning: Citation `AMFNP' on page 10 undefined on input line 3.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 4.
 Package babel Info: Redefining spanish shorthand >>
@@ -1726,13 +1612,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 4.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 4.
-[10 <./Figuras/SinPulir.png> <./Figuras/Pulida.png> <./Figuras/arometalico.png>
- <./Figuras/arometalicoconrosca.png> <./Figuras/bunchfibras.png> <./Figuras/bun
-chfibras1.png>]
-
-LaTeX Warning: Reference `Darkcounts' on page 11 undefined on input line 5.
-
-<Figuras/pedestal.png, id=110, 1124.2pt x 475.7775pt>
+ [10 <./Figuras/SinPulir.png> <./Figuras/Pulida.png> <./Figuras/arometalico.png
+> <./Figuras/arometalicoconrosca.png> <./Figuras/bunchfibras.png> <./Figuras/bu
+nchfibras1.png>] <Figuras/pedestal.png, id=266, 1124.2pt x 475.7775pt>
 File: Figuras/pedestal.png Graphic file (type png)
 
 <use Figuras/pedestal.png>
@@ -1763,36 +1645,18 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 14.
  [11 <./Figuras/pedestal.png>]
-
-LaTeX Warning: Reference `Espectros' on page 12 undefined on input line 17.
-
-<Figuras/PED.png, id=117, 714.67pt x 548.0475pt>
+<Figuras/PED.png, id=275, 714.67pt x 548.0475pt>
 File: Figuras/PED.png Graphic file (type png)
  <use Figuras/PED.png>
 Package pdftex.def Info: Figuras/PED.png used on input line 23.
 (pdftex.def)             Requested size: 214.40265pt x 164.41551pt.
 
-<Figuras/EmisionBCF12.png, id=118, 644.4075pt x 389.455pt>
+<Figuras/EmisionBCF12.png, id=276, 644.4075pt x 389.455pt>
 File: Figuras/EmisionBCF12.png Graphic file (type png)
 
 <use Figuras/EmisionBCF12.png>
 Package pdftex.def Info: Figuras/EmisionBCF12.png used on input line 27.
 (pdftex.def)             Requested size: 225.546pt x 136.31128pt.
-
-
-LaTeX Warning: Citation `datasheet SiPM' on page 12 undefined on input line 30.
-
-
-
-LaTeX Warning: Citation `datasheet' on page 12 undefined on input line 30.
-
-
-LaTeX Warning: Citation `datasheet SiPM' on page 12 undefined on input line 30.
-
-
-
-LaTeX Warning: Citation `datasheet' on page 12 undefined on input line 30.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 41.
 Package babel Info: Redefining spanish shorthand >>
@@ -1817,7 +1681,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 41.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 41.
-[12 <./Figuras/PED.png> <./Figuras/EmisionBCF12.png>])
+ [12 <./Figuras/PED.png> <./Figuras/EmisionBCF12.png>])
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand >>
@@ -1830,17 +1694,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 25.
-
-(./Secciones/5SiPM/52Equipo.tex
-
-LaTeX Warning: Reference `sistematemperatura' on page 13 undefined on input lin
-e 6.
-
-
-LaTeX Warning: Reference `sistematemperatura' on page 13 undefined on input lin
-e 7.
-
-<Figuras/InteriorTemperatura.png, id=127, 596.2275pt x 446.66875pt>
+ (./Secciones/5SiPM/52Equipo.tex
+<Figuras/InteriorTemperatura.png, id=291, 596.2275pt x 446.66875pt>
 File: Figuras/InteriorTemperatura.png Graphic file (type png)
 
 <use Figuras/InteriorTemperatura.png>
@@ -1848,19 +1703,12 @@ Package pdftex.def Info: Figuras/InteriorTemperatura.png used on input line 13.
 
 (pdftex.def)             Requested size: 178.86963pt x 134.00165pt.
 
-<Figuras/FichaTecnica.png, id=128, 639.38875pt x 470.75874pt>
+<Figuras/FichaTecnica.png, id=292, 639.38875pt x 470.75874pt>
 File: Figuras/FichaTecnica.png Graphic file (type png)
 
 <use Figuras/FichaTecnica.png>
 Package pdftex.def Info: Figuras/FichaTecnica.png used on input line 17.
 (pdftex.def)             Requested size: 191.8181pt x 141.22871pt.
-
-
-LaTeX Warning: Citation `dycometal' on page 13 undefined on input line 19.
-
-
-LaTeX Warning: Citation `dycometal' on page 13 undefined on input line 19.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand >>
@@ -1885,18 +1733,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 24.
-[13 <./Figuras/InteriorTemperatura.png> <./Figuras/FichaTecnica.png>]
-
-LaTeX Warning: Citation `datasheetLED' on page 14 undefined on input line 31.
-
-
-LaTeX Warning: Citation `datasheet SiPM' on page 14 undefined on input line 39.
-
-
-
-LaTeX Warning: Citation `datasheet SiPM' on page 14 undefined on input line 40.
-
-
+ [13 <./Figuras/InteriorTemperatura.png> <./Figuras/FichaTecnica.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 42.
 Package babel Info: Redefining spanish shorthand >>
@@ -1921,42 +1758,26 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 42.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 42.
-[14]
-
-LaTeX Warning: Reference `TarjetaSiPM' on page 15 undefined on input line 42.
-
-<Figuras/SiPM.png, id=145, 244.915pt x 246.9225pt>
+ [14] <Figuras/SiPM.png, id=316, 244.915pt x 246.9225pt>
 File: Figuras/SiPM.png Graphic file (type png)
- <use Figuras/SiPM.png>
+
+<use Figuras/SiPM.png>
 Package pdftex.def Info: Figuras/SiPM.png used on input line 48.
 (pdftex.def)             Requested size: 134.70364pt x 135.80777pt.
 
-<Figuras/tarjeta.png, id=146, 806.01125pt x 591.20876pt>
+<Figuras/tarjeta.png, id=317, 806.01125pt x 591.20876pt>
 File: Figuras/tarjeta.png Graphic file (type png)
 
 <use Figuras/tarjeta.png>
 Package pdftex.def Info: Figuras/tarjeta.png used on input line 52.
 (pdftex.def)             Requested size: 185.37868pt x 135.97514pt.
 
-
-LaTeX Warning: Reference `esquemacircuitotarjeta' on page 15 undefined on input
- line 56.
-
-<Figuras/CircuitoTarjeta.png, id=147, 604.2575pt x 468.75125pt>
+<Figuras/CircuitoTarjeta.png, id=319, 604.2575pt x 468.75125pt>
 File: Figuras/CircuitoTarjeta.png Graphic file (type png)
 
 <use Figuras/CircuitoTarjeta.png>
 Package pdftex.def Info: Figuras/CircuitoTarjeta.png used on input line 60.
 (pdftex.def)             Requested size: 181.27864pt x 140.62645pt.
-
-
-LaTeX Warning: Citation `datasheet SiPM' on page 15 undefined on input line 61.
-
-
-
-LaTeX Warning: Citation `datasheet SiPM' on page 15 undefined on input line 61.
-
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 63.
 Package babel Info: Redefining spanish shorthand >>
@@ -1981,12 +1802,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 63.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 63.
-[15 <./Figuras/SiPM.png> <./Figuras/tarjeta.png> <./Figuras/CircuitoTarjeta.png
->]
-
-LaTeX Warning: Reference `Ruido' on page 16 undefined on input line 66.
-
-<Figuras/ruido.png, id=155, 488.82625pt x 321.2pt>
+ [15 <./Figuras/SiPM.png> <./Figuras/tarjeta.png> <./Figuras/CircuitoTarjeta.pn
+g>]
+<Figuras/ruido.png, id=331, 488.82625pt x 321.2pt>
 File: Figuras/ruido.png Graphic file (type png)
  <use Figuras/ruido.png>
 Package pdftex.def Info: Figuras/ruido.png used on input line 70.
@@ -2006,12 +1824,6 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 31.
 
 (./Secciones/5SiPM/54Analisis.tex
-
-LaTeX Warning: Reference `analisis' on page 16 undefined on input line 4.
-
-
-LaTeX Warning: Citation `inftec' on page 16 undefined on input line 4.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand >>
@@ -2036,11 +1848,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
-[16 <./Figuras/ruido.png>]
-
-LaTeX Warning: Reference `analisis' on page 17 undefined on input line 16.
-
-<Figuras/Analisis.png, id=165, 974.64125pt x 446.66875pt>
+ [16 <./Figuras/ruido.png>]
+<Figuras/Analisis.png, id=342, 974.64125pt x 446.66875pt>
 File: Figuras/Analisis.png Graphic file (type png)
 
 <use Figuras/Analisis.png>
@@ -2071,26 +1880,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 24.
  [17 <./Figuras/Analisis.png>]
-
-LaTeX Warning: Citation `manualROOT' on page 18 undefined on input line 25.
-
-
-LaTeX Warning: Reference `fondogrande' on page 18 undefined on input line 31.
-
-<Figuras/fondogaussiano.png, id=172, 970.62625pt x 410.53375pt>
+<Figuras/fondogaussiano.png, id=352, 970.62625pt x 410.53375pt>
 File: Figuras/fondogaussiano.png Graphic file (type png)
 
 <use Figuras/fondogaussiano.png>
 Package pdftex.def Info: Figuras/fondogaussiano.png used on input line 35.
 (pdftex.def)             Requested size: 388.24362pt x 164.21059pt.
 
-
-LaTeX Warning: Reference `analisis' on page 18 undefined on input line 39.
-
-
-LaTeX Warning: Reference `Root' on page 18 undefined on input line 39.
-
-<Figuras/AjusteEspectro1.png, id=173, 770.88pt x 539.01375pt>
+<Figuras/AjusteEspectro1.png, id=355, 770.88pt x 539.01375pt>
 File: Figuras/AjusteEspectro1.png Graphic file (type png)
 
 <use Figuras/AjusteEspectro1.png>
@@ -2121,16 +1918,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 50.
  [18 <./Figuras/fondogaussiano.png>]
-
-LaTeX Warning: Citation `Hueso' on page 19 undefined on input line 52.
-
-
-LaTeX Warning: Citation `Hueso' on page 19 undefined on input line 59.
-
-
-LaTeX Warning: Reference `ajuste' on page 19 undefined on input line 64.
-
-<Figuras/FitPosicionPixels.png, id=186, 871.255pt x 565.11125pt>
+<Figuras/FitPosicionPixels.png, id=373, 871.255pt x 565.11125pt>
 File: Figuras/FitPosicionPixels.png Graphic file (type png)
 
 <use Figuras/FitPosicionPixels.png>
@@ -2144,11 +1932,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
 
-
-LaTeX Warning: Reference `ganancias' on page 19 undefined on input line 83.
-
-
-Overfull \hbox (14.35072pt too wide) in paragraph at lines 82--84
+Overfull \hbox (7.97972pt too wide) in paragraph at lines 82--84
 \T1/cmr/m/n/10.95 Por ex-ten-sión, las ga-nan-cias del SiPM cal-cu-la-das por c
 a-da ca-mino son (aproximadamente)$[]$: 
  []
@@ -2177,15 +1961,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 87.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 87.
-[19 <./Figuras/AjusteEspectro1.png>]
-
-LaTeX Warning: Citation `datasheet SiPM' on page 20 undefined on input line 92.
-
-
-
-LaTeX Warning: Reference `Root' on page 20 undefined on input line 101.
-
-)
+[19 <./Figuras/AjusteEspectro1.png>])
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand >>
@@ -2223,11 +1999,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 4.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 4.
- [20 <./Figuras/FitPosicionPixels.png>]
 
-LaTeX Warning: Reference `temperatura' on page 21 undefined on input line 11.
-
-<Figuras/Dependenciatemperatura.png, id=209, 868.24374pt x 566.115pt>
+[20 <./Figuras/FitPosicionPixels.png>]
+<Figuras/Dependenciatemperatura.png, id=402, 868.24374pt x 566.115pt>
 File: Figuras/Dependenciatemperatura.png Graphic file (type png)
 
 <use Figuras/Dependenciatemperatura.png>
@@ -2258,14 +2032,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 20.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 20.
- [21 <./Figuras/Dependenciatemperatura.png>]
-
-LaTeX Warning: Reference `temperatura' on page 22 undefined on input line 21.
-
-
-LaTeX Warning: Citation `tesisSiPM' on page 22 undefined on input line 21.
-
-)
+ [21 <./Figuras/Dependenciatemperatura.png>])
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand >>
@@ -2304,19 +2071,12 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 10.
  [22]
-
-LaTeX Warning: Reference `voltaje' on page 23 undefined on input line 11.
-
-<Figuras/Dependenciavoltaje.png, id=222, 870.25125pt x 568.1225pt>
+<Figuras/Dependenciavoltaje.png, id=418, 870.25125pt x 568.1225pt>
 File: Figuras/Dependenciavoltaje.png Graphic file (type png)
 
 <use Figuras/Dependenciavoltaje.png>
 Package pdftex.def Info: Figuras/Dependenciavoltaje.png used on input line 15.
 (pdftex.def)             Requested size: 348.09433pt x 227.24496pt.
-
-
-LaTeX Warning: Citation `tesisSiPM' on page 23 undefined on input line 19.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand >>
@@ -2341,7 +2101,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 24.
-[23 <./Figuras/Dependenciavoltaje.png>])
+ [23 <./Figuras/Dependenciavoltaje.png>])
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 40.
 Package babel Info: Redefining spanish shorthand >>
@@ -2354,7 +2114,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 40.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 40.
- (./Secciones/5SiPM/57Compensacion.tex
+
+(./Secciones/5SiPM/57Compensacion.tex
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 21.
 Package babel Info: Redefining spanish shorthand >>
@@ -2379,25 +2140,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 21.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 21.
-
-[24]
-
-LaTeX Warning: Citation `TFMSiPM2' on page 25 undefined on input line 33.
-
-
-LaTeX Warning: Citation `tesisSiPM' on page 25 undefined on input line 33.
-
-
-LaTeX Warning: Citation `cladtesis' on page 25 undefined on input line 33.
-
-
-LaTeX Warning: Reference `ajustependientetemperatura' on page 25 undefined on i
-nput line 38.
-
-
-LaTeX Warning: Reference `ajustependientevoltaje' on page 25 undefined on input
- line 38.
-
+ [24]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand >>
@@ -2422,11 +2165,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 60.
-[25]
-
-LaTeX Warning: Reference `compensacion' on page 26 undefined on input line 70.
-
-<Figuras/compensacion.png, id=251, 870.25125pt x 567.11874pt>
+ [25]
+<Figuras/compensacion.png, id=461, 870.25125pt x 567.11874pt>
 File: Figuras/compensacion.png Graphic file (type png)
 
 <use Figuras/compensacion.png>
@@ -2485,19 +2225,12 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 46.
 
 (./Secciones/6Prototipos/62Configuracionprototipo.tex
-<Figuras/Prototipo.png, id=259, 790.955pt x 521.95pt>
+<Figuras/Prototipo.png, id=469, 790.955pt x 521.95pt>
 File: Figuras/Prototipo.png Graphic file (type png)
 
 <use Figuras/Prototipo.png>
 Package pdftex.def Info: Figuras/Prototipo.png used on input line 7.
 (pdftex.def)             Requested size: 237.28833pt x 156.5862pt.
-
-
-LaTeX Warning: Reference `tapones' on page 27 undefined on input line 12.
-
-
-LaTeX Warning: Reference `prototipo' on page 27 undefined on input line 13.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 15.
 Package babel Info: Redefining spanish shorthand >>
@@ -2522,17 +2255,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 15.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 15.
-[27] <Figuras/Tapones.png, id=266, 664.4825pt x 393.47pt>
+ [27]
+<Figuras/Tapones.png, id=476, 664.4825pt x 393.47pt>
 File: Figuras/Tapones.png Graphic file (type png)
-
-<use Figuras/Tapones.png>
+ <use Figuras/Tapones.png>
 Package pdftex.def Info: Figuras/Tapones.png used on input line 18.
 (pdftex.def)             Requested size: 265.78828pt x 157.38521pt.
-
-
-LaTeX Warning: Reference `prototipotapones' on page 28 undefined on input line 
-27.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand >>
@@ -2557,8 +2285,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 28.
+
 [28 <./Figuras/Prototipo.png> <./Figuras/Tapones.png>]
-<Figuras/Prototipodelantetapon.png, id=273, 751.80875pt x 532.99126pt>
+<Figuras/Prototipodelantetapon.png, id=484, 751.80875pt x 532.99126pt>
 File: Figuras/Prototipodelantetapon.png Graphic file (type png)
 
 <use Figuras/Prototipodelantetapon.png>
@@ -2566,7 +2295,7 @@ Package pdftex.def Info: Figuras/Prototipodelantetapon.png used on input line 3
 3.
 (pdftex.def)             Requested size: 187.95172pt x 133.24748pt.
 
-<Figuras/PrototipoDetrastapon.png, id=274, 765.86125pt x 524.96124pt>
+<Figuras/PrototipoDetrastapon.png, id=485, 765.86125pt x 524.96124pt>
 File: Figuras/PrototipoDetrastapon.png Graphic file (type png)
 
 <use Figuras/PrototipoDetrastapon.png>
@@ -2587,12 +2316,6 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 49.
  (./Secciones/6Prototipos/63Llenado.tex
-
-LaTeX Warning: Citation `IFIC' on page 29 undefined on input line 1.
-
-
-LaTeX Warning: Citation `IFIC' on page 29 undefined on input line 1.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand >>
@@ -2617,6 +2340,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 9.
+
 [29 <./Figuras/Prototipodelantetapon.png> <./Figuras/PrototipoDetrastapon.png>]
 )
 Package babel Info: Redefining spanish shorthand <<
@@ -2632,22 +2356,12 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 52.
  (./Secciones/6Prototipos/64Configuracionelectronica.tex
-
-LaTeX Warning: Reference `electronica' on page 30 undefined on input line 3.
-
-<Figuras/Esquemaelectronico.png, id=281, 713.66624pt x 447.6725pt>
+<Figuras/Esquemaelectronico.png, id=495, 713.66624pt x 447.6725pt>
 File: Figuras/Esquemaelectronico.png Graphic file (type png)
 
 <use Figuras/Esquemaelectronico.png>
 Package pdftex.def Info: Figuras/Esquemaelectronico.png used on input line 7.
 (pdftex.def)             Requested size: 285.46143pt x 179.06583pt.
-
-
-LaTeX Warning: Citation `Andres' on page 30 undefined on input line 8.
-
-
-LaTeX Warning: Citation `Andres' on page 30 undefined on input line 8.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 17.
 Package babel Info: Redefining spanish shorthand >>
@@ -2672,11 +2386,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 17.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 17.
-[30]
-
-LaTeX Warning: Reference `se\IeC {\~n}ales' on page 31 undefined on input line 
-26.
-
+ [30]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand >>
@@ -2701,19 +2411,15 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 27.
-[31 <./Figuras/Esquemaelectronico.png>]
-<Figuras/SenalesNIM.png, id=304, 809.0225pt x 606.265pt>
+ [31 <./Figuras/Esquemaelectronico.png>] <Figuras/SenalesNIM.png, id=520, 809.0
+225pt x 606.265pt>
 File: Figuras/SenalesNIM.png Graphic file (type png)
 
 <use Figuras/SenalesNIM.png>
 Package pdftex.def Info: Figuras/SenalesNIM.png used on input line 30.
 (pdftex.def)             Requested size: 323.60327pt x 242.5017pt.
 
-
-LaTeX Warning: Reference `se\IeC {\~n}ales MCA' on page 32 undefined on input l
-ine 37.
-
-<Figuras/SenalesMCA.png, id=305, 805.0075pt x 573.14125pt>
+<Figuras/SenalesMCA.png, id=522, 805.0075pt x 573.14125pt>
 File: Figuras/SenalesMCA.png Graphic file (type png)
 
 <use Figuras/SenalesMCA.png>
@@ -2759,16 +2465,6 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 4.
 
 [32 <./Figuras/SenalesNIM.png>]
-
-LaTeX Warning: Reference `sec:Temperatura' on page 33 undefined on input line 5
-.
-
-
-LaTeX Warning: Reference `senaltritio' on page 33 undefined on input line 13.
-
-
-LaTeX Warning: Reference `senaltritio' on page 33 undefined on input line 13.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 14.
 Package babel Info: Redefining spanish shorthand >>
@@ -2793,15 +2489,15 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 14.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 14.
-[33 <./Figuras/SenalesMCA.png>]
-<Figuras/tritio-fondo.png, id=319, 761.84625pt x 546.04pt>
+ [33 <./Figuras/SenalesMCA.png>]
+<Figuras/tritio-fondo.png, id=539, 761.84625pt x 546.04pt>
 File: Figuras/tritio-fondo.png Graphic file (type png)
 
 <use Figuras/tritio-fondo.png>
 Package pdftex.def Info: Figuras/tritio-fondo.png used on input line 19.
 (pdftex.def)             Requested size: 220.92975pt x 158.34753pt.
 
-<Figuras/tritiumsignal.png, id=320, 758.835pt x 551.05875pt>
+<Figuras/tritiumsignal.png, id=540, 758.835pt x 551.05875pt>
 File: Figuras/tritiumsignal.png Graphic file (type png)
 
 <use Figuras/tritiumsignal.png>
@@ -2832,12 +2528,6 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 43.
  [34 <./Figuras/tritio-fondo.png> <./Figuras/tritiumsignal.png>]
-
-LaTeX Warning: Reference `sec:Llenado' on page 35 undefined on input line 46.
-
-
-LaTeX Warning: Citation `unizar' on page 35 undefined on input line 60.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand >>
@@ -2862,19 +2552,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 64.
-[35]
-
-LaTeX Warning: Citation `cladtesis' on page 36 undefined on input line 68.
-
-
-LaTeX Warning: Citation `cladarticulo' on page 36 undefined on input line 68.
-
-
-LaTeX Warning: Citation `Isotopos' on page 36 undefined on input line 79.
-
-
-LaTeX Warning: Citation `Isotopos' on page 36 undefined on input line 79.
-
+ [35]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 80.
 Package babel Info: Redefining spanish shorthand >>
@@ -2899,7 +2577,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 80.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 80.
-[36] <Figuras/Signal_Cs-137+background.png, id=337, 757.83125pt x 537.00626pt>
+ [36]
+<Figuras/Signal_Cs-137+background.png, id=564, 757.83125pt x 537.00626pt>
 File: Figuras/Signal_Cs-137+background.png Graphic file (type png)
 
 <use Figuras/Signal_Cs-137+background.png>
@@ -2907,16 +2586,12 @@ Package pdftex.def Info: Figuras/Signal_Cs-137+background.png used on input lin
 e 87.
 (pdftex.def)             Requested size: 219.76543pt x 155.72781pt.
 
-<Figuras/Signal_Cs-137.png, id=338, 752.8125pt x 545.03625pt>
+<Figuras/Signal_Cs-137.png, id=565, 752.8125pt x 545.03625pt>
 File: Figuras/Signal_Cs-137.png Graphic file (type png)
 
 <use Figuras/Signal_Cs-137.png>
 Package pdftex.def Info: Figuras/Signal_Cs-137.png used on input line 91.
 (pdftex.def)             Requested size: 218.31003pt x 158.05646pt.
-
-
-LaTeX Warning: Reference `prototipo' on page 37 undefined on input line 98.
-
 )
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 57.
@@ -2955,27 +2630,13 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 59.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 59.
-
-(./Secciones/7Simulaciones.tex
-
-LaTeX Warning: Reference `imagenprototiposimulado' on page 38 undefined on inpu
-t line 1.
-
-<Figuras/Finalforntal.png, id=345, 396.48125pt x 303.1325pt>
+ (./Secciones/7Simulaciones.tex
+<Figuras/Finalforntal.png, id=574, 396.48125pt x 303.1325pt>
 File: Figuras/Finalforntal.png Graphic file (type png)
 
 <use Figuras/Finalforntal.png>
 Package pdftex.def Info: Figuras/Finalforntal.png used on input line 5.
 (pdftex.def)             Requested size: 158.58968pt x 121.25084pt.
-
-
-LaTeX Warning: Reference `imagenprototiposimulado' on page 38 undefined on inpu
-t line 9.
-
-
-LaTeX Warning: Reference `sec:Resultados' on page 38 undefined on input line 15
-.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand >>
@@ -3000,12 +2661,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 16.
-[38 <./Figuras/Finalforntal.png>]
-
-LaTeX Warning: Reference `espectrotritiosimuladonewpage' on page 39 undefined o
-n input line 19.
-
-<Figuras/espectrotritiosimulado.png, id=352, 1480.53125pt x 857.2025pt>
+ [38 <./Figuras/Finalforntal.png>]
+<Figuras/espectrotritiosimulado.png, id=583, 1480.53125pt x 857.2025pt>
 File: Figuras/espectrotritiosimulado.png Graphic file (type png)
 
 <use Figuras/espectrotritiosimulado.png>
@@ -3013,54 +2670,33 @@ Package pdftex.def Info: Figuras/espectrotritiosimulado.png used on input line
 23.
 (pdftex.def)             Requested size: 296.101pt x 171.43745pt.
 
-
-LaTeX Warning: Reference `fig:Espectrotritio' on page 39 undefined on input lin
-e 27.
-
-
-LaTeX Warning: Reference `espectroespacial' on page 39 undefined on input line 
-29.
-
-<Figuras/eventosXfibras.png, id=353, 1499.6025pt x 858.20625pt>
+<Figuras/eventosXfibras.png, id=586, 1499.6025pt x 858.20625pt>
 File: Figuras/eventosXfibras.png Graphic file (type png)
 
 <use Figuras/eventosXfibras.png>
 Package pdftex.def Info: Figuras/eventosXfibras.png used on input line 35.
 (pdftex.def)             Requested size: 149.96902pt x 85.82565pt.
 
-<Figuras/eventosYfibras.png, id=354, 1482.53876pt x 854.19125pt>
+<Figuras/eventosYfibras.png, id=587, 1482.53876pt x 854.19125pt>
 File: Figuras/eventosYfibras.png Graphic file (type png)
 
 <use Figuras/eventosYfibras.png>
 Package pdftex.def Info: Figuras/eventosYfibras.png used on input line 39.
 (pdftex.def)             Requested size: 148.26256pt x 85.42412pt.
 
-<Figuras/eventosZfibras.png, id=355, 1480.53125pt x 844.15375pt>
+<Figuras/eventosZfibras.png, id=588, 1480.53125pt x 844.15375pt>
 File: Figuras/eventosZfibras.png Graphic file (type png)
 
 <use Figuras/eventosZfibras.png>
 Package pdftex.def Info: Figuras/eventosZfibras.png used on input line 43.
 (pdftex.def)             Requested size: 148.0618pt x 84.42032pt.
 
-
-LaTeX Warning: Reference `sucesossobrecadafibra' on page 39 undefined on input 
-line 50.
-
-<Figuras/Histogramafibras.png, id=356, 1489.565pt x 857.2025pt>
+<Figuras/Histogramafibras.png, id=590, 1489.565pt x 857.2025pt>
 File: Figuras/Histogramafibras.png Graphic file (type png)
 
 <use Figuras/Histogramafibras.png>
 Package pdftex.def Info: Figuras/Histogramafibras.png used on input line 54.
 (pdftex.def)             Requested size: 297.90771pt x 171.43745pt.
-
-
-LaTeX Warning: Reference `deposicionagua' on page 39 undefined on input line 60
-.
-
-
-LaTeX Warning: Reference `deposicionfibras' on page 39 undefined on input line 
-60.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand >>
@@ -3085,8 +2721,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 61.
-[39 <./Figuras/espectrotritiosimulado.png>]
-<Figuras/deposicionenergiaagua.png, id=365, 1492.57625pt x 847.165pt>
+ [39 <./Figuras/espectrotritiosimulado.png>]
+<Figuras/deposicionenergiaagua.png, id=604, 1492.57625pt x 847.165pt>
 File: Figuras/deposicionenergiaagua.png Graphic file (type png)
 
 <use Figuras/deposicionenergiaagua.png>
@@ -3094,7 +2730,7 @@ Package pdftex.def Info: Figuras/deposicionenergiaagua.png used on input line 6
 6.
 (pdftex.def)             Requested size: 149.26636pt x 84.72145pt.
 
-<Figuras/longitudrecorridaagua.png, id=366, 1509.64pt x 845.1575pt>
+<Figuras/longitudrecorridaagua.png, id=605, 1509.64pt x 845.1575pt>
 File: Figuras/longitudrecorridaagua.png Graphic file (type png)
 
 <use Figuras/longitudrecorridaagua.png>
@@ -3102,7 +2738,7 @@ Package pdftex.def Info: Figuras/longitudrecorridaagua.png used on input line 7
 0.
 (pdftex.def)             Requested size: 150.97284pt x 84.52069pt.
 
-<Figuras/energiadeposicionfibras.png, id=367, 1560.83125pt x 849.1725pt>
+<Figuras/energiadeposicionfibras.png, id=606, 1560.83125pt x 849.1725pt>
 File: Figuras/energiadeposicionfibras.png Graphic file (type png)
 
 <use Figuras/energiadeposicionfibras.png>
@@ -3110,24 +2746,12 @@ Package pdftex.def Info: Figuras/energiadeposicionfibras.png used on input line
  79.
 (pdftex.def)             Requested size: 156.09227pt x 84.92221pt.
 
-<Figuras/longitudfibras.png, id=368, 1549.79pt x 849.1725pt>
+<Figuras/longitudfibras.png, id=607, 1549.79pt x 849.1725pt>
 File: Figuras/longitudfibras.png Graphic file (type png)
 
 <use Figuras/longitudfibras.png>
 Package pdftex.def Info: Figuras/longitudfibras.png used on input line 83.
 (pdftex.def)             Requested size: 154.98807pt x 84.92221pt.
-
-
-LaTeX Warning: Reference `deposicionagua' on page 40 undefined on input line 88
-.
-
-
-LaTeX Warning: Reference `deposicionfibras' on page 40 undefined on input line 
-90.
-
-
-LaTeX Warning: Reference `reemision' on page 40 undefined on input line 92.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 93.
 Package babel Info: Redefining spanish shorthand >>
@@ -3152,20 +2776,15 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 93.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 93.
-[40 <./Figuras/eventosXfibras.png> <./Figuras/eventosYfibras.png> <./Figuras/ev
-entosZfibras.png> <./Figuras/Histogramafibras.png> <./Figuras/deposicionenergia
-agua.png> <./Figuras/longitudrecorridaagua.png>]
-<Figuras/reemisionfotones.png, id=377, 1475.5125pt x 851.18pt>
+ [40 <./Figuras/eventosXfibras.png> <./Figuras/eventosYfibras.png> <./Figuras/e
+ventosZfibras.png> <./Figuras/Histogramafibras.png> <./Figuras/deposicionenergi
+aagua.png> <./Figuras/longitudrecorridaagua.png>] <Figuras/reemisionfotones.png
+, id=618, 1475.5125pt x 851.18pt>
 File: Figuras/reemisionfotones.png Graphic file (type png)
 
 <use Figuras/reemisionfotones.png>
 Package pdftex.def Info: Figuras/reemisionfotones.png used on input line 96.
 (pdftex.def)             Requested size: 295.09727pt x 170.23297pt.
-
-
-LaTeX Warning: Reference `fig:Espectrotritio' on page 41 undefined on input lin
-e 100.
-
 )
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 63.
@@ -3206,38 +2825,6 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
  [41 <./Figuras/energiadeposicionfibras.png> <./Figuras/longitudfibras.png> <./
 Figuras/reemisionfotones.png>]
-
-LaTeX Warning: Reference `sec:Resultados' on page 42 undefined on input line 3.
-
-
-
-LaTeX Warning: Citation `Rat' on page 42 undefined on input line 3.
-
-
-LaTeX Warning: Reference `sec:SiPM' on page 42 undefined on input line 9.
-
-
-LaTeX Warning: Reference `tapones' on page 42 undefined on input line 11.
-
-
-LaTeX Warning: Reference `sec:Equipo' on page 42 undefined on input line 13.
-
-
-LaTeX Warning: Reference `Espectros' on page 42 undefined on input line 13.
-
-
-LaTeX Warning: Reference `TarjetaSiPM' on page 42 undefined on input line 17.
-
-
-LaTeX Warning: Reference `sec:Compensacion' on page 42 undefined on input line 
-18.
-
-
-LaTeX Warning: Citation `Marc' on page 42 undefined on input line 21.
-
-
-LaTeX Warning: Reference `arduino' on page 42 undefined on input line 21.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand >>
@@ -3262,18 +2849,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 22.
-[42]
-
-LaTeX Warning: Reference `arduino' on page 43 undefined on input line 23.
-
-<Figuras/Tarjeta1.png, id=394, 808.01875pt x 447.6725pt>
+ [42] <Figuras/Tarjeta1.png, id=645, 808.01875pt x 447.6725pt>
 File: Figuras/Tarjeta1.png Graphic file (type png)
 
 <use Figuras/Tarjeta1.png>
 Package pdftex.def Info: Figuras/Tarjeta1.png used on input line 29.
 (pdftex.def)             Requested size: 202.0042pt x 111.91785pt.
 
-<Figuras/Arduino.png, id=395, 364.36125pt x 217.81375pt>
+<Figuras/Arduino.png, id=646, 364.36125pt x 217.81375pt>
 File: Figuras/Arduino.png Graphic file (type png)
 
 <use Figuras/Arduino.png>
@@ -3303,19 +2886,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 40.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 40.
- [43 <./Figuras/Tarjeta1.png> <./Figuras/Arduino.png>]
-
-LaTeX Warning: Reference `sec:Resultados' on page 44 undefined on input line 41
-.
-
-
-LaTeX Warning: Reference `sec:Resultados' on page 44 undefined on input line 45
-.
-
-
-LaTeX Warning: Citation `Camara' on page 44 undefined on input line 49.
-
-)
+ [43 <./Figuras/Tarjeta1.png> <./Figuras/Arduino.png>])
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 67.
 Package babel Info: Redefining spanish shorthand >>
@@ -3329,64 +2900,57 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 67.
  (./Secciones/9Conclusiones2.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 15.
+ [44]) (./Secciones/10Agradecimientos.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3.
 
-LaTeX Warning: Reference `sec:Resultados' on page 44 undefined on input line 14
-.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 15.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 15.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 15.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 15.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 15.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 15.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 15.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 15.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 15.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 15.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 15.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 15.
-[44]
-
-LaTeX Warning: Reference `senaltritio' on page 45 undefined on input line 22.
-
-) (./Secciones/10Agradecimientos.tex
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 3.
- [45]) (./Secciones/11Bibliografia.tex
+[45]) (./Secciones/11Bibliografia.tex
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 10.
 Package babel Info: Redefining spanish shorthand >>
@@ -3411,8 +2975,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 10.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 10.
-
-[46]
+ [46]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 54.
 Package babel Info: Redefining spanish shorthand >>
@@ -3502,29 +3065,20 @@ LaTeX Info: Redefining \% on input line 24.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 667EABFE0A4576CD06884D953D065E21;1355.
 
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  667EABFE0A4576CD06884D953D065E21;1355.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 19177 strings out of 493013
- 337593 string characters out of 6133344
- 423454 words of memory out of 5000000
- 22143 multiletter control sequences out of 15000+600000
- 28774 words of font info for 75 fonts, out of 8000000 for 9000
+ 19201 strings out of 493013
+ 337894 string characters out of 6133344
+ 430367 words of memory out of 5000000
+ 22161 multiletter control sequences out of 15000+600000
+ 27217 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,17n,69p,10451b,800s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -3551,10 +3105,10 @@ dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2016/texmf-dist/f
 onts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (50 pages, 10403293 bytes).
+Output written on main.pdf (50 pages, 10410625 bytes).
 PDF statistics:
- 614 PDF objects out of 1000 (max. 8388607)
- 482 compressed objects within 5 object streams
+ 837 PDF objects out of 1000 (max. 8388607)
+ 684 compressed objects within 7 object streams
  245 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 413 words of extra memory for PDF output out of 10000 (max. 10000000)
 
