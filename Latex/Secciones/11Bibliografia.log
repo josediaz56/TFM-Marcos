@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  5 SEP 2017 12:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  6 SEP 2017 10:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3814,7 +3814,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.46 \bibitem{asignatura}
-                          \textsc{MÂª Victoria Castillo Gimenez},
+                          \textsc{W. R. Leo},
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -3822,7 +3822,7 @@ If that doesn't work, type  X <return>  to quit.
 <argument> \@listctr 
                      
 l.46 \bibitem{asignatura}
-                          \textsc{MÂª Victoria Castillo Gimenez},
+                          \textsc{W. R. Leo},
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3833,68 +3833,125 @@ and I'll forget about whatever was undefined.
 <recently read> \c@ 
                     
 l.46 \bibitem{asignatura}
-                          \textsc{MÂª Victoria Castillo Gimenez},
+                          \textsc{W. R. Leo},
 I'm forgetting what you said and using zero instead.
 
 \bibcite{asignatura}{0}
-Missing character: There is no Â in font cmcsc10!
-Missing character: There is no ª in font cmcsc10!
 Missing character: There is no , in font nullfont!
-Missing character: There is no Ã in font cmti10!
-Missing character: There is no ³ in font cmti10!
+Missing character: There is no , in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no ³ in font cmtt10!
+Missing character: There is no , in font nullfont!
 
-Overfull \hbox (9.88878pt too wide) in paragraph at lines 46--48
-\OT1/cmr/m/sc/10 M
+Overfull \hbox (14.24985pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/sc/10 W.
  []
 
 
-Overfull \hbox (20.84982pt too wide) in paragraph at lines 46--48
-\OT1/cmr/m/sc/10 Vic-
+Overfull \hbox (11.19432pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/sc/10 R.
  []
 
 
-Overfull \hbox (16.04434pt too wide) in paragraph at lines 46--48
-\OT1/cmr/m/sc/10 to-
+Overfull \hbox (18.76654pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/sc/10 Leo
  []
 
 
-Overfull \hbox (15.17772pt too wide) in paragraph at lines 46--48
-\OT1/cmr/m/sc/10 ria
+Overfull \hbox (23.76646pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/it/10 Tech-
  []
 
 
-Overfull \hbox (44.12752pt too wide) in paragraph at lines 46--48
-\OT1/cmr/m/sc/10 Castillo
+Overfull \hbox (27.34427pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/it/10 niques
  []
 
 
-Overfull \hbox (41.31364pt too wide) in paragraph at lines 46--48
-\OT1/cmr/m/sc/10 Gimenez
+Overfull \hbox (12.39436pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/it/10 for
  []
 
 
-Overfull \hbox (13.05547pt too wide) in paragraph at lines 46--48
-\OT1/cmr/m/it/10 In-
+Overfull \hbox (16.37767pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/it/10 Nu-
  []
 
 
-Overfull \hbox (20.57207pt too wide) in paragraph at lines 46--48
-\OT1/cmr/m/it/10 stru-
+Overfull \hbox (20.57205pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/it/10 clear
  []
 
 
-Overfull \hbox (40.12196pt too wide) in paragraph at lines 46--48
-\OT1/cmr/m/it/10 mentacin
+Overfull \hbox (15.84436pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/it/10 and
  []
 
 
-Overfull \hbox (14.56657pt too wide) in paragraph at lines 46--48
-\OT1/cmr/m/it/10 nu-
+Overfull \hbox (19.68875pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/it/10 Par-
  []
 
 
-Overfull \hbox (21.64842pt too wide) in paragraph at lines 46--48
-\OT1/cmr/m/it/10 clear 
+Overfull \hbox (9.96658pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/it/10 ti-
+ []
+
+
+Overfull \hbox (11.75546pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/it/10 cle
+ []
+
+
+Overfull \hbox (32.59424pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/it/10 Physics
+ []
+
+
+Overfull \hbox (14.99991pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/it/10 Ex-
+ []
+
+
+Overfull \hbox (16.9943pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/it/10 per-
+ []
+
+
+Overfull \hbox (6.6444pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/it/10 i-
+ []
+
+
+Overfull \hbox (25.81094pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/it/10 ments
+ []
+
+
+Overfull \hbox (78.74931pt too wide) in paragraph at lines 46--48
+\OT1/cmtt/m/n/10 Springer-Verlag
+ []
+
+
+Overfull \hbox (20.44434pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/it/10 1987
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 46--48
+\OT1/cmtt/m/n/10 Segunda
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 46--48
+\OT1/cmtt/m/n/10 edicin
+ []
+
+
+Overfull \hbox (21.7999pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/it/10 1994 
  []
 
 
@@ -8617,11 +8674,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 20 strings out of 493029
- 323 string characters out of 6136234
- 82873 words of memory out of 5000000
- 3651 multiletter control sequences out of 15000+600000
- 4595 words of font info for 17 fonts, out of 8000000 for 9000
+ 22 strings out of 493029
+ 344 string characters out of 6136234
+ 82922 words of memory out of 5000000
+ 3652 multiletter control sequences out of 15000+600000
+ 4763 words of font info for 18 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  20i,4n,13p,344b,134s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
