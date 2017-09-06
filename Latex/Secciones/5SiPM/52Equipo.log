@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  4 SEP 2017 11:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  6 SEP 2017 11:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5089,7 +5089,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.48 \includegraphics
-                     [scale=0.50]{SiPM.png}
+                     [scale=0.55]{SiPM.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -5106,7 +5106,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -5118,7 +5118,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
 l.52 \includegraphics
-                     [scale=0.20]{tarjeta.png}
+                     [scale=0.23]{tarjeta.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -5135,7 +5135,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 2 in font nullfont!
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -5423,7 +5423,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.60 \includegraphics
-                     [scale=0.4]{CircuitoTarjeta.png}
+                     [scale=0.3]{CircuitoTarjeta.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -5439,7 +5439,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -5532,6 +5532,58 @@ Overfull \hbox (5.43053pt too wide) in paragraph at lines 58--63
 [][]
  []
 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \newpage
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+! Undefined control sequence.
+<write> ...label{sistematemperatura}{{1}{\thepage 
+                                                  }}
+l.63 \newpage
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{sistematemperatura}{{1}{}}
+! Undefined control sequence.
+<write> \newlabel{TarjetaSiPM}{{6}{\thepage 
+                                            }}
+l.63 \newpage
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{TarjetaSiPM}{{6}{}}
+! Undefined control sequence.
+<write> ...l{esquemacircuitotarjeta}{{6}{\thepage 
+                                                  }}
+l.63 \newpage
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{esquemacircuitotarjeta}{{6}{}}
+]
 Missing character: There is no L in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -6058,7 +6110,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.74 .... Tenía una amplitud máxima de $4~\milli
+l.73 .... Tenía una amplitud máxima de $4~\milli
                                                   \volt$ y una frecuencia ba...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6067,7 +6119,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.74 ...ía una amplitud máxima de $4~\milli\volt
+l.73 ...ía una amplitud máxima de $4~\milli\volt
                                                   $ y una frecuencia bastant...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6118,7 +6170,7 @@ Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
 <recently read> \mega 
                       
-l.74 ...encia bastante irregular entorno al $\mega
+l.73 ...encia bastante irregular entorno al $\mega
                                                   \hertz$. Finalmente se vio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6127,7 +6179,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.74 ...bastante irregular entorno al $\mega\hertz
+l.73 ...bastante irregular entorno al $\mega\hertz
                                                   $. Finalmente se vio que e...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6587,27 +6639,27 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 74--76
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 68--75
 \OT1/cmr/m/n/10 4 []$
  []
 
 
-Overfull \hbox (13.4166pt too wide) in paragraph at lines 74--76
+Overfull \hbox (13.4166pt too wide) in paragraph at lines 68--75
 \OT1/cmr/bx/n/10 fil-
  []
 
 
-Overfull \hbox (14.95827pt too wide) in paragraph at lines 74--76
+Overfull \hbox (14.95827pt too wide) in paragraph at lines 68--75
 \OT1/cmr/bx/n/10 tro
  []
 
 
-Overfull \hbox (22.10538pt too wide) in paragraph at lines 74--76
+Overfull \hbox (22.10538pt too wide) in paragraph at lines 68--75
 \OT1/cmr/bx/n/10 pasa
  []
 
 
-Overfull \hbox (30.34702pt too wide) in paragraph at lines 74--76
+Overfull \hbox (30.34702pt too wide) in paragraph at lines 68--75
 \OT1/cmr/bx/n/10 banda
  []
 
@@ -6780,17 +6832,17 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (31.30534pt too wide) in paragraph at lines 77--78
+Overfull \hbox (31.30534pt too wide) in paragraph at lines 76--77
 \OT1/cmr/bx/n/10 manta
  []
 
 
-Overfull \hbox (15.49298pt too wide) in paragraph at lines 77--78
+Overfull \hbox (15.49298pt too wide) in paragraph at lines 76--77
 \OT1/cmr/bx/n/10 ne-
  []
 
 
-Overfull \hbox (16.0763pt too wide) in paragraph at lines 77--78
+Overfull \hbox (16.0763pt too wide) in paragraph at lines 76--77
 \OT1/cmr/bx/n/10 gra
  []
 
@@ -7028,11 +7080,11 @@ Missing character: There is no . in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 22 strings out of 493029
- 331 string characters out of 6136234
- 57072 words of memory out of 5000000
+ 24 strings out of 493029
+ 353 string characters out of 6136234
+ 56072 words of memory out of 5000000
  3657 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 19i,2n,21p,669b,146s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19i,4n,21p,669b,175s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

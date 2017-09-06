@@ -45,11 +45,11 @@ Este SiPM compuesto por un total de $285$ pixels de $75~\micro\meter$ cada uno d
 \centering
 {
 %\subfloat[Espectro de emisión]
-\includegraphics[scale=0.50]{SiPM.png} 
+\includegraphics[scale=0.55]{SiPM.png} 
 }
 {
 %\subfloat[Espectro de emisión]
-\includegraphics[scale=0.20]{tarjeta.png} 
+\includegraphics[scale=0.23]{tarjeta.png} 
 }
 \caption{SiPMs y tarjeta de conversora intensidad-voltaje\label{TarjetaSiPM}}
 \end{figure}
@@ -57,10 +57,10 @@ Esta es una tarjeta desarrollada en el marco del proyecto NEXT.Esta consiste de 
 
 \begin{figure}[hbtp]
 \centering
-\includegraphics[scale=0.4]{CircuitoTarjeta.png}
+\includegraphics[scale=0.3]{CircuitoTarjeta.png}
 \caption{Circuito de una tarjeta tipo~\cite{datasheet SiPM}\label{esquemacircuitotarjeta}}
 \end{figure}
-
+\newpage
 La tarjeta tiene una ganancia de $G=110$. Este será el valor que utilizaremos en el análisis posterior para calcular la ganancia de los SiPM.
 
 \item {} Seguidamente se observó que, únicamente alimentando la tarjeta, antes de alimentar el SiPM y la led, obteníamos una perturbación externa a nuestro experimento. Esta se presenta en la figura~\ref{Ruido}. 
@@ -70,7 +70,6 @@ La tarjeta tiene una ganancia de $G=110$. Este será el valor que utilizaremos e
 \includegraphics[scale=0.4]{ruido.png}
 \caption{Ruido electrónico\label{Ruido}}
 \end{figure}
-
 Se intento caracterizar esta señal de perturbación, ajena a nuestro experimento y, a priori, de origen desconocido. Tenía una amplitud máxima de $4~\milli\volt$ y una frecuencia bastante irregular entorno al $\mega\hertz$. Finalmente se vio que era debido por una parte a la emisión producida por la antenas de Radiotelevisión Valenciana y, por otra parte, de las distintos intrumentos electrónicos conectados a la red eléctrica del IFIC, ya que esta posee una toma a tierra bastante irregular. 
 Con la presencia de este ruido no podíamos realizar medidas ya que introducía una componente de ruido tal que estropeaba por completo el resultado de la medida. Con el fin de solucionar este problema se dispuso de un \textbf{filtro pasa banda} (GUARD LCD2 650 AP) para eliminar este ruido.
 

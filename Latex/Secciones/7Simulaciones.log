@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  5 SEP 2017 10:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  6 SEP 2017 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -515,8 +515,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 E
-      stá formado por un cilindro externo de teflón  de radio interno $2.5...
+l.9 E
+     stá formado por un cilindro externo de teflón  de radio interno $2.5~...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -577,11 +577,11 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 10.
+(Font)              <7> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 10.
+(Font)              <5> on input line 9.
 ! Undefined control sequence.
-l.10 ...erno de teflón  de radio interno $2.5~\cm
+l.9 ...terno de teflón  de radio interno $2.5~\cm
                                                   $, $0.5~\cm$ de grosor y u...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -591,7 +591,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.10 ...lón  de radio interno $2.5~\cm$, $0.5~\cm
+l.9 ...flón  de radio interno $2.5~\cm$, $0.5~\cm
                                                   $ de grosor y una longitud...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -622,7 +622,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.10 ...5~\cm$ de grosor y una longitud de $80~\cm
+l.9 ....5~\cm$ de grosor y una longitud de $80~\cm
                                                   $ dando lugar a un volumen...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -746,7 +746,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...genprototiposimulado' on page \thepage 
                                                   \space undefined\on@line .
-l.10 ...�n la figura~\ref{imagenprototiposimulado}
+l.9 ...ún la figura~\ref{imagenprototiposimulado}
                                                   . El círculo interno, con...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -756,7 +756,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `imagenprototiposimulado' on page  undefined on input 
-line 10.
+line 9.
 
 Missing character: There is no . in font nullfont!
 Missing character: There is no E in font nullfont!
@@ -794,7 +794,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.10 ...�rculo interno, con un diámetro de $6~\mm
+l.9 ...írculo interno, con un diámetro de $6~\mm
                                                   $, contiene 10 fibras, el ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -858,7 +858,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.10 ...lo intermedio, con un diámetro de $12~\mm
+l.9 ...ulo intermedio, con un diámetro de $12~\mm
                                                   $, contiene 20 fibras y el...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -919,7 +919,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.10 ...rculo externo, con un diámetro de $18~\mm
+l.9 ...�rculo externo, con un diámetro de $18~\mm
                                                   $ contiene 30 fibras. El v...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1014,7 +1014,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.10 ...upado por las fibras) es de $1.1498~\liter
+l.9 ...cupado por las fibras) es de $1.1498~\liter
                                                   $, volumen que en la prác...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1077,52 +1077,52 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 10--11
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--10
 []
  []
 
 
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 10--11
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 9--10
 \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5 []$
  []
 
 
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 10--11
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 9--10
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5 []$
  []
 
 
-Overfull \hbox (10.00003pt too wide) in paragraph at lines 10--11
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 9--10
 \OT1/cmr/m/n/10 80 []$
  []
 
 
-Overfull \hbox (30.95844pt too wide) in paragraph at lines 10--11
+Overfull \hbox (30.95844pt too wide) in paragraph at lines 9--10
 \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1781 []\OML/cmm/m/it/10 l$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 10--11
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 9--10
 []
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 10--11
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 9--10
 \OT1/cmr/m/n/10 6 []$
  []
 
 
-Overfull \hbox (10.00003pt too wide) in paragraph at lines 10--11
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 9--10
 \OT1/cmr/m/n/10 12 []$
  []
 
 
-Overfull \hbox (10.00003pt too wide) in paragraph at lines 10--11
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 9--10
 \OT1/cmr/m/n/10 18 []$
  []
 
 
-Overfull \hbox (27.77786pt too wide) in paragraph at lines 10--11
+Overfull \hbox (27.77786pt too wide) in paragraph at lines 9--10
 \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1498 []$
  []
 
@@ -1133,7 +1133,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 L
+l.11 L
       as fibras que se han simulado pretenden ser las utilizadas hasta el mo...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1233,7 +1233,7 @@ Missing character: There is no 2 in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.12 ... fibras centelleadoras BCF-12 de $1~\milli
+l.11 ... fibras centelleadoras BCF-12 de $1~\milli
                                                   \meter$ de diámetro pero ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1242,7 +1242,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...s centelleadoras BCF-12 de $1~\milli\meter
+l.11 ...s centelleadoras BCF-12 de $1~\milli\meter
                                                   $ de diámetro pero con lo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1279,7 +1279,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.12 ... diámetro pero con longitud de $60~\centi
+l.11 ... diámetro pero con longitud de $60~\centi
                                                   \meter$. En los $20~\cm$  ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1288,7 +1288,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...etro pero con longitud de $60~\centi\meter
+l.11 ...etro pero con longitud de $60~\centi\meter
                                                   $. En los $20~\cm$  del ci...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1303,7 +1303,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.12 ...gitud de $60~\centi\meter$. En los $20~\cm
+l.11 ...gitud de $60~\centi\meter$. En los $20~\cm
                                                   $  del cilindro de teflón...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1689,22 +1689,22 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 12--13
+Overfull \hbox (20.0pt too wide) in paragraph at lines 11--12
 []
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 12--13
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 11--12
 \OT1/cmr/m/n/10 1 []$
  []
 
 
-Overfull \hbox (10.00003pt too wide) in paragraph at lines 12--13
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 11--12
 \OT1/cmr/m/n/10 60 []$
  []
 
 
-Overfull \hbox (10.00003pt too wide) in paragraph at lines 12--13
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 11--12
 \OT1/cmr/m/n/10 20 []$
  []
 
@@ -1715,7 +1715,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 L
+l.13 L
       a simulación describe la emisión de una fuente de tritio que en la p...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1987,7 +1987,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.14 ...s cilindros de agua tritiada de $50~\micro
+l.13 ...s cilindros de agua tritiada de $50~\micro
                                                   \meter$ de grosor alrededo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1996,7 +1996,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.14 ...ndros de agua tritiada de $50~\micro\meter
+l.13 ...ndros de agua tritiada de $50~\micro\meter
                                                   $ de grosor alrededor de c...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2103,7 +2103,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.14 ... de los electrones en el agua es $5~\micro
+l.13 ... de los electrones en el agua es $5~\micro
                                                   \meter$ ambas situaciones ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2112,7 +2112,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.14 ...s electrones en el agua es $5~\micro\meter
+l.13 ...s electrones en el agua es $5~\micro\meter
                                                   $ ambas situaciones son an...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2150,17 +2150,17 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 14--15
+Overfull \hbox (20.0pt too wide) in paragraph at lines 13--14
 []
  []
 
 
-Overfull \hbox (10.00003pt too wide) in paragraph at lines 14--15
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 13--14
 \OT1/cmr/m/n/10 50 []$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 14--15
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 13--14
 \OT1/cmr/m/n/10 5 []$
  []
 
@@ -2171,7 +2171,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 H
+l.15 H
       ay que tener en cuenta que los resultados presentados de estas simulac...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2489,7 +2489,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...ence `sec:Resultados' on page \thepage 
                                                   \space undefined\on@line .
-l.16 ...scutida en la seccion~\ref{sec:Resultados}
+l.15 ...scutida en la seccion~\ref{sec:Resultados}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2498,16 +2498,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `sec:Resultados' on page  undefined on input line 16.
+LaTeX Warning: Reference `sec:Resultados' on page  undefined on input line 15.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 16--17
+Overfull \hbox (20.0pt too wide) in paragraph at lines 15--16
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 16--17
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 15--16
 [] 
  []
 
@@ -2518,7 +2518,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 L
+l.17 L
       os resultados obtenidos para una simulación de $10000$ eventos se mue...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2599,12 +2599,12 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 18--19
+Overfull \hbox (20.0pt too wide) in paragraph at lines 17--18
 []
  []
 
 
-Overfull \hbox (25.00008pt too wide) in paragraph at lines 18--19
+Overfull \hbox (25.00008pt too wide) in paragraph at lines 17--18
 \OT1/cmr/m/n/10 10000$
  []
 
@@ -2737,7 +2737,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...pectrotritiosimulado' on page \thepage 
                                                   \space undefined\on@line .
-l.20 ... en la figura~\ref{espectrotritiosimulado}
+l.19 ... en la figura~\ref{espectrotritiosimulado}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2747,11 +2747,11 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `espectrotritiosimulado' on page  undefined on input l
-ine 20.
+ine 19.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 20--21
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 19--20
 [] 
  []
 
@@ -2762,7 +2762,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 \begin{figure}
+l.21 \begin{figure}
                    [hbtp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2775,7 +2775,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.24 \includegraphics
+l.23 \includegraphics
                      [scale=0.2]{espectrotritiosimulado.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2827,7 +2827,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 \caption
+l.24 \caption
              {Espectro simulado de los electrones procedentes de la desinteg...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2917,13 +2917,13 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no V in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-! LaTeX Error: \begin{enumerate} on input line 19 ended by \end{figure}.
+! LaTeX Error: \begin{enumerate} on input line 18 ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 \end{figure}
+l.25 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3011,7 +3011,7 @@ Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 <write> ... `fig:Espectrotritio' on page \thepage 
                                                   \space undefined\on@line .
-l.28 ...ro teórico, fig.~\ref{fig:Espectrotritio}
+l.27 ...ro teórico, fig.~\ref{fig:Espectrotritio}
                                                   . Para conseguir un espect...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3021,7 +3021,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `fig:Espectrotritio' on page  undefined on input line 
-28.
+27.
 
 Missing character: There is no . in font nullfont!
 Missing character: There is no P in font nullfont!
@@ -3235,7 +3235,7 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 28--29
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 27--28
 []
  []
 
@@ -3356,7 +3356,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...ce `espectroespacial' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ...estra en la  figura~\ref{espectroespacial}
+l.29 ...estra en la  figura~\ref{espectroespacial}
                                                   , en la que se muestran tr...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3365,7 +3365,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `espectroespacial' on page  undefined on input line 30
+LaTeX Warning: Reference `espectroespacial' on page  undefined on input line 29
 .
 
 Missing character: There is no , in font nullfont!
@@ -3437,7 +3437,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 30--31
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 29--30
 []
  []
 
@@ -3448,7 +3448,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \begin{figure}
+l.31 \begin{figure}
                    [htb]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3460,7 +3460,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.36 \includegraphics
+l.35 \includegraphics
                      [scale=0.1]{eventosXfibras.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3498,7 +3498,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
-l.40 \includegraphics
+l.39 \includegraphics
                      [scale=0.1]{eventosYfibras.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3536,7 +3536,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
-l.44 \includegraphics
+l.43 \includegraphics
                      [scale=0.1]{eventosZfibras.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3580,7 +3580,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \caption
+l.45 \caption
              {Histograma espacial de la posición de detección de los elect...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -3656,13 +3656,13 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 
-! LaTeX Error: \begin{enumerate} on input line 19 ended by \end{figure}.
+! LaTeX Error: \begin{enumerate} on input line 18 ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 \end{figure}
+l.46 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4126,7 +4126,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...ucesossobrecadafibra' on page \thepage 
                                                   \space undefined\on@line .
-l.51 ...a en la figura~\ref{sucesossobrecadafibra}
+l.50 ...a en la figura~\ref{sucesossobrecadafibra}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4136,11 +4136,11 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `sucesossobrecadafibra' on page  undefined on input li
-ne 51.
+ne 50.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 51--52
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 50--51
 [] 
  []
 
@@ -4151,7 +4151,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \begin{figure}
+l.52 \begin{figure}
                    [hbtp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4164,7 +4164,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.55 \includegraphics
+l.54 \includegraphics
                      [scale=0.2]{Histogramafibras.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4210,7 +4210,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \caption
+l.55 \caption
              {Histograma de sucesos sobre cada fibra\label{sucesossobrecadaf...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -4250,13 +4250,13 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 
-! LaTeX Error: \begin{enumerate} on input line 19 ended by \end{figure}.
+! LaTeX Error: \begin{enumerate} on input line 18 ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 \end{figure}
+l.56 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4598,7 +4598,7 @@ Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
 <write> ...ence `deposicionagua' on page \thepage 
                                                   \space undefined\on@line .
-l.61 ...estran en las figuras~\ref{deposicionagua}
+l.60 ...estran en las figuras~\ref{deposicionagua}
                                                    y \ref{deposicionfibras},...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4607,13 +4607,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `deposicionagua' on page  undefined on input line 61.
+LaTeX Warning: Reference `deposicionagua' on page  undefined on input line 60.
 
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
 <write> ...ce `deposicionfibras' on page \thepage 
                                                   \space undefined\on@line .
-l.61 ...f{deposicionagua} y \ref{deposicionfibras}
+l.60 ...f{deposicionagua} y \ref{deposicionfibras}
                                                   , respectivamente
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4622,7 +4622,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `deposicionfibras' on page  undefined on input line 61
+LaTeX Warning: Reference `deposicionfibras' on page  undefined on input line 60
 .
 
 Missing character: There is no , in font nullfont!
@@ -4642,12 +4642,12 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 61--62
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 60--61
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 61--62
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 60--61
 []
  []
 
@@ -4658,7 +4658,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 \begin{figure}
+l.62 \begin{figure}
                    [htb]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4670,7 +4670,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.67 \includegraphics
+l.66 \includegraphics
                      [scale=0.1]{deposicionenergiaagua.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4715,7 +4715,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
-l.71 \includegraphics
+l.70 \includegraphics
                      [scale=0.1]{longitudrecorridaagua.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4766,7 +4766,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 \caption
+l.72 \caption
              {Histograma energético y espacial de los electrones absorbidos...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -4836,13 +4836,13 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no a in font nullfont!
 
-! LaTeX Error: \begin{enumerate} on input line 19 ended by \end{figure}.
+! LaTeX Error: \begin{enumerate} on input line 18 ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \end{figure}
+l.73 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4855,7 +4855,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.76 \begin{figure}
+l.75 \begin{figure}
                    [htb]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4867,7 +4867,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.80 \includegraphics
+l.79 \includegraphics
                      [scale=0.1]{energiadeposicionfibras.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4914,7 +4914,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
-l.84 \includegraphics
+l.83 \includegraphics
                      [scale=0.1]{longitudfibras.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4958,7 +4958,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86 \caption
+l.85 \caption
              {Histograma energético y espacial de los electrones absorbidos...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -5031,13 +5031,13 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 
-! LaTeX Error: \begin{enumerate} on input line 19 ended by \end{figure}.
+! LaTeX Error: \begin{enumerate} on input line 18 ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87 \end{figure}
+l.86 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5056,7 +5056,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...ence `deposicionagua' on page \thepage 
                                                   \space undefined\on@line .
-l.89 En la figura~\ref{deposicionagua}
+l.88 En la figura~\ref{deposicionagua}
                                        podemos observar que la energía depo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5065,7 +5065,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `deposicionagua' on page  undefined on input line 89.
+LaTeX Warning: Reference `deposicionagua' on page  undefined on input line 88.
 
 Missing character: There is no p in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -5282,22 +5282,22 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 89--90
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 88--89
 []
  []
 
 
-Overfull \hbox (6.18402pt too wide) in paragraph at lines 89--90
+Overfull \hbox (6.18402pt too wide) in paragraph at lines 88--89
 \OML/cmm/m/it/10 ^^L$
  []
 
 
-Overfull \hbox (19.68048pt too wide) in paragraph at lines 89--90
+Overfull \hbox (19.68048pt too wide) in paragraph at lines 88--89
 \OML/cmm/m/it/10 N \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (63.23616pt too wide) in paragraph at lines 89--90
+Overfull \hbox (63.23616pt too wide) in paragraph at lines 88--89
 \OML/cmm/m/it/10 N[] [] []$ 
  []
 
@@ -5422,7 +5422,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...ce `deposicionfibras' on page \thepage 
                                                   \space undefined\on@line .
-l.91 ...ocurre en la figura~\ref{deposicionfibras}
+l.90 ...ocurre en la figura~\ref{deposicionfibras}
                                                   , pero en estos histograma...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5431,7 +5431,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `deposicionfibras' on page  undefined on input line 91
+LaTeX Warning: Reference `deposicionfibras' on page  undefined on input line 90
 .
 
 Missing character: There is no , in font nullfont!
@@ -5527,7 +5527,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 91--92
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 90--91
 []
  []
 
@@ -5646,7 +5646,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...Reference `reemision' on page \thepage 
                                                   \space undefined\on@line .
-l.93 ...ste se muestra en la figura\ref{reemision}
+l.92 ...ste se muestra en la figura\ref{reemision}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5655,11 +5655,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `reemision' on page  undefined on input line 93.
+LaTeX Warning: Reference `reemision' on page  undefined on input line 92.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 93--94
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 92--93
 [] 
  []
 
@@ -5670,7 +5670,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 \begin{figure}
+l.94 \begin{figure}
                    [hbtp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5683,7 +5683,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.97 \includegraphics
+l.96 \includegraphics
                      [scale=0.2]{reemisionfotones.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5729,7 +5729,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 \caption
+l.97 \caption
              {Histograma del número de fotones reemitidos en una detección...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -5790,13 +5790,13 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
 
-! LaTeX Error: \begin{enumerate} on input line 19 ended by \end{figure}.
+! LaTeX Error: \begin{enumerate} on input line 18 ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 \end{figure}
+l.98 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5974,7 +5974,7 @@ Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 <write> ... `fig:Espectrotritio' on page \thepage 
                                                   \space undefined\on@line .
-l.101 ...�n $\beta$, fig.~\ref{fig:Espectrotritio}
+l.100 ...�n $\beta$, fig.~\ref{fig:Espectrotritio}
                                                   . Podemos observar que, ef...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5984,7 +5984,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `fig:Espectrotritio' on page  undefined on input line 
-101.
+100.
 
 Missing character: There is no . in font nullfont!
 Missing character: There is no P in font nullfont!
@@ -6030,12 +6030,12 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (6.18402pt too wide) in paragraph at lines 101--102
+Overfull \hbox (6.18402pt too wide) in paragraph at lines 100--101
 \OML/cmm/m/it/10 ^^L$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 101--102
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 100--101
 []
  []
 
