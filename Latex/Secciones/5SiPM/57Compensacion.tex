@@ -55,12 +55,12 @@ También apreciamos que obtenemos un valor dos órdenes de magnitud inferior a l
 
 En resumen, la ecuación que nos dicta cual es la variación que debemos aplicar al voltaje para mantener un valor de ganancia constante (compensar la ganancia) ante una variación de la temperatura conocida (que puede ser medida con un sensor de temperatura) es:
 \begin{equation}
-\Delta V_{op}=0.059929 \cdot \Delta T \longrightarrow V_1-V_{ref}=0.059929(T_1-T_{ref})
+\Delta V_{op}=0.060 \cdot \Delta T \longrightarrow V_1-V_{ref}=0.060(T_1-T_{ref})
 \label{compensacionfinal}
 \end{equation}
-Donde $V_1$ es el voltaje con el que hay que alimentar al SiPM a una temperatura ambiental de $T_1$ para mantener la ganancia constante a su valor de referencia. Para realizar este cálculo, se necesita tomar un valor de voltaje operacional y temperatura como referencía, cuya ganancia es la que mantendremos. Para estos valores de referencia elegiremos el caso anteriormente mostrado en la sección de análisis de datos correspondiente a temperatura $25~\celsius$, humedad del $45\% $ y voltaje operacional de $53.97~\volt = V_{BD}+ 3~\volt$ , cuya ganancia total hemos visto que corresponde a $7.18235 \cdot 10^8$. Por tanto, el valor de voltaje operacional $V_1$ con el que hay que alimentar un SiPM a temperatura $T_1$, para mantener una ganancia de $7.18235 \cdot 10^8$ es:
+Donde $V_1$ es el voltaje con el que hay que alimentar al SiPM a una temperatura ambiental de $T_1$ para mantener la ganancia constante a su valor de referencia. Para realizar este cálculo, se necesita tomar un valor de voltaje operacional y temperatura como referencía, cuya ganancia es la que mantendremos. Para estos valores de referencia elegiremos el caso anteriormente mostrado en la sección de análisis de datos correspondiente a temperatura $25~\celsius$, humedad del $45\% $ y voltaje operacional de $53.97~\volt = V_{BD}+ 3~\volt$ , cuya ganancia total hemos visto que corresponde a $7.18 \cdot 10^8$. Por tanto, el valor de voltaje operacional $V_1$ con el que hay que alimentar un SiPM a temperatura $T_1$, para mantener una ganancia de $7.18 \cdot 10^8$ es:
 \begin{equation}
-V_1=0.059929T_1+52.47
+V_1=0.060T_1+52.47
 \label{compensacionfinal}
 \end{equation}
 
