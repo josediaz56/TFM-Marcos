@@ -1,4 +1,4 @@
-Finalmente, con toda la información obtenida en los apartados anteriores, procedemos a desarrollar un protocolo de compensación de la ganancia. Nuestro objetivo es que, ante una modificación de la ganancia debida a una variación involuntaria de la temperatura (por ejemplo debido a variaciones climatológicas) aplicar una variación adecuada en el voltaje operacional que devuelva a la ganancia a su valor inicial.
+Finalmente, con toda la información obtenida en los apartados anteriores, procedemos a desarrollar un protocolo de compensación de la variación de la ganancia debido a la temperatura. Nuestro objetivo es que, ante una modificación de la ganancia debida a una variación de la temperatura ambiente (por ejemplo debido a variaciones climatológicas) aplicar una variación adecuada en el voltaje operacional que devuelva a la ganancia a su valor inicial.
 
 Como ya se ha explicado anteriormente, la importancia de este estudio de compensación radica en que deseamos utilizar el detector  a modo de alarma. Dado que este estará expuesto a condiciones climáticas arbitrarias, inevitablemente sufrirá variaciones de temperatura. Si queremos que el detector final sea capaz de avisar en caso de obtener una señal demasiado grande y que esta señal se corresponda a una fuga de tritio, necesitamos que el sistema posea una ganancia constante.
 
@@ -8,7 +8,7 @@ G(V_{op})=cV_{op}+d; \qquad G(T)=aT+b
 \label{gananciatotal}
 \end{equation}
 
-Esto implica que una variación de la ganancia en cada una de estas magnitudes viene reflejado como:
+Esto implica que una variación de la ganancia en cada una de estas magnitudes viene dada como:
 \begin{equation}
 \partial G(V_{op}) = c \partial V_{op}; \qquad \partial G(T) = a \partial T
 \label{variacionparcialganancia}
@@ -58,7 +58,7 @@ En resumen, la ecuación que nos dicta cual es la variación que debemos aplicar
 \Delta V_{op}=0.059929 \cdot \Delta T \longrightarrow V_1-V_{ref}=0.059929(T_1-T_{ref})
 \label{compensacionfinal}
 \end{equation}
-Donde $V_1$ es el voltaje con el que hay que alimentar al SiPM a una temperatura ambiental de $T_1$ para mantener la ganancia constante. Para realizar este cálculo, se necesita tomar un valor de voltaje operacional y temperatura como referencía, cuya ganancia es la que mantendremos. Para estos valores de referencia elegiremos el caso anteriormente mostrado en la sección de análisis de datos correspondiente a temperatura $25~\celsius$, humedad del $45\% $ y voltaje operacional de $53.97~\volt = V_{BD}+ 3~\volt$ , cuya ganancia hemos visto que corresponde a $7.18235 \cdot 10^8$. Por tanto, el valor de voltaje operacional $V_1$ con el que hay que alimentar un SiPM a temperatura $T_1$, para mantener una ganancia de $7.18235 \cdot 10^8$ es:
+Donde $V_1$ es el voltaje con el que hay que alimentar al SiPM a una temperatura ambiental de $T_1$ para mantener la ganancia constante a su valor de referencia. Para realizar este cálculo, se necesita tomar un valor de voltaje operacional y temperatura como referencía, cuya ganancia es la que mantendremos. Para estos valores de referencia elegiremos el caso anteriormente mostrado en la sección de análisis de datos correspondiente a temperatura $25~\celsius$, humedad del $45\% $ y voltaje operacional de $53.97~\volt = V_{BD}+ 3~\volt$ , cuya ganancia total hemos visto que corresponde a $7.18235 \cdot 10^8$. Por tanto, el valor de voltaje operacional $V_1$ con el que hay que alimentar un SiPM a temperatura $T_1$, para mantener una ganancia de $7.18235 \cdot 10^8$ es:
 \begin{equation}
 V_1=0.059929T_1+52.47
 \label{compensacionfinal}
@@ -67,16 +67,16 @@ V_1=0.059929T_1+52.47
 
 
 
-Procedemos a realizar una verificación midiendo los casos de $21, 23, 25, 27$ y  $29~\celsius$. En cada uno de ellos se corregirá el voltaje de alimentación de forma adecuada para mantener el mismo valor de la ganancia. El valor de la ganancia para cada caso se muestra en la figura~\ref{compensacion}. 
+Procedemos a realizar una verificación midiendo los casos de $21, 23, 25, 27$ y  $29~\celsius$. En cada uno de ellos se corregirá el voltaje de alimentación de forma adecuada para mantener el mismo valor de la ganancia. El valor de la ganancia medida para cada caso se muestra en la figura~\ref{compensacion}. 
 
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.4]{compensacion.png}
-\caption{Verificación del método de compensación\label{compensacion}}
+\caption{Ganancia frente a temperatura después de corregir con el voltaje de operacion.\label{compensacion}}
 \end{figure}
 donde la raya roja corresponde al ajuste a una constante. Su valor, correspondiente al valor de la ganancia es $G=(714.2 \pm 4.9) \cdot 10^6$. Comprobamos la calidad del ajuste a partir del test $\chi^2$ obteniendo un valor de $\frac{\chi^2}{ndf}=\frac{0.318}{4}\approx 0.0795$, valor ligeramente bajo, probablemente debido a una sobreestimación de los errores (algo que ya puede apreciarse en la imagen).
 
-Vemos que el método funciona de manera muy eficaz, ya que la ganancia presenta variaciones muy pequeñas de aproximadamente $\Delta G=5 \cdot 10^6$, que corresponde a una variación relativa de $\sigma_{rel}=2.801 \cdot 10^{-3} $. Hemos comprobado por tanto que se trata de un método realmente eficaz.
+Vemos que el método funciona de manera muy eficaz, ya que la ganancia presenta variaciones muy pequeñas de aproximadamente $\Delta G=5 \cdot 10^6$, que corresponde a una variación relativa de $\sigma_{rel}=0.28\%$. Hemos comprobado por tanto que se trata de un método realmente eficaz.
 
 La máxima variación se observó a $23~\celsius$, debido a que fue una medida realizada muchas horas después de tomarse las otras y existen factores externos que no podemos controlar que afectan al sistema. En este tiempo más largo transcurrido es más probable que hayan cambiado estos factores. Sin embargo, puede observarse en todo momento que la variación de la ganancia es mínima verificando en gran medida la ecuación anteriormente obtenida.
 

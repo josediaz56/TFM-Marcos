@@ -1,4 +1,4 @@
-En resumen, en nuestra prueba de calibración de los SiPM tenemos una caja que actuará como jaula de Faraday, con temperatura y humedad controlada y apantallada en lo posible de la luz del exterior. 
+ En resumen, en nuestra prueba de calibración de los SiPM tenemos una caja que actuará como jaula de Faraday, con temperatura y humedad controlada y apantallada en lo posible de la luz del exterior. 
 
 En su interior colocamos un diodo LED que emite fotones de $\lambda=435~\nm$, un SiPM, que emite un impulso de intensidad cada vez que detecte uno o más  fotones  y una tarjeta que convierte este impulso de intensidad en un impulso de voltaje. Finalmente llevamos este impulso de voltaje a un osciloscopio (marca TELEDYNE LECROY, modelo WwaveRunner 625Zi) que lo analiza. 
 Una vez en el osciloscopio, la señal que recibimos cuando se enciende el diodo LED es similar a la de la señal superior de la figura~\ref{analisis} (amarilla)~\cite{inftec}. Para el análisis,  se  activa el modo persistencia del osciloscopio con el objetivo de comparar señales de distintas alturas. Estas señales corresponden a distinto número de pixels activados en cada instante de tiempo ya que, como hemos dicho anteriormente, la señal de salida del sistema es la suma de las señales de los pixeles activados. La señal se muestra superpuesta a la señal de sincronización del generador de señales (verde) que nos muestra cuando se ha encendido el diodo LED y que, por tanto, actúa como trigger.
@@ -10,7 +10,7 @@ G_{tot}=G_{SiPM} \cdotp G_{card} \longrightarrow G_{SiPM} = \frac{G_{tot}}{G_{ca
 \label{ganancias}
 \end{equation}
 
-Para medir la ganancia total realizamos una integral del área de cada uno de los impulsos de salida del sistema y guardamos el resultado en un histograma. De esta forma, obtenemos un histograma de las cargas de los pulsos. La ventana temporal sobre la que se integra es aproximadamente una división, que equivale a $500~\ns$. Esta se ajusta con bastante precisión al impulso, algo muy importante para evitar la introducción de fondo.
+Para medir la ganancia total realizamos una integral del área de cada uno de los impulsos de salida del sistema y guardamos el resultado en un histograma. De esta forma, obtenemos un histograma de las cargas de los pulsos. La ventana temporal sobre la que se integra es aproximadamente una división, que equivale a $500~\ns$. Esta se ajusta con bastante precisión al impulso, algo muy importante para evitar la introducción de fondo (ver figura~\ref{analisis}).
 
 Dado que idealmente el impulso producido por  los pixel son idénticos, el histograma obtenido debería ser  un conjunto deltas de Dirac equiespaciadas. Sin embargo, hay que tener en cuenta que la cascada que produce cada uno de estos fotones detectados en cada pixel esta sometido a fluctuaciones estadísticas. Además, los propios instrumentos de medidas empleados tienen una incertidumbre inherente. Hay que tener en cuenta que también tenemos distintas fuentes de fondo, como la corriente oscura (ruido térmico), fotones de luz del exterior, etc. 
 Como resultado de todo esto, lo que obtenemos un conjunto de gaussianas equiespaciadas. En la figura~\ref{analisis} inferior puede verse el resultado de una toma de datos de $25000$ eventos a $25~\celsius$, $60\%$ de humedad y $V_{ov}=3~\volt$,
@@ -18,9 +18,9 @@ Como resultado de todo esto, lo que obtenemos un conjunto de gaussianas equiespa
 \begin{figure}[hbtp]
  \centering
  \includegraphics[scale=0.4]{Analisis.png}
- \caption{Análisis\label{analisis}}
+ \caption{Captura de las señales en el osciloscopio (arriba) y espectro de carga (abajo)\label{analisis}}
  \end{figure}
-donde cada uno de los picos corresponde a la carga de un número de pixels activados (uno, dos, etc.). El primer pico no debe tenerse en cuenta en el análisis, ya que este corresponde al pedestal (cero pixels activados). Su origen es debido a la existencia de las cuentas oscuras.
+donde cada uno de los picos corresponde a la carga de un número de pixels activados (uno, dos, etc.). El primer pico no debe tenerse en cuenta en el análisis, ya que este corresponde al pedestal (cero pixels activados).
  
 Hemos desarrollado una macro en ROOT$~\cite{manualROOT}$ que, utilizando la librería TSpectrum (especialmente diseñada para el análisis de histogramas con picos) para obtener la ganancia del sistema. Su diagrama de flujo es el siguiente:
 \begin{enumerate}
@@ -33,10 +33,10 @@ Hemos desarrollado una macro en ROOT$~\cite{manualROOT}$ que, utilizando la libr
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.4]{fondogaussiano.png}
-\caption{Espectro con mucho fondo\label{fondogrande}}
+\caption{Espectro de carga con mucha corriente oscura\label{fondogrande}}
 \end{figure}
 
-\item {} A continuación, ajustamos el espectro a una recta más una suma de $n$ gausianas, donde $n$ es el número de gausianas que superan la recta (calculado en el paso anterior). La necesidad de utilizar una recta es debido a que siempre vamos a tener corriente oscura y otro tipo de fondo que aparecen como una linea base en el histograma, como puede verse en la figura~\ref{analisis}. Podemos apreciar en la figura~\ref{Root} que el ajuste (linea roja) es relativamente bueno. Para determinar si ajuste es aceptable aplicamos el test $\chi^2$. En este caso se obtuvo un resultado de $\frac{\chi^2}{ndf}=\frac{1276}{223}\approx 5.72$. Vemos que efectivamente, el ajuste lineal representa bien los datos.
+\item {} A continuación, ajustamos el espectro a una recta más una suma de $n$ gausianas, donde $n$ es el número de gausianas que superan la recta (calculado en el paso anterior). La necesidad de utilizar una recta es debido a que siempre vamos a tener corriente oscura y otro tipo de fondo que aparecen como una linea base en el histograma, como puede verse en la figura~\ref{analisis}. Podemos apreciar en la figura~\ref{Root} que el ajuste (linea roja) es relativamente bueno. Para determinar si el ajuste es aceptable aplicamos el test $\chi^2$. En este caso se obtuvo un resultado de $\frac{\chi^2}{ndf}=\frac{1276}{223}\approx 5.72$. Vemos que efectivamente, el ajuste lineal representa bien los datos.
 
 \begin{figure}[hbtp]
 \centering
@@ -54,7 +54,7 @@ Hemos desarrollado una macro en ROOT$~\cite{manualROOT}$ que, utilizando la libr
 	Q = G N_\gamma + Q_0 \longrightarrow \Delta Q= Q_{N_\gamma} - Q_{N_\gamma -1}=G N_\gamma+ Q_0 - G(N_		\gamma -1) - Q_0 = G
 	\label{gananciametodo1}
 	\end{equation}
-	Podemos observar que este cálculo corresponde a la ganancia. Hay que tener en cuenta que se han empleado factores de conversión para convertir la posición del pico (inicialmente en unidades de	tensión $\volt$) en unidades de carga $\coulomb$. En concreto, se ha utilizado el factor $\frac{1}{eR}$, donde $R$ es la resistencia del osciloscopio, $50~\ohm$ y $e$ es la carga del electrón.
+	Podemos observar que este cálculo corresponde a la ganancia. Hay que tener en cuenta que se han empleado factores de conversión para convertir la posición del pico (inicialmente en unidades de	tensión $\volt$) en unidades de carga $\coulomb$. En concreto, se ha utilizado el factor $\frac{1}{eR}$, donde $R$ es la impedancia de entrada del osciloscopio, $50~\ohm$ y $e$ es la carga del electrón.
 	
 	\item {} Por otro lado, se ha ajustado a una recta las posiciones horizontales de estas gausianas en el 	espectro frente a el número de píxeles. Esto nos da la siguiente ecuación~\cite{Hueso}:
 	\begin{equation}
@@ -97,7 +97,7 @@ donde los errores se han obtenido por propagación. Si comparamos con la bibliog
 \end{equation}
 
 
-Dado que, en la práctica, las gausianas no están perfectamente equiespaciadas debido a errores e incertidumbres, consideraremos como más fiable el segundo método, ya que se trata de un método más formal, a pesar de tener un error relativo mayor.
+Dado que, en la práctica, las gausianas no están perfectamente equiespaciadas debido a errores e incertidumbres, consideraremos como más fiable el segundo método, ya que se trata de un método de análisis de datos experimentales más correcto, a pesar de tener un error relativo mayor.
 El test $\chi^2$ da un valor de  $\frac{\chi^2}{ndf}=\frac{0.05452}{7}\approx 0.008$, bastante inferior a la unidad, debido  probablemente a que se han sobreestimado los errores de las medidas (calculados a partir de las desviaciones típicas de las gausianas del ajuste de la figura $\ref{Root}$).
 
 \end{enumerate}
