@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  6 SEP 2017 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.23)  7 SEP 2017 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4481,7 +4481,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.44 \caption
-             { Ajuste de la macro de ROOT sobre un espectro\label{Root}}
+             { Ajuste de un espectro con la macro de ROOT\label{Root}}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4493,6 +4493,19 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -4506,21 +4519,6 @@ Missing character: There is no R in font nullfont!
 Missing character: There is no O in font nullfont!
 Missing character: There is no O in font nullfont!
 Missing character: There is no T in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
 
 ! LaTeX Error: \begin{enumerate} on input line 26 ended by \end{figure}.
 
@@ -6319,19 +6317,17 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (133.54329pt too wide) detected at line 78
-\OML/cmm/m/it/10 G[] \OT1/cmr/m/n/10 = 6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 38938
- \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10
- 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 15953 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 
-10[][]
+Overfull \hbox (84.05702pt too wide) detected at line 78
+\OML/cmm/m/it/10 G[] \OT1/cmr/m/n/10 = (6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4 \O
+MS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2) \OMS/c
+msy/m/n/10 ^^A \OT1/cmr/m/n/10 10[][]
  []
 
 
-Overfull \hbox (133.54329pt too wide) detected at line 82
-\OML/cmm/m/it/10 G[] \OT1/cmr/m/n/10 = 7\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 18235
- \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10
- 6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 88392 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 
-10[][]
+Overfull \hbox (94.05705pt too wide) detected at line 82
+\OML/cmm/m/it/10 G[] \OT1/cmr/m/n/10 = (718\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2 
+\OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 9) \OMS
+/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[][]
  []
 
 Missing character: There is no P in font nullfont!
@@ -6428,19 +6424,17 @@ Overfull \hbox (45.45102pt too wide) in paragraph at lines 82--84
  []
 
 
-Overfull \hbox (133.54329pt too wide) detected at line 87
-\OML/cmm/m/it/10 G[] \OT1/cmr/m/n/10 = 5\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 80853
- \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10
- 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 96321 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 
-10[][]
+Overfull \hbox (84.05702pt too wide) detected at line 87
+\OML/cmm/m/it/10 G[] \OT1/cmr/m/n/10 = (3\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8 \O
+MS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3) \OMS/c
+msy/m/n/10 ^^A \OT1/cmr/m/n/10 10[][]
  []
 
 
-Overfull \hbox (123.54326pt too wide) detected at line 91
-\OML/cmm/m/it/10 G[] \OT1/cmr/m/n/10 = 6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 52941
- \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10
- 6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 258 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10
-[][]
+Overfull \hbox (94.05705pt too wide) detected at line 91
+\OML/cmm/m/it/10 G[] \OT1/cmr/m/n/10 = (422\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5 
+\OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1) \OMS
+/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[][]
  []
 
 Missing character: There is no d in font nullfont!
@@ -6614,11 +6608,11 @@ Overfull \hbox (5.43053pt too wide) in paragraph at lines 91--93
  []
 
 
-Overfull \hbox (206.53957pt too wide) detected at line 97
+Overfull \hbox (173.76169pt too wide) detected at line 97
 \OML/cmm/m/it/10 ^^[[] \OMS/cmsy/m/n/10 ^^Y \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :
-\OT1/cmr/m/n/10 0319 = 3\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 19%;  \OML/cmm/m/it/1
-0 ^^[[] \OMS/cmsy/m/n/10 ^^Y \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10
- 0882 = 8\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 82%[]
+\OT1/cmr/m/n/10 05 = 5%;  \OML/cmm/m/it/10 ^^[[] \OMS/cmsy/m/n/10 ^^Y \OT1/cmr/
+m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 056 = 5\OML/cmm/m/it/10 :\OT1/cmr/m/n
+/10 6%[]
  []
 
 Missing character: There is no D in font nullfont!

@@ -37,15 +37,15 @@ En trabajos anteriores\cite{TFMSiPM2, tesisSiPM, cladtesis} se ha visto que amba
 \end{equation}
 donde se ha introducido un nuevo parámetro: $$e=-\frac{a}{c}$$ cuyo valor se obtiene de las ecuaciones $\eqref{ajustependientetemperatura}$  y $\eqref{ajustependientevoltaje}$:
 \begin{equation}
-c=2.34123 \cdot 10^8 \pm 2.55246 \cdot 10^6 \quad \volt^{-1}
+c=(234.1 \pm 2.6) \cdot 10^6~\volt^{-1}
 \label{pendientevoltaje}
 \end{equation}
 \begin{equation}
-a=-1.40308 \cdot 10^7 \pm 2.71545 \cdot 10^5 \quad \celsius^{-1}
+a=(-140.3 \pm 2.7) \cdot 10^5~\frac{1}{\celsius}
 \label{pendientetemperatura}
 \end{equation}
 \begin{equation}
-e=-\frac{a}{c} = 0.059929 \pm 0,001331 \quad \volt  \celsius^{-1}
+e=-\frac{a}{c} = (59.9 \pm 1.3) \cdot 10^{-3} \quad \volt  \celsius^{-1}
 \label{pendientecompensacion}
 \end{equation}
 donde el error de $e$ se ha obtenido mediante propagación de errores. 
@@ -74,7 +74,7 @@ Procedemos a realizar una verificación midiendo los casos de $21, 23, 25, 27$ y
 \includegraphics[scale=0.4]{compensacion.png}
 \caption{Verificación del método de compensación\label{compensacion}}
 \end{figure}
-donde la raya roja corresponde al ajuste a una constante. Su valor, correspondiente al valor de la ganancia es $G=7.14203 \cdot 10^8 \pm 4.97472 \cdot 10^6$. Comprobamos la calidad del ajuste a partir del test $\chi^2$ obteniendo un valor de $\frac{\chi^2}{ndf}=\frac{0.318}{4}\approx 0.0795$, valor ligeramente bajo, probablemente debido a una sobreestimación de los errores (algo que ya puede apreciarse en la imagen).
+donde la raya roja corresponde al ajuste a una constante. Su valor, correspondiente al valor de la ganancia es $G=(714.2 \pm 4.9) \cdot 10^6$. Comprobamos la calidad del ajuste a partir del test $\chi^2$ obteniendo un valor de $\frac{\chi^2}{ndf}=\frac{0.318}{4}\approx 0.0795$, valor ligeramente bajo, probablemente debido a una sobreestimación de los errores (algo que ya puede apreciarse en la imagen).
 
 Vemos que el método funciona de manera muy eficaz, ya que la ganancia presenta variaciones muy pequeñas de aproximadamente $\Delta G=5 \cdot 10^6$, que corresponde a una variación relativa de $\sigma_{rel}=2.801 \cdot 10^{-3} $. Hemos comprobado por tanto que se trata de un método realmente eficaz.
 
